@@ -35,22 +35,42 @@ export function ScrambleText({
     const node = ref.current;
     if (!node) return;
 
+    const trigger = () => {
+      if (startedRef.current) return;
+      startedRef.current = true;
+      runScramble();
+    };
+
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
-          if (entry.isIntersecting && !startedRef.current) {
-            startedRef.current = true;
-            runScramble();
+          if (entry.isIntersecting) {
+            trigger();
             observer.disconnect();
             break;
           }
         }
       },
-      { threshold: 0.5, rootMargin: "0px 0px -10% 0px" },
+      { threshold: 0.2 },
     );
 
     observer.observe(node);
-    return () => observer.disconnect();
+
+    // Fallback: if element is already visible on mount (small viewport / short page)
+    // IntersectionObserver may not fire reliably. Check after one frame.
+    const rafId = requestAnimationFrame(() => {
+      const rect = node.getBoundingClientRect();
+      const vh = window.innerHeight || document.documentElement.clientHeight;
+      if (rect.top < vh && rect.bottom > 0 && rect.height > 0) {
+        trigger();
+        observer.disconnect();
+      }
+    });
+
+    return () => {
+      observer.disconnect();
+      cancelAnimationFrame(rafId);
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fullText]);
 
