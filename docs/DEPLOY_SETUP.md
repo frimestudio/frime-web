@@ -2,7 +2,7 @@
 
 Pierwszy raz na produkcji. Cel: kod z `/Users/richpeach/Documents/thefrime` na **frime.pl** przez Vercel.
 
-Wersja: 26 maja 2026. Zasada: kto jest właścicielem domeny i sklepu, ten jest właścicielem repo i Vercel. Sasha = właściciel. Rich = collaborator z prawami push.
+Wersja: 26 maja 2026 (rev. 2 — trigger redeploy po zmianie Framework Preset). Zasada: kto jest właścicielem domeny i sklepu, ten jest właścicielem repo i Vercel. Sasha = właściciel. Rich = collaborator z prawami push.
 
 ## 0. Decyzje (zafiksowane)
 
