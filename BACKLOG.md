@@ -33,6 +33,12 @@ Plan kontentu na rok jest w [`docs/CONTENT_PLAN_2026.md`](docs/CONTENT_PLAN_2026
 - [ ] Pre-launch QA (Lighthouse, linki, OG, schema)
 - [ ] **Launch** + post w IG/TT + powiadomienie znajomych
 
+### Tłumaczenia
+
+- [ ] `messages/it.json` — teraz to kopia `en.json` (zaślepka żeby build przeszedł). Przetłumaczyć na włoski.
+- [ ] `messages/de.json`, `messages/es.json`, `messages/fr.json` — sprawdzić native speakerem, są maszynowe.
+- [ ] `messages/ru.json` — sprawdzić native, dla diaspory w Warszawie ważne.
+
 ### Pierwsze poprawki strony
 
 - [ ] Logo SVG zamiast tekstowego "FRIME" w headerze i footerze
