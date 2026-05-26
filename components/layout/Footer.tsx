@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { site } from "@/content/site";
 import { Container } from "@/components/ui/Container";
+import { ScrambleText } from "@/components/ui/ScrambleText";
 
 type LocaleKey = "pl" | "uk" | "en" | "ru" | "de" | "fr" | "es" | "it";
 
@@ -152,17 +153,19 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
             © {new Date().getFullYear()} {site.legal.legalName} ·{" "}
             {site.address.street} · NIP {site.legal.nip} · {t("rights")}.
           </span>
-          <span>
-            {t("made_by")}{" "}
-            <a
-              href={wladekHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-2 hover:text-[var(--color-frime)]"
-            >
-              Wladyslaw Yasinski
-            </a>
-          </span>
+          <a
+            href={wladekHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline-offset-2 hover:underline"
+            aria-label={`${t("made_by")} Wladyslaw Yasinski — WhatsApp`}
+          >
+            <ScrambleText
+              prefix={t("made_by")}
+              name="Wladyslaw"
+              surname="Yasinski"
+            />
+          </a>
         </div>
       </Container>
     </footer>
