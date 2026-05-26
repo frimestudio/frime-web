@@ -1,0 +1,340 @@
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { Container } from "@/components/ui/Container";
+import { Section } from "@/components/ui/Section";
+import { Heading, Kicker } from "@/components/ui/Heading";
+import { ButtonInternalLink, ButtonLink } from "@/components/ui/Button";
+import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { Placeholder } from "@/components/ui/Placeholder";
+import { Marquee } from "@/components/ui/Marquee";
+import { FAQ, type FAQItem } from "@/components/ui/FAQ";
+import { site } from "@/content/site";
+import { team } from "@/content/team";
+import { getUpcomingEvent } from "@/content/events";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations("home");
+  const tTeam = await getTranslations("team");
+  const upcoming = getUpcomingEvent();
+  const faqItems = t.raw("faq") as FAQItem[];
+
+  const popularLinks: {
+    kicker: string;
+    label: string;
+    href:
+      | "/on/mullet"
+      | "/on/repigmentacja"
+      | "/ona/krotkie-fryzury"
+      | "/lokalizacje/srodmiescie-poludniowe";
+  }[] = [
+    {
+      kicker: "ON · ONA",
+      label:
+        locale === "pl"
+          ? "Mullet, wolf cut, shag"
+          : locale === "uk"
+          ? "Mullet, wolf cut, shag"
+          : "Mullet, wolf cut, shag",
+      href: "/on/mullet",
+    },
+    {
+      kicker: "ONA",
+      label:
+        locale === "pl"
+          ? "Krótkie fryzury damskie"
+          : locale === "uk"
+          ? "Короткі жіночі стрижки"
+          : "Short women's cuts",
+      href: "/ona/krotkie-fryzury",
+    },
+    {
+      kicker: "ON",
+      label:
+        locale === "pl"
+          ? "Repigmentacja brody i głowy"
+          : locale === "uk"
+          ? "Репігментація бороди і голови"
+          : "Beard and head repigmentation",
+      href: "/on/repigmentacja",
+    },
+    {
+      kicker: "LOKALIZACJA",
+      label:
+        locale === "pl"
+          ? "Śródmieście Południowe"
+          : locale === "uk"
+          ? "Śródmieście Południowe"
+          : "Śródmieście Południowe district",
+      href: "/lokalizacje/srodmiescie-poludniowe",
+    },
+  ];
+
+  return (
+    <>
+      <section className="border-b border-[var(--color-line)]">
+        <Container className="grid gap-10 py-10 md:grid-cols-12 md:gap-8 md:py-16">
+          <div className="md:col-span-7">
+            <Kicker>{t("hero_kicker")}</Kicker>
+            <h1 className="display mt-6 text-[clamp(3rem,11vw,11rem)]">
+              <span className="block">{t("hero_slogan_1")}</span>
+              <span className="block">{t("hero_slogan_2")}</span>
+              <span className="block text-[var(--color-frime)]">
+                {t("hero_slogan_3")}
+              </span>
+              <span className="block">{t("hero_slogan_4")}</span>
+            </h1>
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <ButtonLink
+                href={site.booking.booksy}
+                external
+                size="lg"
+                variant="primary"
+              >
+                {t("hero_cta")}
+              </ButtonLink>
+              <span className="mono text-xs text-[var(--color-muted)]">
+                {t("hero_proof")}
+              </span>
+            </div>
+          </div>
+          <div className="md:col-span-5">
+            <ImagePlaceholder
+              ratio="4/5"
+              label="Hero photo"
+              note="Editorial portrait 4:5, минимум 1600×2000. Лицо клиента или мастера крупно, на нейтральном фоне (как в их IG). Желательно из последней съёмки."
+            />
+          </div>
+        </Container>
+      </section>
+
+      <Marquee
+        items={[
+          "FRIME",
+          "STUDIO FRYZJERSKIE",
+          "WARSZAWA",
+          "WILCZA 26",
+          "ON",
+          "ONA",
+          "VIBE",
+          "TEAM",
+          "★ 5,0",
+        ]}
+      />
+
+      <Section>
+        <div className="mb-12 flex items-end justify-between">
+          <Heading as="h2" size="lg">
+            {t("pillars_title")}
+          </Heading>
+        </div>
+        <div className="grid gap-8 md:grid-cols-3">
+          {(
+            [
+              {
+                key: "on",
+                href: "/on" as const,
+                title: t("pillar_on_title"),
+                desc: t("pillar_on_desc"),
+                imgLabel: "Pillar ON",
+                imgNote: "Фото мужской стрижки крупно, 4:5",
+              },
+              {
+                key: "ona",
+                href: "/ona" as const,
+                title: t("pillar_ona_title"),
+                desc: t("pillar_ona_desc"),
+                imgLabel: "Pillar ONA",
+                imgNote: "Фото женской стрижки крупно, 4:5",
+              },
+              {
+                key: "vibe",
+                href: "/vibe" as const,
+                title: t("pillar_vibe_title"),
+                desc: t("pillar_vibe_desc"),
+                imgLabel: "Pillar VIBE",
+                imgNote: "Фото с попапа или вечеринки, 4:5",
+              },
+            ] as const
+          ).map((p) => (
+            <Link
+              key={p.key}
+              href={p.href}
+              className="group block border border-[var(--color-line)] bg-[var(--color-bg)]"
+            >
+              <ImagePlaceholder
+                ratio="4/5"
+                label={p.imgLabel}
+                note={p.imgNote}
+              />
+              <div className="border-t border-[var(--color-line)] p-6">
+                <div className="display text-5xl group-hover:text-[var(--color-frime)]">
+                  {p.title}
+                </div>
+                <p className="mt-3 text-sm leading-relaxed">{p.desc}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </Section>
+
+      <Section tone="invert">
+        <div className="mb-12 flex items-end justify-between">
+          <Heading as="h2" size="lg">
+            {t("team_title")}
+          </Heading>
+          <ButtonInternalLink
+            href="/team"
+            variant="ghost"
+            size="md"
+            className="border-[var(--color-bg)] text-[var(--color-bg)]"
+          >
+            {t("team_cta")}
+          </ButtonInternalLink>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {team.map((m) => {
+            const name = tTeam(`members.${m.slug}.name` as never);
+            const role = tTeam(`members.${m.slug}.role` as never);
+            return (
+              <Link
+                key={m.slug}
+                href={`/team/${m.slug}`}
+                className="block"
+              >
+                <ImagePlaceholder
+                  ratio="3/4"
+                  label={`Portrait · ${name}`}
+                  note={`Студийный портрет ${name}, 3:4, мягкий свет`}
+                />
+                <div className="mt-3">
+                  <div className="display text-3xl">{name}</div>
+                  <div className="mono mt-1 text-[10px] opacity-70">{role}</div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </Section>
+
+      <Section>
+        <div className="grid gap-8 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <Kicker>{t("events_title")}</Kicker>
+            <Heading as="h2" size="lg" className="mt-4">
+              {upcoming?.title ?? "PLACEHOLDER · Najbliższe wydarzenie"}
+            </Heading>
+            <p className="mt-4 text-base leading-relaxed">
+              {upcoming?.summary[locale as "pl" | "uk" | "en"] ??
+                "PLACEHOLDER · krótki opis wydarzenia"}
+            </p>
+            <div className="mt-8 flex gap-4">
+              <ButtonInternalLink href="/vibe" variant="ink" size="md">
+                {t("events_cta")}
+              </ButtonInternalLink>
+            </div>
+          </div>
+          <div className="md:col-span-7">
+            <ImagePlaceholder
+              ratio="4/5"
+              label="Poster / event photo"
+              note="Афиша в стиле FRIME (collage, brutal type) или фото с прошлого попапа"
+            />
+          </div>
+        </div>
+      </Section>
+
+      <Section tone="frime">
+        <div className="grid gap-10 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <Kicker className="text-[var(--color-frime-ink)] opacity-80">
+              {t("reviews_title")}
+            </Kicker>
+            <div className="display mt-6 text-[clamp(5rem,14vw,14rem)] leading-none">
+              {site.rating.value.toFixed(1).replace(".", ",")}
+            </div>
+            <div className="mono mt-4 text-sm opacity-90">
+              {t("reviews_proof")}
+            </div>
+          </div>
+          <div className="grid gap-4 md:col-span-7">
+            {[1, 2, 3].map((i) => (
+              <Placeholder
+                key={i}
+                label={`Cytat z opinii klienta #${i}`}
+                note="2-3 zdania prawdziwej opinii (z Booksy lub Google). Dodać imię i datę."
+                className="text-[var(--color-placeholder-fg)]"
+              />
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      <Section>
+        <div className="mb-10 flex items-end justify-between gap-4">
+          <div>
+            <Kicker>{t("popular_title")}</Kicker>
+            <Heading as="h2" size="md" className="mt-3">
+              {t("popular_intro")}
+            </Heading>
+          </div>
+        </div>
+        <ul className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
+          {popularLinks.map((p, i) => (
+            <li key={i}>
+              <Link
+                href={p.href}
+                className="block h-full border border-[var(--color-line)] p-6 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+              >
+                <span className="mono text-[10px] opacity-60">{p.kicker}</span>
+                <span className="mt-3 block display text-2xl md:text-3xl">
+                  {p.label}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Section>
+
+      <Section>
+        <FAQ title={t("faq_title")} items={faqItems} />
+      </Section>
+
+      <Section>
+        <div className="grid gap-10 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <Kicker>{t("location_title")}</Kicker>
+            <Heading as="h2" size="lg" className="mt-4">
+              Wilcza 26
+            </Heading>
+            <address className="mono mt-6 not-italic text-sm leading-relaxed">
+              {site.address.street}
+              <br />
+              {site.address.postal} {site.address.city}
+              <br />
+              {site.address.district}
+            </address>
+            <div className="mt-8">
+              <ButtonInternalLink href="/kontakt" variant="ink" size="md">
+                {t("location_cta")}
+              </ButtonInternalLink>
+            </div>
+          </div>
+          <div className="md:col-span-7">
+            <ImagePlaceholder
+              ratio="16/9"
+              label="Embed mapy lub zdjęcie fasady"
+              note="OpenStreetMap iframe lub statyczna mapa Google + duże zdjęcie wejścia 16:9"
+            />
+          </div>
+        </div>
+      </Section>
+    </>
+  );
+}

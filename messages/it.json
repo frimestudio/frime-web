@@ -1,0 +1,577 @@
+{
+  "nav": {
+    "on": "HIM",
+    "ona": "HER",
+    "vibe": "VIBE",
+    "akademia": "ACADEMY",
+    "team": "TEAM",
+    "kontakt": "CONTACT",
+    "cta": "Book a visit"
+  },
+  "footer": {
+    "address": "Wilcza 26, 00-544 Warsaw",
+    "hours_title": "Hours",
+    "hours_placeholder": "Hours to be confirmed from Google Business Profile.",
+    "social_title": "Find us",
+    "legal_title": "Fine print",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "rights": "All rights reserved",
+    "made_in": "Made on Wilcza"
+  },
+  "home": {
+    "hero_kicker": "Stylish unisex hair studio · Warsaw Wilcza 26 · dog-friendly",
+    "hero_slogan_1": "IT DOESN'T MATTER",
+    "hero_slogan_2": "WHO YOU ARE",
+    "hero_slogan_3": "EVERYONE NEEDS",
+    "hero_slogan_4": "A HAIRCUT.",
+    "hero_proof": "5.0 from 305 reviews on Booksy",
+    "hero_cta": "Book a visit",
+    "pillars_title": "Three reasons to drop by",
+    "pillar_on_title": "HIM",
+    "pillar_on_desc": "Classic men's cuts, mullets, beards, repigmentation. No competition for the smoothest fade, no stadium music in the background.",
+    "pillar_ona_title": "HER",
+    "pillar_ona_desc": "Short cuts, fringes, color and perm consultations. Every visit starts with a real talk about what you actually want.",
+    "pillar_vibe_title": "VIBE",
+    "pillar_vibe_desc": "Pop-ups, collaborations, studio birthdays. Every now and then we turn the studio into a mix of a bar, a shop and a stage.",
+    "team_title": "Behind the scissors",
+    "team_cta": "Meet the team",
+    "events_title": "Next event",
+    "events_cta": "See the archive",
+    "reviews_title": "What people say",
+    "reviews_proof": "5.0 average from 305 reviews, data from Booksy",
+    "location_title": "Wilcza 26, Śródmieście",
+    "location_cta": "How to get here",
+    "popular_title": "Popular right now",
+    "popular_intro": "A quick door into what people search for at our place most often.",
+    "faq_title": "Frequent questions about FRIME",
+    "faq": [
+      {
+        "q": "Where is FRIME in Warsaw?",
+        "a": "Wilcza 26, 00-544, Śródmieście Południowe district. A few minutes' walk from Centrum and Politechnika metro stations, one turn from the Krucza tram stop."
+      },
+      {
+        "q": "Is this a men's or women's studio?",
+        "a": "Unisex. We do men's cuts, beards and repigmentation, and women's wolf cuts, fringes and color consultations. The menu uses HIM and HER labels, but each of the three of us covers both."
+      },
+      {
+        "q": "How do I book?",
+        "a": "Fastest through Booksy, link in the header and footer. You can also message us on Instagram. Phone works during opening hours."
+      },
+      {
+        "q": "Can I bring my dog?",
+        "a": "Yes, dogs are welcome. We have a water bowl and a corner where your dog can lie down during the visit."
+      }
+    ]
+  },
+  "services": {
+    "on_title": "Men's cuts",
+    "on_intro": "Four core services plus a consultation. A visit takes from thirty minutes to an hour and a half, depending on what we do.",
+    "ona_title": "Women's cuts",
+    "ona_intro": "Short and mid-length cuts, fringes, color and perm consultations.",
+    "price_from": "from",
+    "duration": "duration",
+    "book": "Book",
+    "consultation_free": "Free consultation",
+    "deep_links_title_on": "Specific services in detail",
+    "deep_links_title_ona": "Specific services in detail",
+    "faq_title_on": "Frequent questions",
+    "faq_title_ona": "Frequent questions",
+    "faq_on": [
+      {
+        "q": "Do I need to book or can I just walk in?",
+        "a": "Booking is safer. During the week we usually run full a few days ahead, walk-in slots are rare. The fastest way to book is through Booksy."
+      },
+      {
+        "q": "Do you only cut men's hair?",
+        "a": "No. FRIME is a unisex studio. We do both HIM and HER cuts, each of the three of us handles both. The category names are only there to make the price list easier to read."
+      },
+      {
+        "q": "What is beard and head repigmentation?",
+        "a": "It's a treatment where we use a specific pigment to fill in patchy beard areas or push back a receding hairline. It lasts a few weeks, fades naturally and doesn't damage the skin. Price: 80 PLN, time: thirty minutes."
+      },
+      {
+        "q": "Can I bring my dog?",
+        "a": "Yes, dogs are welcome. We have a water bowl and a corner where your dog can lie down. If your dog is nervous in new places, mention it when you book and we'll pick a quieter slot."
+      },
+      {
+        "q": "Card or cash?",
+        "a": "Whatever works. We have a terminal, accept BLIK and cash. We can issue a company invoice, just let us know before payment."
+      }
+    ],
+    "faq_ona": [
+      {
+        "q": "Do you do color?",
+        "a": "We do the color appointment itself after a free consultation. The consultation is 15 minutes and lets us agree on what you want, what's actually achievable on your hair and how long the appointment will take. Price for the color itself depends on length and what we're doing."
+      },
+      {
+        "q": "How long does a short cut take?",
+        "a": "Between sixty and seventy-five minutes, depending on starting length and exactly what we're cutting. You get the specific time and price in the first minute of the visit, before we start."
+      },
+      {
+        "q": "Is a fringe trim a separate visit?",
+        "a": "Yes, a stand-alone fringe trim is 30 minutes and 80 PLN. If the fringe is part of a full cut, we do it inside that appointment."
+      },
+      {
+        "q": "Do you have your own care products?",
+        "a": "We use a few trusted brands in the studio and only recommend products we use ourselves. If you want to take something home, ask your stylist after the visit and we'll point you to what actually works for your hair type."
+      },
+      {
+        "q": "Do you do perms?",
+        "a": "Yes, also after a consultation. A perm is a decision you can't undo in five minutes, so we always sit down first and check whether it even makes sense for your hair structure."
+      }
+    ]
+  },
+  "team": {
+    "title": "Team",
+    "intro": "Three people, three takes on scissors. Each of us does both men's and women's cuts.",
+    "book_with": "Book with",
+    "members": {
+      "julia": {
+        "name": "Julia",
+        "role": "Stylist, co-founder",
+        "bio": "Julia is the person behind the FRIME idea. Co-founder of the studio, she cuts both men's and women's hair. She loves working with texture, mullets and strong fringes. A full bio with backstory will land here once we've sat down with the friend."
+      },
+      "sasza": {
+        "name": "Sasza",
+        "role": "Stylist",
+        "bio": "Sasza joined FRIME early. Specializes in strong fades and beard work, though in a unisex studio nobody is fenced in by labels, so women's cuts are equally on the menu. Full bio coming after a chat."
+      },
+      "kara": {
+        "name": "Kara",
+        "role": "Stylist",
+        "bio": "Kara is the newer face on the team, but quickly built up a steady group of regulars. Most comfortable in short cuts and strong fringes. The rest of the bio we'll add together."
+      }
+    }
+  },
+  "vibe": {
+    "title": "VIBE",
+    "intro": "Once a year, sometimes twice, we do something that isn't a haircut. A vinyl pop-up, a DJ set for our birthday, a collab with a local brand. Here's the archive of what's happened and a hint of what's next.",
+    "next_title": "Next event",
+    "next_placeholder": "The next event will be announced as soon as it's confirmed. Come back in a few weeks or follow us on Instagram, that's where we post first.",
+    "archive_title": "Archive"
+  },
+  "akademia": {
+    "title": "ACADEMY",
+    "kicker": "Coming soon",
+    "intro": "We're working on a training program for people who want to learn to cut the FRIME way. Short weekend courses, intensives, private one-on-ones. Drop your email and you'll be the first to know.",
+    "form_label": "Your email",
+    "form_button": "Join the list",
+    "form_success": "Thanks, you're on the list.",
+    "form_error": "Something went wrong, try again.",
+    "what_we_plan_title": "What we're planning",
+    "what_we_plan_list": [
+      "Weekend foundation courses for beginners",
+      "Intensives for working stylists who want to extend their technique",
+      "Private one-on-one sessions tailored to your level",
+      "Occasional guest talks from the Polish and international scene"
+    ]
+  },
+  "blog": {
+    "title": "Reading room",
+    "intro": "We write about what's happening in the studio and around it. Cut trends, behind-the-scenes of pop-ups, short guides on home care. One piece a week, no noise.",
+    "empty": "The first piece will land here soon.",
+    "read_more": "Read more"
+  },
+  "kontakt": {
+    "title": "Contact",
+    "address_title": "Address",
+    "hours_title": "Opening hours",
+    "phone_title": "Phone",
+    "social_title": "Social",
+    "how_to_get_title": "How to get here",
+    "how_to_get": "We're at Wilcza 26, right in the middle of Warsaw's Śródmieście. The closest metro stops are Centrum (line M1) and Politechnika, both a ten-minute walk away. Trams 4, 18 and 35 stop at Krucza, one block away. Parking nearby is paid, the easiest spots are usually on Mokotowska."
+  },
+  "about": {
+    "title": "About",
+    "lede": "FRIME started in 2025 at Wilcza 26, in the middle of Warsaw's Śródmieście. The idea was simple: build a hair studio where you don't have to decide whether you're going to a men's barber or a women's salon. We cut anyone who wants to look good walking out, and we don't pretend one of those categories is more important than the other. The team is three people: Julia, Sasza and Kara. We run three stations and only take a limited number of clients at a time, so nobody feels like they're on a conveyor belt. Color and perm consultations are always free, dogs welcome, card and BLIK accepted.",
+    "values_title": "Why all this",
+    "value_1_title": "For everyone",
+    "value_1_desc": "We don't split cuts into men's and women's by default. We do what you want on your head.",
+    "value_2_title": "Dogs welcome",
+    "value_2_desc": "Your dog gets their own corner and a bowl of water. Just let us know when you book.",
+    "value_3_title": "A studio, not a factory",
+    "value_3_desc": "A visit lasts as long as it needs to. Color and perm consultations are always free.",
+    "proof_title": "5.0 from 305 reviews",
+    "proof_desc": "That's the rating on our Booksy profile. Every person who left a review was actually here. We don't buy reviews and we won't ask you for one on your way out. If you want to recommend us, the best thing is to send a friend who needs it."
+  },
+  "legal": {
+    "privacy_title": "Privacy policy",
+    "privacy_intro": "Short version, because we don't collect much.",
+    "privacy_sections": [
+      {
+        "title": "Who processes your data",
+        "text": "The data controller is FRIME, Wilcza 26, 00-544 Warsaw. For privacy questions: the email address in the page footer."
+      },
+      {
+        "title": "What we collect and why",
+        "text": "On this site we use cookie-less analytics (Plausible or a similar tool). It records anonymous traffic stats: which page, which country, which screen size. We don't link this data to you. Bookings are handled by an external service, Booksy, whose policy is on their own site."
+      },
+      {
+        "title": "How long we keep it",
+        "text": "Traffic stats are kept for 12 months. Booking data is stored by Booksy according to their policy."
+      },
+      {
+        "title": "Your rights",
+        "text": "You have the right to access your data, correct it, delete it and transfer it. You can also object to processing at any time. Email us and we respond within 30 days."
+      },
+      {
+        "title": "Complaint",
+        "text": "If you believe we process your data unlawfully, you can file a complaint with the President of the Polish Data Protection Authority (UODO)."
+      }
+    ],
+    "privacy_note": "This is a working draft tuned to our current stack. Before publishing we ask a friendly lawyer to read it through.",
+    "terms_title": "Terms",
+    "terms_intro": "A short note on what this site is and how it works.",
+    "terms_sections": [
+      {
+        "title": "Who runs this site",
+        "text": "The site is run by FRIME, Wilcza 26, 00-544 Warsaw. All content, photos and graphics are ours or used with the authors' consent."
+      },
+      {
+        "title": "What it's for",
+        "text": "The site presents the studio, our team, services and events. Bookings happen on Booksy. Prices can change, the current version is always on our Booksy profile."
+      },
+      {
+        "title": "External links",
+        "text": "We link to Booksy, Instagram, TikTok and other partner services. We're not responsible for the content of pages we link to."
+      },
+      {
+        "title": "Contact",
+        "text": "Questions, notes, correction requests: reach us on Instagram or at the email in the footer."
+      }
+    ],
+    "cookies_title": "Cookies",
+    "cookies_intro": "This site doesn't use tracking cookies.",
+    "cookies_body": "Our analytics tool doesn't store cookies in your browser and doesn't identify you as a user. That's why you don't see a cookie consent banner here. The only data we collect is anonymous traffic stats: country, screen size, which pages get the most visits. We don't use ad pixels or Google Analytics either. If that ever changes, we'll update this text and add a proper consent banner."
+  },
+  "vibe_content": {
+    "bvclub-kiosk-popup": {
+      "title": "FRIME × BVCLUB KIOSK",
+      "body": "In June 2025 we turned the studio into a one-day pop-up store with BVCLUB KIOSK. In came vintage, leather, second-hand small goods, a DJ behind the decks, free drinks in the fridge. We designed a poster for the event with a row of mannequins and the line that ended up sticking as a brand statement: it doesn't matter who you are, everyone needs clothes and a haircut. The pop-up ran from 1pm into the night. People came in between cuts, picked up something from BVCLUB on the way, and two people booked a spontaneous cut mid-shopping. That was the first time we understood that a hair studio can be a piece of cultural scene, not only a service. From that point we treat pop-ups as a series, not a one-off."
+    },
+    "frime-1-urodziny": {
+      "title": "FRIME 1ST BIRTHDAY",
+      "body": "In spring 2025, exactly a year after the first cut in the new studio, we threw a small birthday party. Hand-drawn poster, a bartender with two champagne glasses crossed into a letter V, drinks for everyone who showed up, music until closing. We celebrated with clients, friends from the industry and people who helped us launch. That day made it obvious how quickly three people and three stations turned into a small local community. The second birthday lands in spring 2026, this time with more weight."
+    },
+    "next-event": {
+      "title": "Next event",
+      "body": "We're working on the next pop-up. Details are being locked with the partner, the announcement lands on Instagram by the end of summer. To not miss it, follow @frime.studio."
+    }
+  },
+  "common": {
+    "back_home": "Back to home",
+    "not_found_title": "This page isn't here",
+    "not_found_desc": "Maybe the address is wrong, maybe we lost something.",
+    "loading": "One moment..."
+  },
+  "cosmetics": {
+    "kicker": "Care · what we work with",
+    "title": "Cosmetics",
+    "lede": "In the studio we work on two lines: Italian OWAY for washing, color and recovery, and British London Grooming for men's styling and beard care. We use both daily and only recommend them to clients for home.",
+    "brand_country_label": "Origin",
+    "brand_category_label": "Category",
+    "brand_link_label": "Brand site",
+    "buy_title": "Where to get it",
+    "buy_body": "Some items are available in the studio after a visit. Ask the stylist who just washed your hair, or ask for a recommendation tailored to your hair type. We don't run a full shop yet, but we're preparing our own short FRIME line for 2027.",
+    "shop_soon_title": "FRIME shop · 2027",
+    "shop_soon_body": "We're working on a short cosmetics line under the FRIME brand. Polish production, ingredient quality at OWAY level, a few items for washing and styling. Sign up via Instagram DM or leave your email during a visit and you'll be the first to know.",
+    "consult_cta": "Ask during your visit"
+  },
+  "services_content": {
+    "repigmentacja": {
+      "kicker": "Treatment · HIM",
+      "title": "Beard and head repigmentation",
+      "lede": "We fill in patchy beards and receding hairlines with a specialist pigment. It lasts a few weeks, fades naturally, leaves no hard edges. The treatment takes thirty minutes and costs 80 PLN.",
+      "intro_title": "What this actually is",
+      "intro_body": "Repigmentation is not a tattoo and not permanent makeup. We use a pigment that settles only in the upper skin layer, fades with normal skin shedding over a few weeks, and leaves no trace in deeper layers. It's a solution for anyone who wants to mask thinning or recession with no permanent commitment. After one visit you walk out with a visible result, after six to eight weeks the pigment fades and you choose whether to repeat.",
+      "men_title": "Beard repigmentation",
+      "men_body": "Our most frequent request. We fill in patches from scars, holes from old depilation or simply spots where the beard grows thinner. We match the pigment to the beard color drop by drop, so the final result is invisible from conversation distance. Up close it reads as a soft, natural beard trace.",
+      "men_variants": [
+        {
+          "name": "Spot fill",
+          "desc": "One or two areas, usually after a scar or removed mole. Takes 15-20 minutes, from 80 PLN."
+        },
+        {
+          "name": "Full beard density",
+          "desc": "We work the whole beard to even out density. Thirty minutes, 80 PLN. The most picked option for medium-length beards."
+        },
+        {
+          "name": "Post-surgery scar coverage",
+          "desc": "Pigment goes over the scar and around it, optically evening out the skin tone. Needs a gentler technique, we block 45 minutes."
+        }
+      ],
+      "women_title": "Head repigmentation (SMP)",
+      "women_body": "SMP, or scalp micropigmentation, is for men with a receding hairline and for people after a transplant who want to mask the surgery marks. The effect is an optical density boost on short hair or a hidden contrast between scalp and hair. It doesn't replace a transplant, it just makes short hair look denser.",
+      "women_variants": [
+        {
+          "name": "Hairline correction",
+          "desc": "We draw in a hairline that's naturally missing. Suits buzz cuts and very short hair where the scalp shows."
+        },
+        {
+          "name": "Density boost",
+          "desc": "We cover areas with reduced hair density so the scalp doesn't reflect light. Immediate effect, works best on darker hair."
+        },
+        {
+          "name": "FUE / FUT scar coverage",
+          "desc": "Linear scars from graft extraction get covered with pigment matched to surrounding skin. Requires an initial consultation, sometimes two sessions."
+        }
+      ],
+      "visit_title": "How the visit works",
+      "visit_body": "First a chat about how much you want to rebuild and how strong the look should be. We match the color on a small skin patch first so you see the shade before the full treatment. Work takes thirty minutes for a beard, up to an hour for a larger head area. Most people say the discomfort feels like tweezing. Before you leave you get a card with aftercare for the first seven days.",
+      "care_title": "Aftercare",
+      "care_body": "First 48 hours no sauna, no pool, no strong sun. For a week avoid scrubbing the area, wash with a mild gel. Over the next days the pigment darkens slightly, then settles to its target shade. Full result shows after five to seven days. To keep the intensity, come back every six to eight weeks.",
+      "price_label": "Price",
+      "price_value": "from 80 PLN, larger areas up to 200 PLN",
+      "duration_label": "Time",
+      "duration_value": "30-60 minutes",
+      "faq_title": "Frequent repigmentation questions",
+      "faq": [
+        {
+          "q": "Does it hurt?",
+          "a": "Most people say it's less intense than waxing and comparable to tweezing. The most sensitive spots are the nose and around the lips. We can apply a numbing cream before the treatment if you prefer."
+        },
+        {
+          "q": "How long does it last?",
+          "a": "Four to eight weeks on a beard, six to ten weeks on the head. The fading speed depends on your skin type, sun exposure and how you wash the area."
+        },
+        {
+          "q": "Does it leave any permanent mark?",
+          "a": "No. We use a pigment that sits only in the epidermis and fades with natural skin shedding. After some time you're back to the original state."
+        },
+        {
+          "q": "Can I work out the same day?",
+          "a": "A calm walk yes, an intense session no. Sweat opens the fresh skin and washes out part of the pigment. Give yourself 24-48 hours of calm."
+        },
+        {
+          "q": "Can I come in with a long beard and fill all of it?",
+          "a": "On a long beard the pigment makes little sense, you can't see it anyway. Repigmentation works best on beards up to 5 mm where the skin shows. If you plan to trim the beard short later, that's the perfect moment to start."
+        },
+        {
+          "q": "How much for a full session?",
+          "a": "Standard visit is 80 PLN. Larger areas, scar coverage after a transplant or work in two sessions runs 150-200 PLN. We give a precise quote during the consultation, which is free."
+        }
+      ],
+      "cta_title": "Book a repigmentation",
+      "cta_text": "The initial consultation is free. You can pair it with a wash and cut if you're already booking a visit.",
+      "related_title": "See also",
+      "related": [
+        { "label": "Mullet and wolf cut", "href": "/on/mullet" },
+        { "label": "Full men's price list", "href": "/on" },
+        { "label": "Our team", "href": "/team" }
+      ]
+    },
+    "krotkie-fryzury": {
+      "kicker": "Haircut · HER",
+      "title": "Short women's cuts",
+      "lede": "Pixie, bob, buzz cut, asymmetry, bowl. We do every short cut coming back in 2026, and the ones that never left. Visit takes 60 to 75 minutes, price from 150 to 250 PLN.",
+      "intro_title": "Short cuts, long story short",
+      "intro_body": "A short women's cut isn't one style, it's a whole category with sharp differences between variants. Pixie and bob are the two pillars, but each holds dozens of sub-types: bowl, buzz, pixie with an undercut, choppy bob, bob with a fringe. At FRIME every visit starts with a quick chat about how a given style will sit on your hair texture and structure, because the difference between a beautiful and a disastrous result lives right there.",
+      "men_title": "Pixie and shorter",
+      "men_body": "Pixie is a classic that never left, it just shifts proportions every few seasons. In 2026 we see more texture, more fringe, fewer slick versions. The women's buzz cut is making a comeback as a strong statement move, usually after long hair.",
+      "men_variants": [
+        {
+          "name": "Classic pixie",
+          "desc": "Short top, shorter sides, longer fringe. The most recognizable variant, sits well on finer hair because it adds optical volume."
+        },
+        {
+          "name": "Pixie with undercut",
+          "desc": "Sides and back cut to skin, top stays longer, usually with a fringe. The edgy version, easy to push into a stronger look with the right product."
+        },
+        {
+          "name": "Women's buzz cut",
+          "desc": "All one length, short, even, usually 3-6 mm. Least maintenance, most character. Needs a trim every three weeks."
+        },
+        {
+          "name": "Modern bowl cut",
+          "desc": "Geometric fringe and rounded sides, in a more textural take than the classic bowl. A bit punk, a bit editorial."
+        }
+      ],
+      "women_title": "Bob and its variants",
+      "women_body": "The bob is the second pillar of short cuts and often the first step for someone coming off long hair. In 2026 the bob with a fringe and the asymmetric bob are leading. The classic blunt version holds its own.",
+      "women_variants": [
+        {
+          "name": "Classic bob",
+          "desc": "Length sits at the jawline, straight, no layers. A strong minimalist pick, great on thick straight hair."
+        },
+        {
+          "name": "Bob with a fringe",
+          "desc": "Classic bob plus a full or lightly textural fringe. The most picked 2026 variant, the fringe frames the whole cut."
+        },
+        {
+          "name": "Asymmetric bob",
+          "desc": "One side a few centimeters longer. Fits if you want a short cut but fear symmetry. More fashion forward than the classic."
+        },
+        {
+          "name": "Choppy bob with layers",
+          "desc": "Torn ends, light layers, more movement. Works best on wavy hair, where layers reinforce the natural texture."
+        }
+      ],
+      "visit_title": "How the visit works",
+      "visit_body": "First five minutes are about references and what will actually work. We show our portfolio, name the trade-offs. If you have specific Instagram or Pinterest pictures, bring them, it saves time. Wash, cut, optional product finish. A color consultation, if it comes into play, is always free.",
+      "care_title": "Aftercare for short hair",
+      "care_body": "Short cuts ask for regularity, not piles of product. Every three to four weeks come back for an outline trim, the length stays. Daily a light cream or wax does the job, depending on the style. Buzz cuts only need shampoo. Pixies and bobs with a fringe often need a separate fringe wash more often than the rest.",
+      "price_label": "Price",
+      "price_value": "150-250 PLN depending on starting length",
+      "duration_label": "Time",
+      "duration_value": "60-75 minutes",
+      "faq_title": "Frequent short cut questions",
+      "faq": [
+        {
+          "q": "Does a short cut age you?",
+          "a": "Not the cut itself, just wrong proportions. A pixie with a soft fringe can take off years, a pixie with a slick side parting can add some. That's why we consult first, cut after."
+        },
+        {
+          "q": "Going from long, how long does it take?",
+          "a": "Usually an hour to an hour fifteen. If a lot of length is coming off, give yourself a beat between the decision and the visit. Many people prefer two stages two weeks apart to adjust."
+        },
+        {
+          "q": "How long to grow back?",
+          "a": "Buzz to pixie 3-4 months, pixie to bob 6-8 months. Along the way it's worth coming in for trims to avoid awkward overgrown stages."
+        },
+        {
+          "q": "Should I bring references?",
+          "a": "Yes, the more the better. The ideal set is 3-5 pictures showing what you like, plus 1-2 of what you don't want. Much easier to hit what you actually mean."
+        },
+        {
+          "q": "Do you color in the same visit as a short cut?",
+          "a": "Color usually goes in a separate appointment, after the cut. Length and proportions affect how a shade reads. The color consultation is free and can be added to your visit at no extra cost."
+        },
+        {
+          "q": "Will short hair really cut my daily styling time?",
+          "a": "Usually yes. A buzz cut is zero minutes, a pixie and most bobs run 2-5 minutes after the shower. Exception: heavily textural versions, which take 5-10 minutes with a bit of cream or wax."
+        }
+      ],
+      "cta_title": "Book a short cut",
+      "cta_text": "Fastest through Booksy. If you're planning a big switch from long to very short, book an hour fifteen and bring references.",
+      "related_title": "See also",
+      "related": [
+        { "label": "Mullet and wolf cut", "href": "/on/mullet" },
+        { "label": "Full women's price list", "href": "/ona" },
+        { "label": "Our team", "href": "/team" }
+      ]
+    },
+    "mullet": {
+      "kicker": "Haircut · HIM / HER",
+      "title": "Mullet at FRIME",
+      "lede": "The mullet is back for real, and at our studio it sits in the top three weekly bookings. We do both the men's versions, the classic ones and the ones with a sharp fade, and the women's wolf cuts, which technically are mullets too, they just sound better in English.",
+      "intro_title": "What the 2026 mullet is actually about",
+      "intro_body": "A mullet means short on top and the sides, longer in the back. That rule has been around since the seventies, but the current wave looks nothing like the eighties versions or the football poster cuts. The contemporary mullet is more textural, less geometric, often curly, and much easier to maintain than it looks. In Warsaw it's worn across the wardrobe spectrum, so we keep it as one menu position without splitting it into men's and women's pricing.",
+      "men_title": "Men's mullet",
+      "men_body": "Most people come in for the classic or the fade version. The whole visit takes an hour. We start with a chat about how much length you want to keep in the back and how sharp the side transition should be. On straight hair almost any variant works. On curly hair the softer variants without a hard fade tend to sit better.",
+      "men_variants": [
+        {
+          "name": "Classic mullet",
+          "desc": "A visible line between shorter top and longer back, no fade. The most recognizable version, works well on medium-density straight hair."
+        },
+        {
+          "name": "Mullet with a fade",
+          "desc": "Sides cut to skin or very short, top stays textured, back stays long. The most picked variant in 2026, holds up well under a cap and makes a stronger first impression."
+        },
+        {
+          "name": "Modern shag mullet",
+          "desc": "Looser, choppier, with a fringe falling onto the forehead. Almost indistinguishable from a nineties grunge musician's cut. Suits thick hair."
+        },
+        {
+          "name": "Curly mullet",
+          "desc": "For naturally curly or wavy hair. Cut for actual curls, not a flat-ironed version. A bit of product at home and that's it."
+        }
+      ],
+      "women_title": "Women's mullet and wolf cut",
+      "women_body": "On the women's side the same cut usually goes by wolf cut or shag. The rule stays, short on top and sides, longer in the back, but the proportions are different, fringes heavier, layers fuller. The visit runs sixty to seventy-five minutes depending on starting length.",
+      "women_variants": [
+        {
+          "name": "Wolf cut",
+          "desc": "Most picked women's variant. Strong layers around the face, longer ends in the back, fringe optional. Works on straight and lightly wavy hair."
+        },
+        {
+          "name": "Soft mullet",
+          "desc": "A softer version without sharp transitions. A more feminine silhouette, a good move if it's the first time you're moving away from long hair."
+        },
+        {
+          "name": "Curly mullet",
+          "desc": "Cut for actual curls, dry method. Needs someone who knows how to cut curly hair, which is us. No weird flat-iron tricks to fake volume."
+        },
+        {
+          "name": "Mullet with a strong fringe",
+          "desc": "Full, wide fringe plus a mullet in the back. The editorial version, stands out hard. Needs upkeep, fringe trim every four weeks."
+        }
+      ],
+      "visit_title": "What the visit looks like",
+      "visit_body": "Calm. First five minutes are a chat about what you want and what will actually work on your hair. We show references, name the trade-offs. Then wash, cut, optional product finish. For men's mullets we block an hour, for women's wolf cuts an hour to seventy-five minutes. Color or perm consultations, if they happen to come into play, are always free.",
+      "care_title": "What happens after, aftercare basics",
+      "care_body": "Despite the noise, a mullet doesn't need daily product. A stronger texture shampoo and a light paste or styling cream is enough. Every four to six weeks it's worth popping in for a side trim, the length in the back can grow longer. For curly hair, skip the brush, use fingers plus a curl cream.",
+      "price_label": "Price",
+      "price_value": "from 150 PLN, men's 150-200 PLN, women's 150-250 PLN depending on length",
+      "duration_label": "Time",
+      "duration_value": "60-75 minutes",
+      "faq_title": "Frequent mullet questions",
+      "faq": [
+        {
+          "q": "Will a mullet suit my face?",
+          "a": "Practically any face, if you pick the right side length and fringe. An oval face takes everything. A round face does better with a longer fringe and shorter sides. A longer face with a shorter top and a softer fade. That's why the consultation at the start of the visit matters."
+        },
+        {
+          "q": "How long before a mullet grows out and stops looking right?",
+          "a": "Four to six weeks minimum, six to eight if your hair grows slower. After that it's usually worth popping in for a side trim and leaving the back to keep growing. Over time a mullet flows naturally into a shag or a longer cut without a sudden overgrown stage."
+        },
+        {
+          "q": "Do you do wolf cuts on very curly hair?",
+          "a": "Yes, it's one of our favorite variants. We cut dry, meaning on dry hair after a wash, no flat-ironing. That way we see the real curl pattern and don't deliver a cut that looks different once it dries."
+        },
+        {
+          "q": "Is the mullet actually unisex?",
+          "a": "The cutting rule yes. What differs is naming tradition. What men call a mullet, women often call a wolf cut, shag or modern mullet. Technically the same logic. In Booksy we pick the price line based on starting length, not gender."
+        },
+        {
+          "q": "What does it cost?",
+          "a": "Men's version 150-200 PLN, women's 150-250 PLN depending on length. A mullet with a fade fits inside the same range with no extra charge for the fade. A consultation, if you happen to be considering color, is free."
+        },
+        {
+          "q": "Can I come in for a quick fix if someone else did my mullet badly?",
+          "a": "Yes, we regularly rescue what went wrong elsewhere. Sometimes it can be fixed on the spot, sometimes you have to wait for it to grow and rebuild from there. After a short consultation we tell you honestly what can be done now."
+        }
+      ],
+      "cta_title": "Book your mullet",
+      "cta_text": "Fastest through Booksy. During the week we often fill two to three days ahead, weekends a week.",
+      "related_title": "See also",
+      "related": [
+        { "label": "Beard and head repigmentation", "href": "/on" },
+        { "label": "Free color consultation", "href": "/ona" },
+        { "label": "Our team", "href": "/team" }
+      ]
+    }
+  },
+  "locations": {
+    "srodmiescie_poludniowe": {
+      "kicker": "Location · Wilcza 26",
+      "title": "FRIME in Śródmieście Południowe",
+      "lede": "We sit in the middle of the busiest stretch of Warsaw. One block off Marszałkowska, a short walk from Plac Konstytucji, Hala Koszyki and Łazienki Park. Wilcza 26 is our address from day one and we're not planning to move.",
+      "sections": [
+        {
+          "title": "Where to find us exactly",
+          "body": "Wilcza is a short but dense street that runs from Marszałkowska to Mokotowska. We're at number 26, ground floor, in one of those pre-war townhouses that survived the war and still carry the whole block. Shopfront facing the street, blue logo on the door, three stations inside. If you're in doubt, look for the big navy FRIME sign."
+        },
+        {
+          "title": "How to get here",
+          "body": "By metro, the fastest is line M1 from Centrum, exit toward Plac Defilad, then walk south down Marszałkowska. Fifteen minutes. Politechnika (also M1) is even closer, twelve minutes through Plac Konstytucji. Trams 4, 18 and 35 stop at Krucza, one turn into Wilcza. Bus 107 runs along Hoża parallel to us, get off at Krucza. For drivers, the best bet is to park on Mokotowska or in the paid garage under Hala Koszyki. The whole area is paid-parking zone and spots free up slowly, count on fifteen extra minutes for hunting."
+        },
+        {
+          "title": "What's around",
+          "body": "Five minutes on foot you have Plac Zbawiciela with its cafes and the Charlotte bakery, then Mokotowska with concept stores and third-wave coffee. Plac Trzech Krzyży with its boutiques, restaurants and the flagship Wedel chocolate shop is seven minutes away. Hala Koszyki, the restored 1908 market hall with a food court and the Mąka i Woda pizzeria, is ten minutes east. Plac Konstytucji with its socialist-realist MDM architecture is our nearest large landmark. Łazienki Park, with the pond, peacocks and the Palace on the Water, is twenty minutes on foot or seven by bike. On Wilcza and the neighboring Hoża, Wspólna and Piękna you'll find pizzerias, small bars, two bookshops, a few galleries and the kind of quiet cafes where you can wait for your visit or stay for lunch after."
+        },
+        {
+          "title": "Who our neighbors and clients are",
+          "body": "Śródmieście Południowe is a mix you can't reduce to a single type. Students from the Politechnika, office people from Rondo Daszyńskiego and Mokotów, artists who didn't move out to Praga, and residents of the renovated apartments in old townhouses. All of them drop in. Someone before a meeting, someone after work, someone before an evening on Mokotowska. Sometimes tourists from the nearby hotels or people in town for a conference at the Palace of Culture. That's why we run a unisex model, why consultations are free, and why Booksy regularly fills up a week ahead."
+        },
+        {
+          "title": "First time in the area",
+          "body": "If you've never been to Śródmieście Południowe, it's easy to pair the visit with something else. Breakfast on Mokotowska, we cut your hair, then a walk to Łazienki or a chocolate at Wedel on Plac Trzech Krzyży. Evenings the same route works backwards: drink at Hala Koszyki, then haircut, then dinner on Hoża. Three hours and you have a new look plus a good day in the city."
+        }
+      ],
+      "cta_title": "Booksy is the fastest way in",
+      "cta_text": "Address: Wilcza 26, 00-544 Warsaw, Śródmieście Południowe. In peak season we fill up a few days ahead, so booking in advance saves time."
+    }
+  }
+}

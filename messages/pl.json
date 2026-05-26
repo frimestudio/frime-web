@@ -1,0 +1,577 @@
+{
+  "nav": {
+    "on": "ON",
+    "ona": "ONA",
+    "vibe": "VIBE",
+    "akademia": "AKADEMIA",
+    "team": "TEAM",
+    "kontakt": "KONTAKT",
+    "cta": "Umów wizytę"
+  },
+  "footer": {
+    "address": "Wilcza 26, 00-544 Warszawa",
+    "hours_title": "Godziny",
+    "hours_placeholder": "Godziny do potwierdzenia ze znajomym z GBP.",
+    "social_title": "Znajdź nas",
+    "legal_title": "Sprawy formalne",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "cookies": "Cookies",
+    "rights": "Wszystkie prawa zastrzeżone",
+    "made_in": "Zrobione na Wilczej"
+  },
+  "home": {
+    "hero_kicker": "Stylowe studio fryzjerskie unisex · Warszawa Wilcza 26 · dog-friendly",
+    "hero_slogan_1": "IT DOESN'T MATTER",
+    "hero_slogan_2": "WHO YOU ARE",
+    "hero_slogan_3": "EVERYONE NEEDS",
+    "hero_slogan_4": "A HAIRCUT.",
+    "hero_proof": "5,0 z 305 opinii na Booksy",
+    "hero_cta": "Umów wizytę",
+    "pillars_title": "Trzy powody, żeby do nas wpaść",
+    "pillar_on_title": "ON",
+    "pillar_on_desc": "Klasyczne strzyżenia męskie, mullety, brody, repigmentacja. Bez konkursu na największą gładkość, bez stadionowej muzyki w tle.",
+    "pillar_ona_title": "ONA",
+    "pillar_ona_desc": "Krótkie cięcia, grzywki, konsultacje koloru i trwałej. Każda wizyta zaczyna się od rozmowy o tym, co naprawdę chcesz na głowie.",
+    "pillar_vibe_title": "VIBE",
+    "pillar_vibe_desc": "Pop-upy, kolaboracje, urodziny salonu. Raz na jakiś czas zamieniamy studio w mieszankę baru, sklepu i sceny.",
+    "team_title": "Stoją za nożyczkami",
+    "team_cta": "Poznaj zespół",
+    "events_title": "Następna impreza",
+    "events_cta": "Zobacz archiwum",
+    "reviews_title": "Co mówią ludzie",
+    "reviews_proof": "5,0 średnia z 305 ocen, dane z Booksy",
+    "location_title": "Wilcza 26, Śródmieście",
+    "location_cta": "Jak do nas trafić",
+    "popular_title": "Popularne teraz",
+    "popular_intro": "Krótkie wejście w to, czego najczęściej szuka się u nas w sieci.",
+    "faq_title": "Najczęstsze pytania o FRIME",
+    "faq": [
+      {
+        "q": "Gdzie jest FRIME w Warszawie?",
+        "a": "Wilcza 26, 00-544, Śródmieście Południowe. Kilka minut spaceru od metra Centrum i Politechnika, jeden zakręt od przystanku tramwajowego Krucza."
+      },
+      {
+        "q": "Czy to studio męskie czy damskie?",
+        "a": "Unisex. Strzyżemy zarówno męskie cięcia, brody i repigmentację, jak i damskie wolf cuty, grzywki i konsultacje koloru. W cenniku zostawiamy nazwy ON i ONA, ale każdy z naszej trójki robi obie strony."
+      },
+      {
+        "q": "Jak się umówić?",
+        "a": "Najszybciej przez Booksy, link mamy w nagłówku i w stopce strony. Można też napisać na Instagramie. Telefonicznie odbieramy w godzinach pracy."
+      },
+      {
+        "q": "Czy mogę przyjść z psem?",
+        "a": "Tak, psy są mile widziane. Mamy miskę z wodą i kąt, gdzie pies może się położyć podczas wizyty."
+      }
+    ]
+  },
+  "services": {
+    "on_title": "Strzyżenia męskie",
+    "on_intro": "Cztery podstawowe pozycje plus konsultacja. Wizyta trwa od pół godziny do półtorej, zależnie od tego, co robimy.",
+    "ona_title": "Strzyżenia damskie",
+    "ona_intro": "Krótkie i półdługie cięcia, grzywki, konsultacje koloru i trwałej.",
+    "price_from": "od",
+    "duration": "czas trwania",
+    "book": "Umów się",
+    "consultation_free": "Konsultacja gratis",
+    "deep_links_title_on": "Sprawdź konkretne usługi",
+    "deep_links_title_ona": "Sprawdź konkretne usługi",
+    "faq_title_on": "Często pytacie",
+    "faq_title_ona": "Często pytacie",
+    "faq_on": [
+      {
+        "q": "Czy muszę się umawiać, czy mogę wpaść z ulicy?",
+        "a": "Najlepiej się umówić. W ciągu tygodnia mamy dużo wizyt z wyprzedzeniem i raczej nie zostaje wolnych slotów na ten sam dzień. Najszybciej przez Booksy."
+      },
+      {
+        "q": "Strzyżecie tylko mężczyzn?",
+        "a": "Nie. FRIME to studio unisex. Robimy strzyżenia ON i ONA, każdy z naszej trójki ogarnia obie kategorie. Nazwa działu jest tylko po to, żeby było łatwiej trafić w cennik."
+      },
+      {
+        "q": "Co to repigmentacja brody i głowy?",
+        "a": "To zabieg, w którym używamy specjalnego pigmentu, żeby wypełnić miejsca z mniej gęstym zarostem albo cofnąć linię włosów. Trzyma kilka tygodni, schodzi naturalnie, nie szkodzi skórze. Cena: 80 zł, czas: pół godziny."
+      },
+      {
+        "q": "Czy mogę przyjść z psem?",
+        "a": "Tak, psy są mile widziane. Mamy miskę z wodą i kąt, gdzie pies może się położyć. Jeśli twój pies stresuje się w nowych miejscach, daj znać przy rezerwacji, dobierzemy spokojniejszą porę."
+      },
+      {
+        "q": "Płacę kartą czy gotówką?",
+        "a": "Jak wolisz. Mamy terminal, przyjmujemy też BLIK i gotówkę. Faktura na firmę bez problemu, powiedz przed płatnością."
+      }
+    ],
+    "faq_ona": [
+      {
+        "q": "Robicie koloryzację?",
+        "a": "Sam zabieg koloryzacji robimy po wcześniejszej konsultacji. Konsultacja jest darmowa, trwa 15 minut. Ustalamy razem co chcesz osiągnąć, jaki jest realny efekt na twoich włosach i ile to potrwa. Cena samego zabiegu zależy od długości i tego co robimy."
+      },
+      {
+        "q": "Ile trwa wizyta przy krótkim cięciu?",
+        "a": "Od godziny do godziny i kwadrans, w zależności od długości startowej i tego co dokładnie tniemy. Konkretną wycenę i czas dostajesz na pierwszej minucie wizyty, zanim zaczniemy."
+      },
+      {
+        "q": "Czy podcięcie grzywki to osobna wizyta?",
+        "a": "Tak, samo podcięcie grzywki to 30 minut i 80 zł. Jeśli grzywka to część większego cięcia, robimy ją w cenie wizyty."
+      },
+      {
+        "q": "Macie własne kosmetyki do pielęgnacji?",
+        "a": "W salonie używamy kilku zaufanych marek, których sami polecamy. Jeśli chcesz coś kupić do domu, powiedz mistrzowi po wizycie, podpowiemy co realnie zadziała przy twoim typie włosów."
+      },
+      {
+        "q": "Czy robicie trwałą?",
+        "a": "Tak, też po konsultacji. Trwała na włosach to decyzja, której nie cofniesz w 5 minut, więc zawsze najpierw siadamy i przegadujemy, czy w ogóle ma sens przy twojej strukturze włosa."
+      }
+    ]
+  },
+  "team": {
+    "title": "Zespół",
+    "intro": "Trzy osoby, trzy podejścia do nożyczek. Każdy z nas robi i męskie, i damskie.",
+    "book_with": "Umów się do",
+    "members": {
+      "julia": {
+        "name": "Julia",
+        "role": "Fryzjerka, współzałożycielka",
+        "bio": "Julia stoi za pomysłem FRIME. Współzałożycielka studia, robi zarówno męskie, jak i damskie cięcia. Lubi pracować z teksturą, mulletami i mocnymi grzywkami. Konkretne bio i historię uzupełnimy po krótkiej rozmowie ze znajomym."
+      },
+      "sasza": {
+        "name": "Sasza",
+        "role": "Fryzjer",
+        "bio": "Sasza dołączył do FRIME na pierwszej fali. Specjalizuje się w mocnych fade'ach i pracy z brodą, ale w studio unisex nie ma sztywnego podziału, więc równie chętnie cięcia damskie. Pełne bio podmienimy po rozmowie."
+      },
+      "kara": {
+        "name": "Kara",
+        "role": "Fryzjerka",
+        "bio": "Kara to nowsza twarz w zespole, ale szybko zbudowała grupę stałych klientek. Czuje się najlepiej w krótkich cięciach i mocnych grzywkach. Resztę bio dopiszemy razem."
+      }
+    }
+  },
+  "vibe": {
+    "title": "VIBE",
+    "intro": "Raz do roku, czasem dwa, robimy coś, co nie jest strzyżeniem. Pop-up z winylem, DJ-set na urodzinach, kolaboracja z lokalnym brandem. Tu archiwum tego, co już się wydarzyło, i zapowiedzi tego, co planujemy.",
+    "next_title": "Następna impreza",
+    "next_placeholder": "Anonsujemy kolejne wydarzenie jak tylko będzie ustalone. Wracaj za parę tygodni albo zapisz się na Instagramie, tam zawsze ogłaszamy pierwsi.",
+    "archive_title": "Archiwum"
+  },
+  "akademia": {
+    "title": "AKADEMIA",
+    "kicker": "Wkrótce",
+    "intro": "Pracujemy nad programem szkoleń dla osób, które chcą się nauczyć cięcia po naszemu. Krótkie kursy weekendowe, intensywy, prywatne sesje jeden na jeden. Zostaw maila, dostaniesz wiadomość jako pierwszy.",
+    "form_label": "Twój e-mail",
+    "form_button": "Zapisz na listę",
+    "form_success": "Dzięki, dopisaliśmy cię.",
+    "form_error": "Coś poszło nie tak, spróbuj jeszcze raz.",
+    "what_we_plan_title": "Co planujemy",
+    "what_we_plan_list": [
+      "Weekendowe kursy podstaw cięcia dla początkujących",
+      "Intensywy dla osób już pracujących w branży, które chcą rozszerzyć technikę",
+      "Prywatne sesje jeden na jeden, dopasowane do twojego poziomu",
+      "Okazjonalne wykłady gości z polskiej i międzynarodowej sceny"
+    ]
+  },
+  "blog": {
+    "title": "Czytelnia",
+    "intro": "Tu piszemy o tym, co dzieje się w studio i wokół niego. Trendy fryzur, kulisy pop-upów, krótkie poradniki o pielęgnacji w domu. Jeden tekst tygodniowo, bez szumu.",
+    "empty": "Pierwszy tekst pojawi się wkrótce.",
+    "read_more": "Czytaj dalej"
+  },
+  "kontakt": {
+    "title": "Kontakt",
+    "address_title": "Adres",
+    "hours_title": "Godziny otwarcia",
+    "phone_title": "Telefon",
+    "social_title": "Social",
+    "how_to_get_title": "Jak dojechać",
+    "how_to_get": "Jesteśmy na Wilczej 26, w samym Śródmieściu. Najbliższe stacje metra to Centrum (linia M1) i Politechnika, z obu spacerem dochodzisz w 10 minut. Tramwajami 4, 18, 35 dojeżdżasz do przystanku Krucza i stąd jeden zakręt. Parking w okolicy jest płatny, najłatwiej znaleźć miejsce od strony ulicy Mokotowskiej."
+  },
+  "about": {
+    "title": "O nas",
+    "lede": "FRIME to stylowe, młodzieżowe studio fryzjerskie unisex na Wilczej 26, w samym sercu warszawskiego Śródmieścia. Wystartowaliśmy w 2024 roku. Pomysł był prosty: zrobić miejsce, w którym nie trzeba decydować, czy idzie się do męskiego barbera, czy do damskiego salonu. Strzyżemy każdego, kto chce dobrze wyglądać po wyjściu, i nie udajemy, że któraś z tych kategorii jest ważniejsza od drugiej. W zespole są trzy osoby: Julia, Sasza i Kara. Pracujemy w trzy stanowiska, jednocześnie obsługujemy ograniczoną liczbę klientów, dzięki czemu nikt nie czuje się jak na taśmie. Konsultacja koloru i trwałej zawsze jest gratis, jesteśmy dog-friendly, kart i BLIK-a przyjmujemy. Raz na jakiś czas robimy pop-upy z lokalnymi markami, zamieniając studio w mieszankę baru i sklepu.",
+    "values_title": "Po co to wszystko",
+    "value_1_title": "Dla wszystkich",
+    "value_1_desc": "Nie dzielimy strzyżeń na męskie i damskie z założenia. Robimy to, co chcesz mieć na głowie.",
+    "value_2_title": "Z psem mile widziani",
+    "value_2_desc": "Twój pies też dostanie swój kąt i miskę z wodą. Po prostu daj znać przy rezerwacji.",
+    "value_3_title": "Studio, nie fabryka",
+    "value_3_desc": "Wizyta trwa tyle, ile trzeba. Konsultacja koloru i trwałej zawsze gratis.",
+    "proof_title": "5,0 z 305 opinii",
+    "proof_desc": "To rating naszego profilu na Booksy. Każda osoba, która zostawiła ocenę, była u nas naprawdę. Nie kupujemy opinii i nie poprosimy cię o ocenę po wyjściu. Jeśli chcesz nas polecić, najlepiej zrób to znajomemu, który tego potrzebuje."
+  },
+  "legal": {
+    "privacy_title": "Polityka prywatności",
+    "privacy_intro": "Krótka wersja, bo nie zbieramy o tobie wiele.",
+    "privacy_sections": [
+      {
+        "title": "Kto przetwarza twoje dane",
+        "text": "Administratorem danych jest FRIME, Wilcza 26, 00-544 Warszawa. Kontakt w sprawach prywatności: e-mail wpisany w stopce strony."
+      },
+      {
+        "title": "Co zbieramy i po co",
+        "text": "Na stronie używamy analityki bez ciasteczek (Plausible lub podobne narzędzie). Zbiera ono zanonimizowane statystyki ruchu: jaka strona, z jakiego kraju, jaki ekran. Nie wiążemy tych danych z twoją osobą. Rezerwacje obsługuje zewnętrzny serwis Booksy, ich politykę znajdziesz na ich stronie."
+      },
+      {
+        "title": "Jak długo trzymamy",
+        "text": "Statystyki ruchu trzymamy 12 miesięcy. Dane rezerwacji przechowuje Booksy zgodnie z ich własną polityką."
+      },
+      {
+        "title": "Twoje prawa",
+        "text": "Masz prawo do dostępu do swoich danych, sprostowania, usunięcia i przeniesienia. Możesz też w każdej chwili wnieść sprzeciw wobec przetwarzania. Napisz do nas mailem, odpowiadamy w ciągu 30 dni."
+      },
+      {
+        "title": "Skarga",
+        "text": "Jeśli uważasz, że przetwarzamy twoje dane niezgodnie z prawem, możesz złożyć skargę do Prezesa UODO."
+      }
+    ],
+    "privacy_note": "Ten tekst to wersja robocza pod nasz aktualny stack. Przed publikacją prosimy znajomego prawnika o szybkie przeczytanie.",
+    "terms_title": "Regulamin",
+    "terms_intro": "Krótko, co i jak na tej stronie.",
+    "terms_sections": [
+      {
+        "title": "Kto prowadzi tę stronę",
+        "text": "Stronę prowadzi FRIME, Wilcza 26, 00-544 Warszawa. Wszystkie treści, zdjęcia i grafiki są naszą własnością albo używamy ich za zgodą autorów."
+      },
+      {
+        "title": "Po co tu jesteśmy",
+        "text": "Strona służy do prezentacji studia, naszego zespołu, usług i wydarzeń. Rezerwacja wizyt odbywa się przez zewnętrzny serwis Booksy. Lista cen może się zmieniać, aktualna wersja jest zawsze na naszym profilu Booksy."
+      },
+      {
+        "title": "Linki zewnętrzne",
+        "text": "Linkujemy do Booksy, Instagrama, TikToka i innych serwisów partnerów. Nie odpowiadamy za treść stron, do których prowadzą linki."
+      },
+      {
+        "title": "Kontakt",
+        "text": "Pytania, uwagi, prośby o korekty: napisz do nas przez Instagram albo na adres mailowy w stopce."
+      }
+    ],
+    "cookies_title": "Cookies",
+    "cookies_intro": "Ta strona nie używa cookies śledzących.",
+    "cookies_body": "Do analityki używamy narzędzia, które nie zapisuje żadnych ciasteczek w twojej przeglądarce i nie identyfikuje cię jako użytkownika. Dzięki temu nie widzisz tu baneru zgody na cookies. Jedyne dane, jakie zbieramy, to anonimowe statystyki ruchu: który kraj, jaki ekran, na jakie podstrony wchodzi najwięcej osób. Nie używamy też pikseli reklamowych ani Google Analytics. Jeśli kiedyś to się zmieni, zaktualizujemy ten tekst i dodamy klasyczny baner zgody."
+  },
+  "vibe_content": {
+    "bvclub-kiosk-popup": {
+      "title": "FRIME × BVCLUB KIOSK",
+      "body": "W czerwcu 2025 zamieniliśmy studio na jeden dzień w pop-up store razem z BVCLUB KIOSK. Wjechało vintage, skóry, drobiazgi z drugiego obiegu, na konsoli kręcił DJ, w lodówce były darmowe drinki. Plakat zaprojektowaliśmy specjalnie pod tę imprezę, z rzędem manekinów i hasłem, które potem zostało nam jako brand: it doesn't matter who you are, everyone needs clothes and a haircut. Pop-up trwał od 13:00 do późnego wieczora. Ludzie wpadali w przerwie między cięciami, przy okazji upolowali coś z BVCLUB, dwie osoby zafundowały sobie spontaniczne cięcie w trakcie zakupów. To był pierwszy raz, kiedy zrozumieliśmy, że studio fryzjerskie może być kawałkiem sceny kulturalnej, a nie tylko miejscem usługi. Od tamtej pory traktujemy pop-upy jako serię, nie jednorazowy eksperyment."
+    },
+    "frime-1-urodziny": {
+      "title": "FRIME 1 URODZINY",
+      "body": "Wiosną 2025, dokładnie po roku od pierwszego cięcia w nowym studio, zrobiliśmy małą imprezę urodzinową. Plakat zilustrowany ręcznie, barman z dwoma kieliszkami szampana złożonymi w literę V, drinki dla wszystkich, którzy wpadli, i muzyka aż do zamknięcia. Świętowaliśmy z klientami, znajomymi z branży i ludźmi, którzy pomagali nam wystartować. Ten dzień najlepiej pokazał, jak szybko z trzech ludzi i trzech stanowisk zrobiło się małe lokalne community. Drugie urodziny planujemy na wiosnę 2026, tym razem z większym rozmachem."
+    },
+    "next-event": {
+      "title": "Następne wydarzenie",
+      "body": "Pracujemy nad kolejnym pop-upem. Szczegóły dopinamy z partnerem, ogłoszenie na Instagramie pod koniec lata. Jeśli nie chcesz przegapić, śledź @frime.studio."
+    }
+  },
+  "common": {
+    "back_home": "Wróć na stronę główną",
+    "not_found_title": "Tej strony tu nie ma",
+    "not_found_desc": "Może wpisałeś zły adres, może coś u nas zniknęło.",
+    "loading": "Chwila..."
+  },
+  "cosmetics": {
+    "kicker": "Pielęgnacja · czym pracujemy",
+    "title": "Kosmetyki",
+    "lede": "W studio pracujemy na dwóch liniach: włoskim OWAY do mycia, koloryzacji i regeneracji oraz brytyjskim London Grooming do męskiej stylizacji i pielęgnacji brody. Obie marki używamy codziennie i tylko je polecamy klientom do domu.",
+    "brand_country_label": "Skąd",
+    "brand_category_label": "Co to",
+    "brand_link_label": "Strona producenta",
+    "buy_title": "Skąd to wziąć",
+    "buy_body": "Niektóre produkty mamy dostępne w salonie po wizycie, możesz spytać mistrza, którym właśnie się myłeś, albo poprosić rekomendację dopasowaną do typu twojego włosa. Pełnego sklepu jeszcze nie prowadzimy, ale szykujemy własną krótką linię pod marką FRIME na 2027.",
+    "shop_soon_title": "FRIME shop · 2027",
+    "shop_soon_body": "Pracujemy nad własną, krótką linią kosmetyków pod marką FRIME. Będzie produkcja w Polsce, składniki na poziomie OWAY, kilka pozycji do mycia i stylizacji. Zapisz się na listę przez kontakt na Instagramie albo zostaw maila przy okazji wizyty, dostaniesz wiadomość jako pierwszy.",
+    "consult_cta": "Skonsultuj się na wizycie"
+  },
+  "services_content": {
+    "repigmentacja": {
+      "kicker": "Zabieg · ON",
+      "title": "Repigmentacja brody i głowy",
+      "lede": "Wypełniamy mniej gęstą brodę i cofnięte linie włosów specjalnym pigmentem. Trzyma się kilka tygodni, schodzi naturalnie, nie zostawia twardych krawędzi. Zabieg trwa trzydzieści minut i kosztuje 80 zł.",
+      "intro_title": "Co to właściwie jest",
+      "intro_body": "Repigmentacja to nie tatuaż i nie permanent makeup. Używamy pigmentu, który osadza się tylko w naskórku, schodzi razem ze złuszczaniem skóry przez kilka tygodni i nie zostawia śladu w głębszych warstwach. To rozwiązanie dla osób, które chcą zamaskować przerzedzenie albo cofnięcie linii bez żadnej trwałej interwencji. Po jednej wizycie wychodzisz z efektem od razu widocznym, a po sześciu do ośmiu tygodniach pigment schodzi i decydujesz, czy chcesz powtórzyć.",
+      "men_title": "Repigmentacja brody",
+      "men_body": "Najczęstsze zlecenie. Wypełniamy łysinki po bliznach, dziurach po wcześniejszej depilacji albo po prostu w miejscach, gdzie zarost rośnie słabiej. Pigment dobieramy do koloru zarostu kropla po kropli, więc finalny efekt jest niewidoczny z odległości rozmowy. Na bliskim spotkaniu wygląda jak nieostry, naturalny ślad zarostu.",
+      "men_variants": [
+        {
+          "name": "Punktowe wypełnienie",
+          "desc": "Jedno lub dwa miejsca, zwykle po bliznie albo wycięciu znamienia. Zajmuje 15-20 minut, kosztuje od 80 zł."
+        },
+        {
+          "name": "Pełne wzmocnienie zarostu",
+          "desc": "Robimy całą brodę w celu wyrównania gęstości. Trzydzieści minut, 80 zł. Najczęściej wybierane przy zaroście od średniej długości."
+        },
+        {
+          "name": "Maskowanie blizn pooperacyjnych",
+          "desc": "Pigment zachodzi na bliznę i wokół niej, optycznie wyrównując odcień skóry. Wymaga delikatniejszej techniki, na wizytę zostawiamy 45 minut."
+        }
+      ],
+      "women_title": "Repigmentacja głowy (SMP)",
+      "women_body": "SMP, czyli scalp micropigmentation, robimy zarówno mężczyznom z cofniętą linią włosów, jak i osobom po przeszczepie, które chcą zamaskować ślady przeszczepu. Efekt to optyczne zagęszczenie krótko ściętych włosów albo ukrycie kontrastu między skórą a fryzurą. Nie zastępuje przeszczepu, tylko sprawia, że krótka fryzura wygląda gęściej.",
+      "women_variants": [
+        {
+          "name": "Korekta linii włosów",
+          "desc": "Pigmentem dorysowujemy linię, której naturalnie brakuje. Pasuje przy buzz cucie i bardzo krótkim ścięciu, gdzie skóra prześwituje."
+        },
+        {
+          "name": "Optyczne zagęszczenie",
+          "desc": "Pokrywamy obszar z mniejszą gęstością włosów, żeby skalp nie odbijał światła. Efekt natychmiastowy, najlepiej działa na ciemnych włosach."
+        },
+        {
+          "name": "Kamuflaż blizn po FUE / FUT",
+          "desc": "Linijne blizny po pobraniu graftu zakrywamy pigmentem dobranym do reszty skalpu. Wymaga konsultacji wstępnej, czasem dwóch wizyt."
+        }
+      ],
+      "visit_title": "Jak wygląda wizyta",
+      "visit_body": "Najpierw rozmowa, ile chcesz odbudować i jak intensywnie. Dopasowanie koloru robimy na małym fragmencie skóry, żebyś zobaczył odcień przed głównym zabiegiem. Praca trwa trzydzieści minut przy brodzie, do godziny przy większym obszarze głowy. Większość osób mówi, że dyskomfort jest na poziomie skubania pęsetą. Przed wyjściem dostajesz kartkę z instrukcją pielęgnacji na pierwsze siedem dni.",
+      "care_title": "Co potem",
+      "care_body": "Pierwsze 48 godzin bez sauny, basenu, ostrego słońca. Przez tydzień nie szorujemy obszaru, myjemy delikatnym żelem. W kolejnych dniach pigment lekko ciemnieje, potem rozjaśnia się do docelowego odcienia. Pełny efekt widać po pięciu do siedmiu dniach. Jeśli chcesz utrzymać intensywność, wracaj raz na sześć do ośmiu tygodni.",
+      "price_label": "Cena",
+      "price_value": "od 80 zł, większe obszary do 200 zł",
+      "duration_label": "Czas",
+      "duration_value": "30-60 minut",
+      "faq_title": "Często pytacie o repigmentację",
+      "faq": [
+        {
+          "q": "Czy to boli?",
+          "a": "Większość ludzi mówi, że to mniej intensywne niż depilacja woskiem i porównywalne ze skubaniem pęsetą. Strefy najbardziej wrażliwe to nos i okolice ust. Możemy stosować krem znieczulający przed zabiegiem, jeśli wolisz."
+        },
+        {
+          "q": "Jak długo trzyma się efekt?",
+          "a": "Od czterech do ośmiu tygodni przy brodzie, od sześciu do dziesięciu tygodni na głowie. Tempo schodzenia zależy od typu skóry, ekspozycji na słońce i tego, czym myjesz dany obszar."
+        },
+        {
+          "q": "Czy zostaje jakiś trwały ślad?",
+          "a": "Nie. Używamy pigmentu, który osadza się tylko w naskórku i schodzi razem z naturalnym procesem złuszczania skóry. Po jakimś czasie wracasz do stanu wyjściowego."
+        },
+        {
+          "q": "Czy mogę uprawiać sport tego samego dnia?",
+          "a": "Spokojny spacer tak, intensywny trening nie. Pot otwiera świeży naskórek i wypłukuje część pigmentu. Najlepiej dać sobie 24-48 godzin spokoju."
+        },
+        {
+          "q": "Czy mogę przyjść z brodą długą i całą wypełnić?",
+          "a": "Przy długiej brodzie pigment ma niewielki sens, bo i tak go nie widać. Repigmentacja działa najlepiej przy zaroście do 5 mm, gdzie skóra prześwituje. Jeśli planujesz później skrócić brodę, to też idealny moment, żeby zacząć od pigmentu."
+        },
+        {
+          "q": "Ile kosztuje pełna sesja?",
+          "a": "Standardowa wizyta to 80 zł. Większe obszary, kamuflaż blizn po przeszczepie albo praca w dwóch sesjach to 150-200 zł. Dokładną wycenę dajemy na konsultacji, którą prowadzimy bezpłatnie."
+        }
+      ],
+      "cta_title": "Umów się na repigmentację",
+      "cta_text": "Wstępną konsultację mamy gratis. Można połączyć ją z umyciem i strzyżeniem, jeśli akurat planujesz wizytę.",
+      "related_title": "Zobacz też",
+      "related": [
+        { "label": "Mullet i wolf cut", "href": "/on/mullet" },
+        { "label": "Cały cennik strzyżeń męskich", "href": "/on" },
+        { "label": "Nasz zespół", "href": "/team" }
+      ]
+    },
+    "krotkie-fryzury": {
+      "kicker": "Strzyżenie · ONA",
+      "title": "Krótkie fryzury damskie",
+      "lede": "Pixie, bob, buzz cut, asymetria, bowl. Robimy wszystkie krótkie cięcia, które wracają w 2026, i te, które nigdy z mody nie wyszły. Wizyta od godziny do godziny i kwadrans, cena od 150 do 250 zł.",
+      "intro_title": "Krótko o krótko",
+      "intro_body": "Krótka fryzura damska to nie jeden styl, to cała kategoria z mocnymi różnicami między wariantami. Pixie i bob to dwa filary, ale w środku mieszczą się dziesiątki podtypów: bowl, buzz, pixie z undercutem, choppy bob, bob z grzywką. W FRIME zaczynamy każdą wizytę od krótkiej rozmowy o tym, jak dany styl będzie układał się na twojej teksturze i strukturze włosa, bo różnica między pięknym a katastrofalnym efektem leży właśnie tam.",
+      "men_title": "Pixie i jeszcze krótsze",
+      "men_body": "Pixie to klasyk, który nigdy nie wyszedł z mody, tylko zmienia proporcje co kilka sezonów. W 2026 widzimy więcej tekstury, więcej grzywki, mniej gładkich wersji. Buzz cut damski wraca jako mocny statement, najczęściej po dłuższej fryzurze.",
+      "men_variants": [
+        {
+          "name": "Pixie klasyczny",
+          "desc": "Krótka góra, krótsze boki, dłuższa grzywka. Najbardziej rozpoznawalny wariant, dobrze leży na cieńszych włosach, bo dodaje optycznej objętości."
+        },
+        {
+          "name": "Pixie z undercutem",
+          "desc": "Boki i tył ścięte do skóry, góra zostaje dłuższa, najczęściej z grzywką. Wersja edgy, łatwo zamienić w mocniejszy look z odpowiednim produktem."
+        },
+        {
+          "name": "Buzz cut damski",
+          "desc": "Wszystko na jedną długość, krótkie, równe, zwykle 3-6 mm. Najmniej pielęgnacji, najwięcej charakteru. Wymaga regularnego podcięcia raz na trzy tygodnie."
+        },
+        {
+          "name": "Bowl cut nowoczesny",
+          "desc": "Geometryczna grzywka i zaokrąglone boki, w bardziej teksturalnej wersji niż klasyczny bowl. Trochę punk, trochę editorial."
+        }
+      ],
+      "women_title": "Bob i jego warianty",
+      "women_body": "Bob to drugi filar krótkich cięć i często pierwszy krok osoby, która właśnie schodzi z długich włosów. W 2026 króluje bob z grzywką oraz bob asymetryczny. Klasyczna wersja blunt też ma się dobrze.",
+      "women_variants": [
+        {
+          "name": "Bob klasyczny",
+          "desc": "Linia długości na wysokości szczęki, równa, bez warstw. Mocny minimalistyczny wybór, świetnie leży na gęstych prostych włosach."
+        },
+        {
+          "name": "Bob z grzywką",
+          "desc": "Klasyczny bob plus pełna albo lekko teksturalna grzywka. Najczęściej wybierany wariant 2026, ramę tworzy mocna grzywka."
+        },
+        {
+          "name": "Bob asymetryczny",
+          "desc": "Jedna strona dłuższa o kilka centymetrów. Pasuje, jeśli chcesz krótkie cięcie, ale boisz się symetrii. Bardziej fashion forward niż klasyk."
+        },
+        {
+          "name": "Choppy bob z warstwami",
+          "desc": "Rwane końcówki, lekkie warstwy, więcej ruchu. Najlepiej działa na falowanych włosach, gdzie warstwy podkreślają naturalną teksturę."
+        }
+      ],
+      "visit_title": "Jak wygląda wizyta",
+      "visit_body": "Pierwsze pięć minut to rozmowa o referencjach i o tym, co realnie wyjdzie. Pokazujemy zdjęcia z naszego portfolio, mówimy, gdzie będzie kompromis. Jeśli masz konkretne zdjęcia z Instagrama albo Pinteresta, przyjdź z nimi, to oszczędza dużo czasu. Mycie, cięcie, ewentualne układanie pod produkt. Konsultacja kolorystyczna, jeśli akurat dochodzi do gry, zawsze gratis.",
+      "care_title": "Pielęgnacja po krótkim",
+      "care_body": "Krótka fryzura wymaga regularności, nie ilości produktu. Raz na trzy-cztery tygodnie wracaj na podcięcie kontur, długość zostaje. Codziennie wystarczy lekki krem albo wosk, w zależności od stylu. Buzz cuty potrzebują tylko szamponu, niczego więcej. Pixie i boby z grzywką wymagają osobnego mycia grzywki częściej niż reszty.",
+      "price_label": "Cena",
+      "price_value": "150-250 zł zależnie od długości startowej",
+      "duration_label": "Czas",
+      "duration_value": "60-75 minut",
+      "faq_title": "Często pytacie o krótkie cięcia",
+      "faq": [
+        {
+          "q": "Czy krótkie cięcie postarza?",
+          "a": "Nie samo cięcie, tylko źle dobrane proporcje. Pixie z miękką grzywką potrafi odjąć lat, pixie z gładko zaczesaną boczną częścią potrafi dodać. Dlatego najpierw konsultacja, dopiero potem nożyczki."
+        },
+        {
+          "q": "Schodzę z długich włosów, ile to potrwa?",
+          "a": "Zwykle godzinę do godziny i kwadrans. Jeśli zostaje dużo długości do oddania, warto dać sobie chwilę między decyzją a wizytą. Wiele osób woli zrobić to w dwóch etapach z odstępem dwóch tygodni, żeby się oswoić."
+        },
+        {
+          "q": "Ile czeka się aż odrosnę?",
+          "a": "Z buzz cuta do pixie 3-4 miesiące, z pixie do boba 6-8 miesięcy. Po drodze warto wracać na podcięcia, żeby uniknąć etapów zarośniętych i bezkształtnych."
+        },
+        {
+          "q": "Czy przyjść z referencjami?",
+          "a": "Tak, im więcej tym lepiej. Idealny zestaw to 3-5 zdjęć, na których pokazujesz, co ci się podoba, plus 1-2 zdjęcia tego, czego nie chcesz. Łatwiej wtedy trafić w to, o co naprawdę ci chodzi."
+        },
+        {
+          "q": "Robicie kolor razem z krótkim cięciem?",
+          "a": "Kolor planujemy zwykle osobno, po cięciu. Wynika to z tego, że długość i proporcje wpływają na to, jak wygląda dany odcień. Konsultację kolorystyczną robimy gratis, można ją dopiąć do wizyty bez dodatkowej opłaty."
+        },
+        {
+          "q": "Czy krótka fryzura sprawi, że codzienne układanie zajmie mniej czasu?",
+          "a": "Zwykle tak. Buzz cut to dosłownie zero minut, pixie i większość bobów to 2-5 minut po wyjściu spod prysznica. Wyjątek to mocno teksturalne wersje, które wymagają trochę pomysłowości i 5-10 minut z odrobiną kremu albo wosku."
+        }
+      ],
+      "cta_title": "Umów krótkie cięcie",
+      "cta_text": "Najszybciej przez Booksy. Jeśli planujesz mocną zmianę z długich na bardzo krótkie, zarezerwuj sobie godzinę i kwadrans i przyjdź z referencjami.",
+      "related_title": "Zobacz też",
+      "related": [
+        { "label": "Mullet i wolf cut", "href": "/on/mullet" },
+        { "label": "Cały cennik strzyżeń damskich", "href": "/ona" },
+        { "label": "Nasz zespół", "href": "/team" }
+      ]
+    },
+    "mullet": {
+      "kicker": "Strzyżenie · ON / ONA",
+      "title": "Mullet w FRIME",
+      "lede": "Mullet wrócił na dobre, a my w studio mamy go w jednej z trzech topowych pozycji w tygodniu. Robimy zarówno męskie wersje, te klasyczne i te z mocnym fade'em, jak i damskie wolf cuts, które technicznie też są mulletami, tylko ładniej brzmią po angielsku.",
+      "intro_title": "O co chodzi z mulletem w 2026",
+      "intro_body": "Mullet to zasada krótko z przodu i po bokach, dłużej z tyłu. Ta sama logika działa od lat siedemdziesiątych, ale aktualna fala wygląda zupełnie inaczej niż wersje z lat osiemdziesiątych czy te z piłkarskich plakatów. Współczesny mullet jest bardziej teksturalny, mniej geometryczny, częściej kręcony i dużo łatwiejszy w utrzymaniu, niż się wydaje. W Warszawie robi się go na obie strony szafy, dlatego trzymamy go u nas jako jedną pozycję bez podziału na męski i damski cennik.",
+      "men_title": "Mullet męski",
+      "men_body": "Najczęściej do nas wpadają po klasykę albo po wersję z fade'em. Cała wizyta zajmuje godzinę, zaczynamy od konsultacji, ile długości chcesz zostawić z tyłu i jak ostry skok na bokach ma być. Jeśli masz proste włosy, działa praktycznie każdy wariant. Jeśli kręcone, lepiej idą warianty miększe, bez ostrego fade'u.",
+      "men_variants": [
+        {
+          "name": "Klasyczny mullet",
+          "desc": "Wyraźna granica między krótszą górą a dłuższym tyłem, bez fade'u. Najbardziej rozpoznawalna wersja, dobrze działa na średnio gęstych prostych włosach."
+        },
+        {
+          "name": "Mullet z fade'em",
+          "desc": "Boki ścięte do skóry albo bardzo krótko, góra zostaje teksturalna, tył długi. Najczęściej wybierany wariant w 2026, dobrze leży pod czapką i robi mocniejsze first impression."
+        },
+        {
+          "name": "Modern shag mullet",
+          "desc": "Bardziej luźny, postrzępiony, z grzywką zachodzącą na czoło. Wersja, której prawie nie odróżnisz od fryzury muzyka grunge z lat dziewięćdziesiątych. Pasuje do gęstych włosów."
+        },
+        {
+          "name": "Mullet kręcony",
+          "desc": "Dla osób z naturalnie kręconymi albo falowanymi włosami. Tnie się pod konkretne loki, nie pod gładką wersję wyprostowaną. Wymaga w domu trochę produktu i tyle."
+        }
+      ],
+      "women_title": "Mullet damski i wolf cut",
+      "women_body": "Po damskiej stronie ta sama fryzura nazywa się najczęściej wolf cut albo shag. Zasada zostaje, krótko z przodu i po bokach, dłużej z tyłu, ale proporcje są inne, grzywki cięższe, warstwy gęstsze. Wizyta trwa od godziny do godziny i kwadrans w zależności od długości startowej.",
+      "women_variants": [
+        {
+          "name": "Wolf cut",
+          "desc": "Najczęściej wybierany damski wariant. Mocne warstwy wokół twarzy, długie końcówki z tyłu, grzywka opcjonalna. Pracuje na prostych i lekko falowanych włosach."
+        },
+        {
+          "name": "Soft mullet",
+          "desc": "Łagodniejsza wersja bez ostrych przejść. Bardziej damska sylwetka, dobre rozwiązanie jeśli pierwszy raz schodzisz z długiej fryzury i chcesz testować."
+        },
+        {
+          "name": "Curly mullet",
+          "desc": "Tniemy pod konkretne loki, suchą metodą. Wymaga kogoś, kto wie, jak ciąć kręcone włosy, czyli nas. Bez dziwnych prostych prób wymuszania objętości."
+        },
+        {
+          "name": "Mullet z mocną grzywką",
+          "desc": "Pełna, szeroka grzywka plus mullet z tyłu. Wersja editorial, mocno wybijająca się z tłumu. Wymaga utrzymania, podcięcia grzywki co cztery tygodnie."
+        }
+      ],
+      "visit_title": "Jak wygląda wizyta",
+      "visit_body": "Spokojnie. Pierwsze pięć minut to rozmowa o tym, co chcesz osiągnąć i co realnie zadziała na twoich włosach. Pokazujemy referencje, mówimy gdzie będzie kompromis. Potem mycie, cięcie, ewentualne wykończenie pod produkt. Dla mulletów męskich rezerwujemy godzinę, dla damskich wolf cutów godzinę do godziny piętnaście. Konsultacja koloru i trwałej, jeśli akurat dochodzą do gry, zawsze gratis.",
+      "care_title": "Co potem, czyli pielęgnacja",
+      "care_body": "Mullet wbrew opiniom nie jest fryzurą wymagającą codziennego producta. Wystarczy mocniejszy szampon teksturalny i lekka pasta albo krem do układania. Co cztery do sześciu tygodni warto wpaść na podcięcie boków, długość z tyłu może rosnąć dłużej. Jeśli masz kręcone włosy, pomijaj szczotkę i rób palcami plus krem do loków.",
+      "price_label": "Cena",
+      "price_value": "od 150 zł, męskie od 150-200 zł, damskie 150-250 zł zależnie od długości",
+      "duration_label": "Czas",
+      "duration_value": "60-75 minut",
+      "faq_title": "Często pytacie o mullety",
+      "faq": [
+        {
+          "q": "Czy mullet pasuje do mojej twarzy?",
+          "a": "Praktycznie do każdej, jeśli dobierze się odpowiednią długość boków i grzywki. Owalna twarz akceptuje wszystko. Okrągłej dobrze robi dłuższa grzywka i krótsze boki. Pociągłej krótsze góra i delikatniejszy fade. To dlatego konsultacja na początku wizyty jest tak istotna."
+        },
+        {
+          "q": "Ile się czeka aż mullet się rozrośnie i przestanie wyglądać dobrze?",
+          "a": "Cztery do sześciu tygodni minimum, sześć do ośmiu jeśli włosy rosną wolniej. Po tym czasie zwykle warto wpaść na podcięcie samych boków, tył zostawiamy do dalszego rośnięcia. Z czasem mullet płynnie przechodzi w shag albo długą fryzurę bez nagłego efektu zarośnięcia."
+        },
+        {
+          "q": "Czy robicie wolf cut na bardzo kręcone włosy?",
+          "a": "Tak, to jeden z naszych ulubionych wariantów. Tniemy suchą metodą, czyli na suchych włosach po umyciu, bez prostowania. Dzięki temu widzimy realny układ loków i nie zrobimy cięcia, które po wyschnięciu wygląda zupełnie inaczej."
+        },
+        {
+          "q": "Czy mullet jest unisex naprawdę?",
+          "a": "Zasada cięcia tak. Różni się raczej tradycja nazewnictwa. To, co po męsku nazywamy mulletem, po damsku częściej idzie pod hasłem wolf cut, shag albo modern mullet. Technicznie ta sama logika, w cenniku Booksy bierzemy odpowiednią pozycję ze względu na długość startową, nie ze względu na płeć."
+        },
+        {
+          "q": "Ile to kosztuje?",
+          "a": "Wariant męski 150-200 zł, damski 150-250 zł w zależności od długości włosów. Mullet z fade'em mieści się w tej samej widełce, bez dopłaty za fade jako oddzielną pozycję. Konsultacja, jeśli przy okazji rozważasz kolor, jest gratis."
+        },
+        {
+          "q": "Czy można przyjść po szybką poprawkę, jeśli ktoś już zrobił mi mullet źle?",
+          "a": "Tak, dosyć regularnie ratujemy to, co poszło źle gdzie indziej. Czasem da się uratować, czasem trzeba poczekać aż urośnie i wtedy dopiero przebudować. Po krótkiej konsultacji powiemy uczciwie, co da się zrobić od razu."
+        }
+      ],
+      "cta_title": "Zarezerwuj swój mullet",
+      "cta_text": "Najszybciej przez Booksy. W tygodniu mamy często pełno na 2-3 dni do przodu, w weekendy na tydzień.",
+      "related_title": "Zobacz też",
+      "related": [
+        { "label": "Repigmentacja brody / głowy", "href": "/on" },
+        { "label": "Konsultacja koloru gratis", "href": "/ona" },
+        { "label": "Nasz zespół", "href": "/team" }
+      ]
+    }
+  },
+  "locations": {
+    "srodmiescie_poludniowe": {
+      "kicker": "Lokalizacja · Wilcza 26",
+      "title": "FRIME w Śródmieściu Południowym",
+      "lede": "Jesteśmy w środku najbardziej rozedrganego kawałka Warszawy. Jeden kwartał od Marszałkowskiej, kilka minut spacerem od placu Konstytucji, Hali Koszyki i Łazienek. Wilcza 26 to nasz adres od pierwszego dnia studia i nie planujemy się ruszać.",
+      "sections": [
+        {
+          "title": "Gdzie dokładnie nas znajdziesz",
+          "body": "Wilcza to krótka, ale gęsta ulica, która biegnie od Marszałkowskiej do Mokotowskiej. My siedzimy pod numerem 26, na parterze, w jednej z tych przedwojennych kamienic, które przeżyły wojnę i nadal trzymają klimat całego odcinka. Witryna od ulicy, niebieskie logo na drzwiach, w środku trzy stanowiska. Jak masz wątpliwości, kierujesz się na duży, granatowy znak FRIME."
+        },
+        {
+          "title": "Jak do nas dojechać",
+          "body": "Metrem najszybciej z Centrum (linia M1), wyjście od strony placu Defilad, dalej Marszałkowską na południe, kwadrans spaceru. Politechnika (też M1) jest jeszcze bliżej, dwanaście minut przez plac Konstytucji. Tramwaje 4, 18 i 35 dowożą do przystanku Krucza i stamtąd jest jeden zakręt w Wilczą. Autobus 107 jedzie Hożą równolegle do nas, wysiadasz przy Kruczej. Kierowcom radzimy zostawić auto na Mokotowskiej albo w płatnym parkingu pod Halą Koszyki. W okolicy obowiązuje strefa płatnego parkowania, miejsce zwalnia się powoli, więc warto doliczyć kwadrans na szukanie."
+        },
+        {
+          "title": "Co masz dookoła",
+          "body": "Pięć minut na piechotę masz plac Zbawiciela z jego kawiarniami i piekarnią Charlotte, dalej Mokotowską z concept storami i kawą trzeciej fali. Plac Trzech Krzyży z butikami, restauracjami i sklepem firmowym Wedla zajmuje siedem minut. Hala Koszyki, czyli odrestaurowany rynek z 1908 z food hallem i pizzerią Mąka i Woda, jest dziesięć minut na wschód. Plac Konstytucji z socrealistycznym MDM-em to nasz najbliższy duży punkt orientacyjny. Park Łazienkowski, ze stawem, pawiami i Pałacem na Wodzie, jest dwadzieścia minut spacerem albo siedem rowerem. Na samej Wilczej i sąsiednich Hożej, Wspólnej i Pięknej znajdziesz pizzerie, małe bary, dwie księgarnie, parę galerii i kameralne kawiarnie, w których spokojnie poczekasz na wizytę albo zostaniesz po niej na obiad."
+        },
+        {
+          "title": "Kim są nasi sąsiedzi i klienci",
+          "body": "Śródmieście Południowe to mix, którego nie da się sprowadzić do jednego typu. Mieszkają tu studenci Politechniki, ludzie z biur z Ronda Daszyńskiego i Mokotowa, artyści, którzy nie wyprowadzili się na Pragę, i mieszkańcy odnowionych mieszkań w starych kamienicach. Do nas wpada cała ta mieszanka. Ktoś przed spotkaniem, ktoś po pracy, ktoś przed wieczorem na Mokotowskiej. Czasem wpadają turyści z okolicznych hoteli albo osoby, które przyjechały na konferencję do PKiN. Dlatego trzymamy się modelu unisex, dlatego mamy konsultacje gratis i dlatego w Booksy bywa pełno na tydzień do przodu."
+        },
+        {
+          "title": "Pierwszy raz w okolicy",
+          "body": "Jeśli nigdy nie byłeś w Śródmieściu Południowym, łatwo połączyć wizytę z czymś jeszcze. Wpadnij na śniadanie na Mokotowską, my robimy ci cięcie, a po wszystkim masz spacer do Łazienek albo czekoladę w Wedlu na placu Trzech Krzyży. Wieczorem ta sama trasa działa odwrotnie: drink w Hali Koszyki, potem fryzura, potem kolacja na Hożej. Trzy godziny i masz nowy look plus dobry dzień w mieście."
+        }
+      ],
+      "cta_title": "Najprościej trafić przez Booksy",
+      "cta_text": "Adres: Wilcza 26, 00-544 Warszawa, Śródmieście Południowe. W sezonie mamy pełno na kilka dni do przodu, więc warto zarezerwować z wyprzedzeniem."
+    }
+  }
+}

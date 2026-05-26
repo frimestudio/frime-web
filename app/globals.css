@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #0a0a0a;
+  --color-muted: #707070;
+  --color-line: #0a0a0a;
+  --color-frime: #1a1aff;
+  --color-frime-ink: #ffffff;
+  --color-accent: #ff2d2d;
+  --color-placeholder-bg: #fff7c2;
+  --color-placeholder-fg: #4a3a00;
+  --color-placeholder-border: #c2a100;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-fg: var(--color-fg);
+  --color-muted: var(--color-muted);
+  --color-line: var(--color-line);
+  --color-frime: var(--color-frime);
+  --color-frime-ink: var(--color-frime-ink);
+  --color-accent: var(--color-accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-anton);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv01", "cv11";
+}
+
+::selection {
+  background: var(--color-frime);
+  color: var(--color-frime-ink);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.display {
+  font-family: var(--font-anton), Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 0.85;
+  text-transform: uppercase;
+}
+
+.mono {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.rule {
+  border-color: var(--color-line);
+}
+
+.placeholder-box {
+  background: var(--color-placeholder-bg);
+  color: var(--color-placeholder-fg);
+  border: 2px dashed var(--color-placeholder-border);
+}

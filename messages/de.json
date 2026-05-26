@@ -1,0 +1,366 @@
+{
+  "nav": {
+    "on": "ER",
+    "ona": "SIE",
+    "vibe": "VIBE",
+    "akademia": "AKADEMIE",
+    "team": "TEAM",
+    "kontakt": "KONTAKT",
+    "cta": "Termin buchen"
+  },
+  "footer": {
+    "address": "Wilcza 26, 00-544 Warschau",
+    "hours_title": "Öffnungszeiten",
+    "hours_placeholder": "Täglich geöffnet.",
+    "social_title": "Finde uns",
+    "legal_title": "Formales",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookies",
+    "rights": "Alle Rechte vorbehalten",
+    "made_in": "Gemacht in der Wilcza"
+  },
+  "home": {
+    "hero_kicker": "Stylisches Unisex-Friseurstudio · Warschau Wilcza 26 · hundefreundlich",
+    "hero_slogan_1": "IT DOESN'T MATTER",
+    "hero_slogan_2": "WHO YOU ARE",
+    "hero_slogan_3": "EVERYONE NEEDS",
+    "hero_slogan_4": "A HAIRCUT.",
+    "hero_proof": "5,0 aus 305 Bewertungen auf Booksy",
+    "hero_cta": "Termin buchen",
+    "pillars_title": "Drei Gründe vorbeizuschauen",
+    "pillar_on_title": "ER",
+    "pillar_on_desc": "Klassische Männerhaarschnitte, Mullets, Bärte, Repigmentierung. Ohne Wettbewerb um den glattesten Fade, ohne Stadionmusik im Hintergrund.",
+    "pillar_ona_title": "SIE",
+    "pillar_ona_desc": "Kurze Schnitte, Ponys, Farb- und Dauerwellenberatung. Jeder Besuch beginnt mit einem echten Gespräch über das, was du wirklich willst.",
+    "pillar_vibe_title": "VIBE",
+    "pillar_vibe_desc": "Pop-ups, Kollaborationen, Studio-Geburtstage. Ab und zu verwandeln wir das Studio in eine Mischung aus Bar, Shop und Bühne.",
+    "team_title": "Hinter den Scheren",
+    "team_cta": "Team kennenlernen",
+    "events_title": "Nächstes Event",
+    "events_cta": "Archiv ansehen",
+    "reviews_title": "Was Leute sagen",
+    "reviews_proof": "5,0 Durchschnitt aus 305 Bewertungen, Daten von Booksy",
+    "location_title": "Wilcza 26, Śródmieście",
+    "location_cta": "So findest du uns",
+    "popular_title": "Gerade beliebt",
+    "popular_intro": "Ein kurzer Einstieg in das, wonach man bei uns am häufigsten online sucht.",
+    "faq_title": "Häufige Fragen zu FRIME",
+    "faq": [
+      { "q": "Wo ist FRIME in Warschau?", "a": "Wilcza 26, 00-544, Stadtteil Śródmieście Południowe. Wenige Minuten zu Fuß von den U-Bahn-Stationen Centrum und Politechnika, eine Abzweigung von der Straßenbahnhaltestelle Krucza." },
+      { "q": "Ist das ein Männer- oder Frauenstudio?", "a": "Unisex. Wir machen Männerhaarschnitte, Bärte und Repigmentierung sowie Damen-Wolf-Cuts, Ponys und Farbberatungen. Das Menü nutzt die Labels ER und SIE, aber jede:r von uns deckt beide Seiten ab." },
+      { "q": "Wie buche ich?", "a": "Am schnellsten über Booksy, Link im Header und Footer. Du kannst uns auch auf Instagram schreiben. Telefonisch erreichst du uns während der Öffnungszeiten." },
+      { "q": "Darf ich meinen Hund mitbringen?", "a": "Ja, Hunde sind willkommen. Wir haben einen Wassernapf und eine Ecke, wo dein Hund während des Besuchs liegen kann." }
+    ]
+  },
+  "services": {
+    "on_title": "Männerschnitte",
+    "on_intro": "Vier Kernleistungen plus Beratung. Ein Besuch dauert zwischen einer halben und eineinhalb Stunden, je nachdem, was wir machen.",
+    "ona_title": "Damenschnitte",
+    "ona_intro": "Kurze und mittellange Schnitte, Ponys, Farb- und Dauerwellenberatungen.",
+    "price_from": "ab",
+    "duration": "Dauer",
+    "book": "Buchen",
+    "consultation_free": "Beratung kostenlos",
+    "deep_links_title_on": "Spezifische Leistungen im Detail",
+    "deep_links_title_ona": "Spezifische Leistungen im Detail",
+    "faq_title_on": "Häufige Fragen",
+    "faq_title_ona": "Häufige Fragen",
+    "faq_on": [
+      { "q": "Muss ich einen Termin machen oder kann ich spontan kommen?", "a": "Termin ist sicherer. Unter der Woche sind wir meist Tage im Voraus ausgebucht, freie Slots am selben Tag sind selten. Am schnellsten geht es über Booksy." },
+      { "q": "Schneidet ihr nur Männerhaar?", "a": "Nein. FRIME ist ein Unisex-Studio. Wir machen sowohl ER- als auch SIE-Schnitte, jede:r von uns dreien übernimmt beides. Die Kategorienamen dienen nur der einfacheren Preisliste." },
+      { "q": "Was ist Bart- und Kopfrepigmentierung?", "a": "Eine Behandlung, bei der wir mit einem speziellen Pigment lückenhafte Bartstellen füllen oder einen zurückgehenden Haaransatz zurücksetzen. Hält einige Wochen, verblasst natürlich, schadet der Haut nicht. Preis: 80 zł, Dauer: dreißig Minuten." },
+      { "q": "Darf ich meinen Hund mitbringen?", "a": "Ja, Hunde sind willkommen. Wir haben einen Wassernapf und eine Ecke, wo dein Hund liegen kann. Wenn dein Hund in neuen Orten nervös wird, sag bei der Buchung Bescheid, wir wählen einen ruhigeren Slot." },
+      { "q": "Karte oder Bar?", "a": "Wie du möchtest. Wir haben ein Terminal, akzeptieren BLIK und Bargeld. Firmenrechnung problemlos, sag uns vor der Zahlung Bescheid." }
+    ],
+    "faq_ona": [
+      { "q": "Macht ihr Färbungen?", "a": "Die eigentliche Farbe machen wir nach einer kostenlosen Beratung. Die Beratung dauert 15 Minuten und klärt, was du willst, was auf deinem Haar realistisch ist und wie lange der Termin dauert. Der Preis hängt von Länge und Aufwand ab." },
+      { "q": "Wie lange dauert ein Termin bei einem Kurzhaarschnitt?", "a": "Sechzig bis fünfundsiebzig Minuten, je nach Ausgangslänge und Aufwand. Den genauen Preis und die Zeit erfährst du in der ersten Minute des Besuchs, bevor wir starten." },
+      { "q": "Ist Pony-Nachschneiden ein eigener Termin?", "a": "Ja, ein einzelnes Pony-Nachschneiden ist 30 Minuten und 80 zł. Wenn der Pony Teil eines kompletten Schnitts ist, machen wir ihn im Termin." },
+      { "q": "Habt ihr eigene Pflegeprodukte?", "a": "Im Studio nutzen wir einige vertraute Marken und empfehlen nur, was wir selbst nutzen. Wenn du etwas für zuhause willst, frag deine:n Stylist:in nach dem Termin nach einer Empfehlung." },
+      { "q": "Macht ihr Dauerwellen?", "a": "Ja, auch nach einer Beratung. Eine Dauerwelle ist keine Entscheidung, die du in fünf Minuten rückgängig machst, deshalb setzen wir uns erst zusammen und prüfen, ob es zu deiner Haarstruktur passt." }
+    ]
+  },
+  "team": {
+    "title": "Team",
+    "intro": "Drei Menschen, drei Zugänge zur Schere. Jede:r von uns macht sowohl Männer- als auch Frauenschnitte.",
+    "book_with": "Termin bei",
+    "members": {
+      "julia": { "name": "Julia", "role": "Stylistin, Mitgründerin", "bio": "Julia steht hinter der Idee von FRIME. Mitgründerin des Studios, schneidet sowohl Männer- als auch Frauenhaar. Liebt Textur, Mullets und starke Ponys. Ein vollständiges Bio mit Hintergrund folgt nach einem kurzen Gespräch mit dem Inhaber." },
+      "sasza": { "name": "Sasza", "role": "Stylist", "bio": "Sasza ist früh zu FRIME gestoßen. Spezialisiert auf starke Fades und Bartarbeit, aber im Unisex-Studio gibt es keine starren Schubladen, daher auch Frauenschnitte. Volles Bio folgt." },
+      "kara": { "name": "Kara", "role": "Stylistin", "bio": "Kara ist das neuere Gesicht im Team, hat aber schnell eine treue Klientel aufgebaut. Am wohlsten in kurzen Schnitten und starken Ponys. Der Rest des Bios kommt gemeinsam dazu." }
+    }
+  },
+  "vibe": {
+    "title": "VIBE",
+    "intro": "Einmal im Jahr, manchmal zweimal, machen wir etwas, das kein Haarschnitt ist. Ein Vinyl-Pop-up, ein DJ-Set zum Geburtstag, eine Kollaboration mit einer lokalen Marke. Hier das Archiv und ein Hinweis auf das, was kommt.",
+    "next_title": "Nächstes Event",
+    "next_placeholder": "Sobald das nächste Event steht, erscheint es hier. Komm in ein paar Wochen wieder oder folge uns auf Instagram, dort gibt's die News zuerst.",
+    "archive_title": "Archiv"
+  },
+  "akademia": {
+    "title": "AKADEMIE",
+    "kicker": "Bald",
+    "intro": "Wir arbeiten an einem Trainingsprogramm für Leute, die das FRIME-Schneiden lernen wollen. Kurze Wochenendkurse, Intensivkurse, private Einzelsessions. Email hier lassen und du bekommst Bescheid als Erste:r.",
+    "form_label": "Deine E-Mail",
+    "form_button": "Auf die Liste",
+    "form_success": "Danke, du stehst auf der Liste.",
+    "form_error": "Etwas ging schief, versuch es nochmal.",
+    "what_we_plan_title": "Was wir planen",
+    "what_we_plan_list": [
+      "Wochenend-Grundkurse für Einsteiger:innen",
+      "Intensivkurse für arbeitende Stylist:innen zur Technikerweiterung",
+      "Private Einzelsessions, auf dein Level zugeschnitten",
+      "Gelegentliche Gastvorträge aus der polnischen und internationalen Szene"
+    ]
+  },
+  "blog": {
+    "title": "Lesezimmer",
+    "intro": "Hier schreiben wir, was im Studio und drumherum passiert. Schnitt-Trends, hinter den Kulissen der Pop-ups, kurze Guides zur Heimpflege. Ein Text pro Woche, ohne Rauschen.",
+    "empty": "Der erste Text landet hier bald.",
+    "read_more": "Weiterlesen"
+  },
+  "kontakt": {
+    "title": "Kontakt",
+    "address_title": "Adresse",
+    "hours_title": "Öffnungszeiten",
+    "phone_title": "Telefon",
+    "social_title": "Social Media",
+    "how_to_get_title": "So kommst du hin",
+    "how_to_get": "Wir sind in der Wilcza 26, mitten in Warschaus Śródmieście. Die nächsten U-Bahn-Stationen sind Centrum (Linie M1) und Politechnika, beide zehn Minuten zu Fuß. Straßenbahnen 4, 18 und 35 halten an der Krucza, eine Abzweigung weiter. Parken ist gebührenpflichtig, die einfachsten Plätze gibt es meist auf der Mokotowska."
+  },
+  "about": {
+    "title": "Über uns",
+    "lede": "FRIME startete 2024 in der Wilcza 26, mitten in Warschaus Śródmieście. Stylisches, junges Unisex-Friseurstudio. Die Idee war einfach: ein Ort, an dem du nicht entscheiden musst, ob du zum Männerbarber oder Damensalon gehst. Wir schneiden jede:n, der gut rausgehen will, ohne so zu tun, als sei eine der Kategorien wichtiger als die andere. Das Team sind drei Menschen: Julia, Sasza, Kara. Wir arbeiten an drei Stationen und nehmen gleichzeitig nur eine begrenzte Anzahl von Gästen, damit niemand sich wie am Fließband fühlt. Farb- und Dauerwellenberatung immer gratis, hundefreundlich, Karte und BLIK akzeptiert. Ab und zu machen wir Pop-ups mit lokalen Marken und verwandeln das Studio in eine Mischung aus Bar und Shop.",
+    "values_title": "Wofür das alles",
+    "value_1_title": "Für alle",
+    "value_1_desc": "Wir teilen Schnitte nicht standardmäßig in Männer und Frauen. Wir machen, was du auf dem Kopf haben willst.",
+    "value_2_title": "Hunde willkommen",
+    "value_2_desc": "Dein Hund bekommt seine Ecke und einen Wassernapf. Sag uns bei der Buchung Bescheid.",
+    "value_3_title": "Studio, keine Fabrik",
+    "value_3_desc": "Ein Besuch dauert so lange wie nötig. Farb- und Dauerwellenberatungen immer gratis.",
+    "proof_title": "5,0 aus 305 Bewertungen",
+    "proof_desc": "Das ist die Bewertung unseres Booksy-Profils. Jede Person, die eine Bewertung hinterließ, war wirklich bei uns. Wir kaufen keine Bewertungen und bitten dich am Ausgang nicht um eine. Wenn du uns empfehlen willst, schick lieber eine:n Freund:in, der:die es braucht."
+  },
+  "legal": {
+    "privacy_title": "Datenschutzerklärung",
+    "privacy_intro": "Kurzversion, weil wir wenig über dich sammeln.",
+    "privacy_sections": [
+      { "title": "Wer verarbeitet deine Daten", "text": "Verantwortlicher: FRIME, Wilcza 26, 00-544 Warschau. Datenschutz-Kontakt: E-Mail im Footer." },
+      { "title": "Was wir sammeln und wofür", "text": "Wir nutzen Analytics ohne Cookies (Plausible oder Ähnliches). Es sammelt anonyme Traffic-Statistiken: welche Seite, welches Land, welche Bildschirmgröße. Wir verknüpfen das nicht mit deiner Person. Buchungen werden von Booksy abgewickelt, deren Richtlinie liegt auf deren Seite." },
+      { "title": "Wie lange wir aufbewahren", "text": "Traffic-Statistiken 12 Monate. Buchungsdaten speichert Booksy gemäß eigener Richtlinie." },
+      { "title": "Deine Rechte", "text": "Du hast Recht auf Auskunft, Berichtigung, Löschung und Übertragung deiner Daten. Du kannst der Verarbeitung jederzeit widersprechen. Schreib uns eine E-Mail, wir antworten innerhalb von 30 Tagen." },
+      { "title": "Beschwerde", "text": "Wenn du der Meinung bist, dass wir deine Daten rechtswidrig verarbeiten, kannst du eine Beschwerde beim Präsidenten des polnischen Datenschutzamtes UODO einreichen." }
+    ],
+    "privacy_note": "Das ist ein Arbeitsentwurf, abgestimmt auf unser aktuelles Setup. Vor der Veröffentlichung lassen wir einen befreundeten Anwalt drüberlesen.",
+    "terms_title": "Nutzungsbedingungen",
+    "terms_intro": "Kurz, wie diese Seite funktioniert.",
+    "terms_sections": [
+      { "title": "Wer diese Seite betreibt", "text": "Die Seite betreibt FRIME, Wilcza 26, 00-544 Warschau. Alle Inhalte, Fotos und Grafiken sind unsere oder werden mit Zustimmung der Urheber:innen genutzt." },
+      { "title": "Wofür sie ist", "text": "Die Seite präsentiert Studio, Team, Leistungen und Events. Buchungen laufen über Booksy. Preise können sich ändern, die aktuelle Version steht immer auf unserem Booksy-Profil." },
+      { "title": "Externe Links", "text": "Wir verlinken auf Booksy, Instagram, TikTok und Partnerseiten. Wir haften nicht für die Inhalte verlinkter Seiten." },
+      { "title": "Kontakt", "text": "Fragen, Hinweise, Korrekturwünsche: schreib uns auf Instagram oder an die E-Mail im Footer." }
+    ],
+    "cookies_title": "Cookies",
+    "cookies_intro": "Diese Seite nutzt keine Tracking-Cookies.",
+    "cookies_body": "Unser Analytics-Tool setzt keine Cookies in deinem Browser und identifiziert dich nicht als Nutzer:in. Deshalb siehst du hier kein Cookie-Banner. Wir sammeln nur anonyme Traffic-Statistiken: Land, Bildschirmgröße, welche Unterseiten am meisten besucht werden. Keine Werbe-Pixel, kein Google Analytics. Sollte sich das ändern, aktualisieren wir diesen Text und fügen ein klassisches Einwilligungs-Banner hinzu."
+  },
+  "cosmetics": {
+    "kicker": "Pflege · womit wir arbeiten",
+    "title": "Kosmetik",
+    "lede": "Im Studio arbeiten wir mit zwei Linien: dem italienischen OWAY für Wäsche, Färbung und Pflege und dem britischen London Grooming für Männerstyling und Bartpflege. Beide Marken nutzen wir täglich und empfehlen sie unseren Gästen für zuhause.",
+    "brand_country_label": "Herkunft",
+    "brand_category_label": "Kategorie",
+    "brand_link_label": "Hersteller-Seite",
+    "buy_title": "Wo bekommst du es",
+    "buy_body": "Einige Produkte gibt es im Studio nach dem Besuch. Frag die:den Stylist:in, die:der dir gerade die Haare gewaschen hat, oder bitte um eine Empfehlung passend zu deinem Haartyp. Einen vollständigen Shop haben wir noch nicht, aber wir bereiten eine eigene kurze FRIME-Linie für 2027 vor.",
+    "shop_soon_title": "FRIME shop · 2027",
+    "shop_soon_body": "Wir arbeiten an einer kurzen Kosmetiklinie unter der Marke FRIME. Polnische Produktion, Zutaten auf OWAY-Niveau, ein paar Positionen zum Waschen und Stylen. Trag dich per Instagram-DM ein oder lass beim Besuch eine E-Mail da, du bekommst Bescheid als Erste:r.",
+    "consult_cta": "Frag beim Besuch"
+  },
+  "services_content": {
+    "repigmentacja": {
+      "kicker": "Behandlung · ER",
+      "title": "Bart- und Kopfrepigmentierung",
+      "lede": "Wir füllen lückenhafte Bärte und zurückgehende Haaransätze mit einem speziellen Pigment. Hält einige Wochen, verblasst natürlich, hinterlässt keine harten Kanten. Die Behandlung dauert dreißig Minuten und kostet 80 zł.",
+      "intro_title": "Worum es wirklich geht",
+      "intro_body": "Repigmentierung ist kein Tattoo und kein Permanent-Make-up. Wir nutzen ein Pigment, das nur in der oberen Hautschicht sitzt, mit der normalen Hauterneuerung in einigen Wochen verschwindet und keine Spur in tieferen Schichten hinterlässt. Eine Lösung für alle, die Lichtungen oder Rückgänge ohne dauerhaften Eingriff kaschieren wollen. Nach einem Besuch gehst du mit sichtbarem Ergebnis raus, nach sechs bis acht Wochen verblasst das Pigment und du entscheidest, ob du wiederholst.",
+      "men_title": "Bart-Repigmentierung",
+      "men_body": "Unser häufigster Auftrag. Wir füllen Lücken nach Narben, Löchern nach alter Depilation oder schlicht Stellen, an denen der Bart dünner wächst. Pigment wird Tropfen für Tropfen an die Bartfarbe angepasst, das Ergebnis ist aus Gesprächsdistanz unsichtbar. Aus der Nähe wirkt es wie eine sanfte, natürliche Bartspur.",
+      "men_variants": [
+        { "name": "Punktuelles Auffüllen", "desc": "Ein oder zwei Stellen, meist nach einer Narbe oder entferntem Muttermal. 15-20 Minuten, ab 80 zł." },
+        { "name": "Volle Bartdichte", "desc": "Wir bearbeiten den gesamten Bart für gleichmäßige Dichte. Dreißig Minuten, 80 zł. Am meisten gewählt bei mittellangen Bärten." },
+        { "name": "Narben-Camouflage nach OP", "desc": "Pigment geht über die Narbe und drumherum, gleicht den Hautton optisch aus. Sanftere Technik nötig, wir blocken 45 Minuten." }
+      ],
+      "women_title": "Kopf-Repigmentierung (SMP)",
+      "women_body": "SMP, also Scalp Micropigmentation, machen wir sowohl für Männer mit zurückgehendem Haaransatz als auch für Menschen nach einer Transplantation, die OP-Spuren kaschieren wollen. Der Effekt ist optische Verdichtung bei kurzem Haar oder versteckter Kontrast zwischen Kopfhaut und Haar. Ersetzt keine Transplantation, lässt kurzes Haar nur dichter wirken.",
+      "women_variants": [
+        { "name": "Haaransatz-Korrektur", "desc": "Wir zeichnen einen Haaransatz, der natürlich fehlt. Passt bei Buzz Cuts und sehr kurzem Haar, wo die Kopfhaut durchscheint." },
+        { "name": "Dichte-Boost", "desc": "Wir decken Bereiche mit weniger Dichte ab, damit die Kopfhaut kein Licht reflektiert. Sofortiger Effekt, am besten auf dunklem Haar." },
+        { "name": "FUE / FUT Narben-Camouflage", "desc": "Lineare Narben nach Graft-Entnahme decken wir mit pigmentangepasstem Hautton ab. Erstberatung nötig, manchmal zwei Sitzungen." }
+      ],
+      "visit_title": "So läuft der Besuch",
+      "visit_body": "Erst ein Gespräch, wie viel du rekonstruieren willst und wie intensiv. Farbabgleich auf einem kleinen Hautfleck, damit du den Ton vor der Hauptbehandlung siehst. Arbeit dauert dreißig Minuten am Bart, bis zu einer Stunde an größerer Kopffläche. Die meisten beschreiben das Gefühl wie Zupfen. Beim Rausgehen bekommst du eine Karte mit Pflegeanweisungen für die ersten sieben Tage.",
+      "care_title": "Nachsorge",
+      "care_body": "Erste 48 Stunden keine Sauna, kein Pool, keine starke Sonne. Eine Woche nicht schrubben, mit mildem Gel waschen. In den nächsten Tagen wird das Pigment etwas dunkler, dann pendelt es sich auf den Zielton ein. Vollständiges Ergebnis nach fünf bis sieben Tagen. Um die Intensität zu halten, alle sechs bis acht Wochen wiederkommen.",
+      "price_label": "Preis",
+      "price_value": "ab 80 zł, größere Bereiche bis 200 zł",
+      "duration_label": "Dauer",
+      "duration_value": "30-60 Minuten",
+      "faq_title": "Häufige Fragen zur Repigmentierung",
+      "faq": [
+        { "q": "Tut es weh?", "a": "Die meisten sagen, weniger intensiv als Waxing und vergleichbar mit Zupfen. Empfindlichste Stellen sind Nase und Mundpartie. Auf Wunsch wenden wir vorher eine betäubende Creme an." },
+        { "q": "Wie lange hält es?", "a": "Vier bis acht Wochen am Bart, sechs bis zehn am Kopf. Verblass-Tempo hängt von Hauttyp, Sonnenexposition und Waschmethode ab." },
+        { "q": "Bleibt eine dauerhafte Spur?", "a": "Nein. Das Pigment sitzt nur in der Epidermis und verblasst mit der natürlichen Hauterneuerung. Nach einiger Zeit bist du wieder im Ausgangszustand." },
+        { "q": "Kann ich am selben Tag Sport machen?", "a": "Ruhiger Spaziergang ja, intensives Training nein. Schweiß öffnet die frische Haut und spült Pigment aus. Gib dir 24-48 Stunden Ruhe." },
+        { "q": "Kann ich mit langem Bart kommen und alles füllen?", "a": "Bei langem Bart hat Pigment wenig Sinn, du siehst es nicht. Repigmentierung wirkt am besten auf Bärten bis 5 mm, wo die Haut durchscheint." },
+        { "q": "Was kostet eine volle Sitzung?", "a": "Standardbesuch 80 zł. Größere Bereiche, Narbencamouflage oder zwei Sitzungen 150-200 zł. Genauen Preis nennen wir in der kostenlosen Beratung." }
+      ],
+      "cta_title": "Repigmentierung buchen",
+      "cta_text": "Erstberatung ist gratis. Du kannst sie mit Waschen und Schnitt kombinieren, wenn du sowieso einen Termin planst.",
+      "related_title": "Siehe auch",
+      "related": [
+        { "label": "Mullet und Wolf Cut", "href": "/on/mullet" },
+        { "label": "Komplette Männer-Preisliste", "href": "/on" },
+        { "label": "Unser Team", "href": "/team" }
+      ]
+    },
+    "krotkie-fryzury": {
+      "kicker": "Schnitt · SIE",
+      "title": "Kurze Damenhaarschnitte",
+      "lede": "Pixie, Bob, Buzz Cut, Asymmetrie, Bowl. Wir machen alle kurzen Schnitte, die 2026 zurückkommen, und die, die nie weg waren. Besuch 60 bis 75 Minuten, Preis von 150 bis 250 zł.",
+      "intro_title": "Kurze Schnitte, kurz erklärt",
+      "intro_body": "Ein kurzer Damenschnitt ist kein einzelner Stil, sondern eine ganze Kategorie mit deutlichen Unterschieden. Pixie und Bob sind die zwei Säulen, dazwischen Dutzende Unterarten: Bowl, Buzz, Pixie mit Undercut, Choppy Bob, Bob mit Pony. Bei FRIME starten wir jeden Besuch mit einem kurzen Gespräch darüber, wie ein gegebener Stil auf deiner Haartextur und -struktur sitzt, denn der Unterschied zwischen schön und Katastrophe liegt genau dort.",
+      "men_title": "Pixie und kürzer",
+      "men_body": "Pixie ist Klassiker, der nie weg war, nur die Proportionen verschieben sich alle paar Saisons. 2026 sehen wir mehr Textur, mehr Pony, weniger glatte Versionen. Damen-Buzz-Cut kommt zurück als starkes Statement, meist nach langem Haar.",
+      "men_variants": [
+        { "name": "Klassischer Pixie", "desc": "Kurzer Oberkopf, kürzere Seiten, längerer Pony. Erkennbarste Variante, sitzt gut auf feinerem Haar." },
+        { "name": "Pixie mit Undercut", "desc": "Seiten und Hinterkopf auf Haut, oben länger, meist mit Pony. Edgy Version, leicht in einen stärkeren Look zu schieben." },
+        { "name": "Damen-Buzz-Cut", "desc": "Alles auf eine Länge, kurz, gleichmäßig, meist 3-6 mm. Wenigster Aufwand, meiste Charakter. Trim alle drei Wochen nötig." },
+        { "name": "Moderner Bowl Cut", "desc": "Geometrischer Pony und runde Seiten in einer texturreicheren Version. Etwas Punk, etwas editorial." }
+      ],
+      "women_title": "Bob und seine Varianten",
+      "women_body": "Der Bob ist die zweite Säule und oft der erste Schritt nach langem Haar. 2026 führen der Bob mit Pony und der asymmetrische Bob. Die klassische Blunt-Version hält sich.",
+      "women_variants": [
+        { "name": "Klassischer Bob", "desc": "Länge auf Kieferhöhe, gerade, ohne Stufen. Starker minimalistischer Pick auf dickem geradem Haar." },
+        { "name": "Bob mit Pony", "desc": "Klassischer Bob plus voller oder leicht texturierter Pony. Top-Variante 2026, der Pony rahmt den Schnitt." },
+        { "name": "Asymmetrischer Bob", "desc": "Eine Seite ein paar Zentimeter länger. Passt, wenn du kurz willst, aber Symmetrie scheust." },
+        { "name": "Choppy Bob mit Stufen", "desc": "Gerissene Spitzen, leichte Stufen, mehr Bewegung. Top auf welligem Haar." }
+      ],
+      "visit_title": "So läuft der Besuch",
+      "visit_body": "Erste fünf Minuten: Referenzen und was realistisch geht. Wir zeigen Portfolio, nennen Kompromisse. Wenn du Pinterest-Bilder hast, bring sie, das spart Zeit. Waschen, Schneiden, optional Produkt-Finish. Farbberatung gratis, falls relevant.",
+      "care_title": "Nachsorge bei kurzem Haar",
+      "care_body": "Kurzes Haar braucht Regelmäßigkeit, keine Produktberge. Alle drei bis vier Wochen für einen Konturen-Trim wiederkommen. Täglich reicht eine leichte Creme oder Wachs. Buzz Cuts brauchen nur Shampoo. Pixies und Bobs mit Pony brauchen oft ein separates Pony-Waschen.",
+      "price_label": "Preis",
+      "price_value": "150-250 zł je nach Ausgangslänge",
+      "duration_label": "Dauer",
+      "duration_value": "60-75 Minuten",
+      "faq_title": "Häufige Fragen zu Kurzhaarschnitten",
+      "faq": [
+        { "q": "Macht ein kurzer Schnitt älter?", "a": "Nicht der Schnitt selbst, nur falsche Proportionen. Pixie mit weichem Pony kann Jahre nehmen, Pixie mit Seitenscheitel kann hinzufügen. Daher Beratung zuerst." },
+        { "q": "Von langem Haar runter, wie lange dauert das?", "a": "Sechzig bis fünfundsiebzig Minuten. Bei viel Länge gib dir Zeit zwischen Entscheidung und Termin. Manche teilen es in zwei Etappen." },
+        { "q": "Wie lange wachsen die Haare nach?", "a": "Buzz zu Pixie 3-4 Monate, Pixie zu Bob 6-8 Monate. Zwischendurch Trims, um awkward Stadien zu vermeiden." },
+        { "q": "Soll ich Referenzen mitbringen?", "a": "Ja, je mehr desto besser. Ideal 3-5 Bilder von dem, was du magst, plus 1-2 von dem, was du nicht willst." },
+        { "q": "Färbt ihr im selben Termin wie ein kurzer Schnitt?", "a": "Farbe planen wir meist getrennt, nach dem Schnitt. Länge und Proportionen beeinflussen, wie ein Ton wirkt. Farbberatung gratis." },
+        { "q": "Spart kurzes Haar wirklich Styling-Zeit?", "a": "Meist ja. Buzz Cut ist null Minuten, Pixie und die meisten Bobs 2-5 Minuten nach der Dusche. Ausnahme: texturreiche Versionen mit 5-10 Minuten Aufwand." }
+      ],
+      "cta_title": "Kurzhaarschnitt buchen",
+      "cta_text": "Am schnellsten über Booksy. Bei einem großen Wechsel von lang auf sehr kurz: blocke 75 Minuten und bring Referenzen mit.",
+      "related_title": "Siehe auch",
+      "related": [
+        { "label": "Mullet und Wolf Cut", "href": "/on/mullet" },
+        { "label": "Komplette Damen-Preisliste", "href": "/ona" },
+        { "label": "Unser Team", "href": "/team" }
+      ]
+    },
+    "mullet": {
+      "kicker": "Schnitt · ER / SIE",
+      "title": "Mullet bei FRIME",
+      "lede": "Der Mullet ist zurück, und im Studio gehört er zu den Top-3 der Wochenbuchungen. Wir machen sowohl Männer-Versionen, klassisch und mit hartem Fade, als auch Damen-Wolf-Cuts, die technisch auch Mullets sind, nur auf Englisch besser klingen.",
+      "intro_title": "Worum es beim Mullet 2026 wirklich geht",
+      "intro_body": "Mullet heißt kurz oben und an den Seiten, lang hinten. Die Regel gibt es seit den Siebzigern, aber die aktuelle Welle sieht nichts wie die Achtziger oder Fußballplakat-Versionen aus. Der zeitgenössische Mullet ist texturreicher, weniger geometrisch, oft lockig und einfacher in der Pflege als gedacht. In Warschau wird er von allen Schubladen getragen, deshalb halten wir ihn als eine Menü-Position ohne Geschlechtertrennung.",
+      "men_title": "Männer-Mullet",
+      "men_body": "Die meisten kommen für die klassische oder die Fade-Version. Der ganze Besuch dauert eine Stunde. Wir starten mit einem Chat über die Länge hinten und die Schärfe des Seitenübergangs. Auf glattem Haar funktioniert fast jede Variante, auf lockigem sitzen die weicheren ohne harten Fade besser.",
+      "men_variants": [
+        { "name": "Klassischer Mullet", "desc": "Sichtbare Linie zwischen kürzerem Oberkopf und längerem Hinterkopf, kein Fade. Die wiedererkennbarste Version, gut auf mitteldichtem geradem Haar." },
+        { "name": "Mullet mit Fade", "desc": "Seiten auf Haut oder sehr kurz, oben texturiert, hinten lang. Top-Variante 2026, hält gut unter der Mütze." },
+        { "name": "Modern Shag Mullet", "desc": "Lockerer, chopiger, Pony fällt auf die Stirn. Fast nicht zu unterscheiden vom Neunziger-Grunge-Musiker-Schnitt." },
+        { "name": "Lockiger Mullet", "desc": "Für natürlich gelocktes oder welliges Haar. Geschnitten für echte Locken, kein geglätteter Trick. Etwas Produkt zuhause reicht." }
+      ],
+      "women_title": "Damen-Mullet und Wolf Cut",
+      "women_body": "Auf der Damen-Seite heißt derselbe Schnitt meist Wolf Cut oder Shag. Die Regel bleibt, aber die Proportionen sind anders, Ponys schwerer, Stufen voller. Der Besuch dauert 60 bis 75 Minuten je nach Ausgangslänge.",
+      "women_variants": [
+        { "name": "Wolf Cut", "desc": "Top-gewählte Damen-Variante. Starke Stufen ums Gesicht, längere Spitzen hinten, Pony optional. Auf glattem und leicht welligem Haar." },
+        { "name": "Soft Mullet", "desc": "Weichere Version ohne scharfe Übergänge. Femininere Silhouette, guter Move beim ersten Schritt weg vom langen Haar." },
+        { "name": "Lockiger Mullet", "desc": "Geschnitten für echte Locken, Trockenmethode. Braucht jemanden mit Lockenerfahrung, also uns. Keine Glätteisen-Tricks." },
+        { "name": "Mullet mit starkem Pony", "desc": "Voller, breiter Pony plus Mullet hinten. Editorial, sticht stark heraus. Braucht Pony-Trim alle vier Wochen." }
+      ],
+      "visit_title": "So läuft der Besuch",
+      "visit_body": "Ruhig. Erste fünf Minuten: was du willst und was realistisch geht. Wir zeigen Referenzen, nennen Kompromisse. Dann Waschen, Schneiden, optional Produkt-Finish. Für Männer-Mullets blocken wir eine Stunde, für Damen-Wolf-Cuts 60 bis 75 Minuten. Farb- und Dauerwellenberatung gratis, falls relevant.",
+      "care_title": "Nachsorge",
+      "care_body": "Mullet braucht trotz allem kein tägliches Produkt. Ein stärkeres Textur-Shampoo und leichte Paste oder Styling-Creme reichen. Alle vier bis sechs Wochen Seiten-Trim, Länge hinten kann wachsen. Bei Locken Bürste weglassen, Finger plus Locken-Creme.",
+      "price_label": "Preis",
+      "price_value": "ab 150 zł, Männer 150-200 zł, Damen 150-250 zł je nach Länge",
+      "duration_label": "Dauer",
+      "duration_value": "60-75 Minuten",
+      "faq_title": "Häufige Mullet-Fragen",
+      "faq": [
+        { "q": "Passt ein Mullet zu meinem Gesicht?", "a": "Praktisch zu jedem, wenn man die richtige Seitenlänge und den Pony wählt. Ovales Gesicht nimmt alles. Rundes mag längeren Pony und kürzere Seiten. Längeres Gesicht mag kürzeren Oberkopf und weichen Fade. Daher die Beratung." },
+        { "q": "Wie lange bis ein Mullet rauswächst und nicht mehr sitzt?", "a": "Mindestens vier bis sechs Wochen, sechs bis acht bei langsamem Wachstum. Danach Seiten-Trim, hinten weiterwachsen lassen. Der Mullet geht fließend in Shag oder langes Haar über." },
+        { "q": "Macht ihr Wolf Cut auf sehr lockigem Haar?", "a": "Ja, eine unserer Lieblings-Varianten. Wir schneiden trocken, nach dem Waschen, ohne Glätten. So sehen wir das echte Lockenmuster." },
+        { "q": "Ist der Mullet wirklich unisex?", "a": "Die Schnittregel ja. Anders ist nur die Namenstradition. Was Männer Mullet nennen, heißt bei Frauen oft Wolf Cut, Shag oder Modern Mullet. In Booksy nach Startlänge, nicht nach Geschlecht." },
+        { "q": "Was kostet es?", "a": "Männer 150-200 zł, Damen 150-250 zł je nach Länge. Mullet mit Fade im selben Rahmen, kein Aufpreis für Fade. Farbberatung gratis." },
+        { "q": "Kann ich eine schnelle Korrektur bekommen, wenn jemand meinen Mullet schlecht gemacht hat?", "a": "Ja, wir retten regelmäßig anderswo Schiefgegangenes. Manchmal sofort, manchmal warten bis es wächst und neu aufbauen. Nach kurzer Beratung sagen wir ehrlich, was jetzt möglich ist." }
+      ],
+      "cta_title": "Mullet buchen",
+      "cta_text": "Am schnellsten über Booksy. Unter der Woche oft Tage im Voraus voll, am Wochenende eine Woche.",
+      "related_title": "Siehe auch",
+      "related": [
+        { "label": "Bart- und Kopfrepigmentierung", "href": "/on" },
+        { "label": "Kostenlose Farbberatung", "href": "/ona" },
+        { "label": "Unser Team", "href": "/team" }
+      ]
+    }
+  },
+  "vibe_content": {
+    "bvclub-kiosk-popup": {
+      "title": "FRIME × BVCLUB KIOSK",
+      "body": "Im Juni 2025 verwandelten wir das Studio für einen Tag in einen Pop-up-Store mit BVCLUB KIOSK. Reinkamen Vintage, Leder, Second-Hand-Kleinigkeiten, ein DJ am Pult, kostenlose Drinks im Kühlschrank. Das Poster zeigte eine Reihe von Mannequins und den Satz, der als Brand-Statement hängenblieb: it doesn't matter who you are, everyone needs clothes and a haircut. Der Pop-up lief von 13 Uhr bis spät. Leute kamen zwischen Schnitten rein, kauften etwas bei BVCLUB, zwei buchten spontan einen Schnitt mittendrin. Das war der Moment, in dem wir verstanden, dass ein Friseurstudio Teil einer kulturellen Szene sein kann, nicht nur ein Dienstleister."
+    },
+    "frime-1-urodziny": {
+      "title": "FRIME 1. GEBURTSTAG",
+      "body": "Im Frühling 2025, genau ein Jahr nach dem ersten Schnitt im neuen Studio, machten wir eine kleine Geburtstagsparty. Handgemaltes Poster, ein Barkeeper mit zwei Champagnergläsern als V, Drinks für alle, Musik bis zum Schluss. Wir feierten mit Gästen, Branchenfreunden und allen, die uns beim Start halfen. Der Tag zeigte, wie schnell aus drei Menschen und drei Stationen eine kleine lokale Community wurde."
+    },
+    "next-event": {
+      "title": "Nächstes Event",
+      "body": "Wir arbeiten am nächsten Pop-up. Details werden mit dem Partner final, Ankündigung auf Instagram Ende des Sommers."
+    }
+  },
+  "languages": {
+    "title": "Wir sprechen",
+    "list": "Polnisch · Englisch · Ukrainisch · Russisch",
+    "note": "Buche in einer dieser Sprachen, im Studio klären wir alles."
+  },
+  "common": {
+    "back_home": "Zur Startseite",
+    "not_found_title": "Diese Seite ist nicht hier",
+    "not_found_desc": "Vielleicht stimmt die Adresse nicht, vielleicht haben wir etwas verloren.",
+    "loading": "Einen Moment..."
+  },
+  "locations": {
+    "srodmiescie_poludniowe": {
+      "kicker": "Standort · Wilcza 26",
+      "title": "FRIME in Śródmieście Południowe",
+      "lede": "Wir sitzen im Herzen des belebtesten Teils von Warschau. Einen Block von der Marszałkowska, wenige Minuten zu Fuß vom Plac Konstytucji, der Hala Koszyki und dem Łazienki-Park. Wilcza 26 ist unsere Adresse seit Tag eins und wir planen keinen Umzug.",
+      "sections": [
+        { "title": "Wo du uns genau findest", "body": "Wilcza ist eine kurze, dichte Straße zwischen Marszałkowska und Mokotowska. Wir sind in Hausnummer 26, Erdgeschoss, in einem Vorkriegshaus, das den Krieg überlebt hat und den ganzen Block prägt. Schaufenster zur Straße, blaues Logo auf der Tür, drei Stationen drinnen. Wenn du unsicher bist, halte nach dem großen marineblauen FRIME-Schild Ausschau." },
+        { "title": "So kommst du hin", "body": "Mit der U-Bahn am schnellsten Linie M1 von Centrum, Ausgang Plac Defilad, dann Marszałkowska südlich. Fünfzehn Minuten zu Fuß. Politechnika (auch M1) ist noch näher, zwölf Minuten über den Plac Konstytucji. Straßenbahnen 4, 18 und 35 halten an der Krucza, eine Abzweigung in die Wilcza. Bus 107 fährt parallel über die Hoża, Ausstieg Krucza. Autofahrer:innen parken am besten auf der Mokotowska oder im bezahlten Parkhaus unter der Hala Koszyki. Die ganze Gegend ist Gebührenzone, plane fünfzehn Extraminuten fürs Suchen ein." },
+        { "title": "Was drumherum ist", "body": "Fünf Minuten zu Fuß: Plac Zbawiciela mit seinen Cafés und der Charlotte-Bäckerei, dann Mokotowska mit Concept-Stores und Third-Wave-Coffee. Plac Trzech Krzyży mit Boutiquen, Restaurants und dem Wedel-Flagship-Shop, sieben Minuten weg. Hala Koszyki, die restaurierte Markthalle von 1908 mit Food Court und der Pizzeria Mąka i Woda, zehn Minuten östlich. Plac Konstytucji mit dem sozrealistischen MDM ist unser nächstes großes Wahrzeichen. Der Łazienki-Park mit Teich, Pfauen und dem Palast auf dem Wasser ist zwanzig Minuten zu Fuß oder sieben mit dem Rad. Auf Wilcza und den Nachbarstraßen Hoża, Wspólna und Piękna findest du Pizzerien, kleine Bars, zwei Buchläden, einige Galerien und ruhige Cafés." },
+        { "title": "Wer unsere Nachbarn und Gäste sind", "body": "Śródmieście Południowe ist ein Mix, den man nicht auf einen Typ reduzieren kann. Studierende der Politechnika, Büromenschen vom Rondo Daszyńskiego und aus Mokotów, Künstler:innen, die nicht nach Praga gezogen sind, und Bewohner:innen der renovierten Altbauwohnungen. All das kommt zu uns. Jemand vor einem Meeting, jemand nach der Arbeit, jemand vor einem Abend auf der Mokotowska. Manchmal Tourist:innen aus nahen Hotels oder Konferenzgäste vom Kulturpalast." },
+        { "title": "Erstes Mal in der Gegend", "body": "Wenn du noch nie in Śródmieście Południowe warst, lässt sich der Besuch gut mit etwas verbinden. Frühstück auf der Mokotowska, wir schneiden dir die Haare, dann Spaziergang zu den Łazienki oder Schokolade bei Wedel am Plac Trzech Krzyży. Abends andersrum: Drink in der Hala Koszyki, Schnitt, Abendessen auf der Hoża." }
+      ],
+      "cta_title": "Booksy ist der schnellste Weg",
+      "cta_text": "Adresse: Wilcza 26, 00-544 Warschau, Śródmieście Południowe. In der Hochsaison sind wir Tage im Voraus voll, früh buchen spart Zeit."
+    }
+  }
+}
