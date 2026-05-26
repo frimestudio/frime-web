@@ -97,7 +97,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <NextIntlClientProvider>
           <Header />
           <main className="flex-1 pb-16 md:pb-0">{children}</main>
-          <Footer locale={locale as "pl" | "uk" | "en"} />
+          <Footer locale={locale as "pl" | "uk" | "en" | "ru" | "de" | "fr" | "es" | "it"} />
           <StickyMobileCTA />
           <JsonLd data={localBusinessSchema()} />
           <JsonLd data={organizationSchema()} />

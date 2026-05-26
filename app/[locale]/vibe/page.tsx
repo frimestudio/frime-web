@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { Placeholder } from "@/components/ui/Placeholder";
 import { Container } from "@/components/ui/Container";
 import { JsonLd } from "@/components/JsonLd";
@@ -105,11 +106,20 @@ export default async function VibePage({ params }: Props) {
               href={`/vibe/${e.slug}`}
               className="group block border border-[var(--color-line)]"
             >
-              <ImagePlaceholder
-                ratio="4/5"
-                label={`Poster · ${e.title}`}
-                note={`Афиша или фото с ${e.title}, ${e.date}`}
-              />
+              {e.slug === "frime-1-urodziny" ? (
+                <LocalPhoto
+                  src="/images/vibe/frime-1-urodziny/cake.jpg"
+                  alt="Niebieski tort FRIME na pierwszych urodzinach studia"
+                  ratio="4/5"
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                />
+              ) : (
+                <ImagePlaceholder
+                  ratio="4/5"
+                  label={`Poster · ${e.title}`}
+                  note={`Афиша или фото с ${e.title}, ${e.date}`}
+                />
+              )}
               <div className="border-t border-[var(--color-line)] p-6">
                 <div className="mono text-[10px] opacity-60">{e.date}</div>
                 <div className="display mt-2 text-3xl group-hover:text-[var(--color-frime)]">

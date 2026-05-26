@@ -266,6 +266,11 @@
     "not_found_desc": "Może wpisałeś zły adres, może coś u nas zniknęło.",
     "loading": "Chwila..."
   },
+  "languages": {
+    "title": "Mówimy",
+    "list": "Po polsku · po angielsku · po ukraińsku · po rosyjsku",
+    "note": "Zarezerwuj w jednym z tych języków, w studio się dogadamy."
+  },
   "cosmetics": {
     "kicker": "Pielęgnacja · czym pracujemy",
     "title": "Kosmetyki",

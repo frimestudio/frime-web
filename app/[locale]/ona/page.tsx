@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonLink } from "@/components/ui/Button";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { Container } from "@/components/ui/Container";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
 import { services } from "@/content/services";
@@ -105,11 +105,32 @@ export default async function OnaPage({ params }: Props) {
           </div>
 
           <div className="md:col-span-5">
-            <ImagePlaceholder
-              ratio="4/5"
-              label="ONA · работы / portret"
-              note="2-3 фото женских работ: bobs, fringe, short cuts. 4:5, минимум 1200×1500."
-            />
+            <div className="grid grid-cols-2 gap-2">
+              <LocalPhoto
+                src="/images/ona/portfolio/pixie-2.jpg"
+                alt="Krótka kobieca fryzura pixie — editorial FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+              <LocalPhoto
+                src="/images/ona/portfolio/mullet-2.jpg"
+                alt="Damski mullet z grzywką — sesja FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+              <LocalPhoto
+                src="/images/ona/portfolio/grzywka-1.jpg"
+                alt="Długie włosy z grzywką — fryzura damska FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+              <LocalPhoto
+                src="/images/ona/portfolio/pixie-3.jpg"
+                alt="Profil krótka stryżenie pixie — FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+            </div>
           </div>
         </div>
       </Section>

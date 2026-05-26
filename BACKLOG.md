@@ -42,11 +42,11 @@ Plan kontentu na rok jest w [`docs/CONTENT_PLAN_2026.md`](docs/CONTENT_PLAN_2026
 ### Pierwsze poprawki strony
 
 - [ ] Logo SVG zamiast tekstowego "FRIME" w headerze i footerze
-- [ ] Hero photo — prawdziwe zdjęcie zamiast placeholdera
-- [ ] Portrety 3 osób z zespołu — prawdziwe zdjęcia
-- [ ] Zdjęcia prac w sekcjach /on i /ona (min 4 per sekcja)
-- [ ] Plakaty wydarzeń w archiwum /vibe — prawdziwe pliki
-- [ ] Zdjęcie wnętrza / fasady w /kontakt
+- [x] Hero photo — prawdziwe zdjęcie zamiast placeholdera (DSCF2451, fotel + neon)
+- [ ] Portrety 3 osób z zespołu — prawdziwe zdjęcia (NIE wstawiałem zdjęć z DR1/sesji, bo nie wiadomo kto na nich = mistrz vs gość. Trzeba podpisanych portretów Julii / Saszy / Kary)
+- [x] Zdjęcia prac w sekcjach /on i /ona (4 per sekcja, mix Bausch + Michal)
+- [~] Plakaty wydarzeń w archiwum /vibe — `frime-1-urodziny` ma fotorelację (10 zdjęć z DR1). `bvclub-kiosk-popup` — nadal placeholder, trzeba oryginał plakatu z IG.
+- [ ] Zdjęcie wnętrza / fasady w /kontakt — brak. Aktualnie nawet dla /o-nas dałem kadr z baru (też z DR1), to przybliżenie. Potrzeba dziennego shotu wnętrza + fasady ul. Wilcza 26.
 - [ ] 3 prawdziwe cytaty klientów na głównej (z imionami i datami)
 - [ ] FAQ block w /on (4-6 pytań) + schema FAQPage
 - [ ] FAQ block w /ona (4-6 pytań) + schema FAQPage
@@ -165,6 +165,58 @@ Cel: 4-6 pozycji własnej linii (szampon, kondycjoner, pomada, olejek do brody, 
 - [?] **Druga lokalizacja:** plany na 2027? Wpływa na architekturę URL.
 - [?] **Newsletter:** czy ma sens przy 949 followersach IG? Może później, gdy będzie ich 5k+.
 - [?] **Język rosyjski:** dodajemy czy nie? Diaspora w Warszawie duża. Decyzja na bazie analizy ruchu po 3 miesiącach.
+
+---
+
+## ASSETY DO DOROBIENIA (lista konkretna od Claude'a, 2026-05-26)
+
+Po obrobieniu paczki `~/Downloads/FRIME` (3 foldery: DR1, Bausch x3+all, Michal x3+all) część slotów na stronie nadal jest pustych. To są **konkretne kadry do dosnięcia / wybrania z archiwum znajomego**, nie ogólnik.
+
+### Wysoki priorytet (bloki na żywych stronach z placeholderem)
+
+- [ ] **Portrety zespołu** — 3 sztuki, 3:4, jednolite tło. Konkretnie:
+  - Julia · 1200×1600, twarz + ramiona, miękkie światło dzienne
+  - Sasza · ten sam zestaw parametrów, ta sama lokalizacja
+  - Kara · jw.
+  - **Dlaczego nie wziąłem z DR1:** na DR1 są mistrzowie + goście razem, nie wiem kto jest kim. Lepiej zero niż błąd.
+- [ ] **Hero / cover dla `/team/[slug]`** — 4:5 portret każdego mistrza przy pracy (z klientem albo z narzędziami). 1200×1500.
+- [ ] **Fasada studia + wnętrze (dzienne światło)** — pod `/kontakt`, `/o-nas`, hero w `/lokalizacje`. Konkretne kadry:
+  - Wejście Wilcza 26 z fasadą i logo · 16:9, 2400×1350
+  - Wnętrze szerokie (z lustrami i fotelami) · 4:5, 1600×2000
+  - Detal narzędzi (nożyczki, maszynki, produkty na stanowisku) · 1:1, 1200×1200
+  - **Dlaczego nie wziąłem z DR1:** kadry z DR są wieczorne, niebieskie, atmosferyczne — fajne pod `/vibe`, nie pod „normalne studio".
+- [ ] **Plakat `BVCLUB KIOSK pop-up`** — oryginał z IG, jest gdzieś u znajomego. 4:5 (kolaż z manekinami, ten z ich relacji).
+- [ ] **Galeria pod `vibe/bvclub-kiosk-popup`** — 6 kadrów 1:1 z popupu (vintage, skóry, DJ, drinki, ludzie).
+
+### Średni priorytet (uzupełnienie portfolio)
+
+- [ ] **Konkretnie męski mullet** — Bausch model 2 ma jego damską wersję. Pod `/on/mullet` „męski mullet 4 warianty" nadal placeholder, bo z sesji nie mamy wyraźnego classic / fade / modern shag / kręconego mulleta na męskim modelu. Dosnąć z klienta studia (4 kadry, 3:4).
+- [ ] **`/on/repigmentacja`** — 3 placeholdery (hero, before/after, narzędzia/proces). Potrzebny zestaw before/after pigmentacji brody albo linii włosów. Trudny temat — modele muszą zgodzić.
+- [ ] **`/ona/krotkie-fryzury` „Bob 4 warianty"** — w archiwum mamy pixie + wolf cut + grzywkę, ale nie ma boba (classic / z grzywką / asymetryczny / choppy). Dosnąć osobną mini-sesję, najlepiej z klientką po cięciu.
+- [ ] **`/ona/grzywka`** (jeszcze nie ma routingu, ale w backlogu) — Michal model 2 idealnie podchodzi, kadry już są (`grzywka-1..4`). Plan: użyć gotowych, dorobić tylko stronę.
+
+### Niski priorytet (sezonowe / przyszłe)
+
+- [ ] **Hero blog post `Z psem do fryzjera`** — mamy `details/jack-russell.jpg` (Jack Russell z DR1, niebieski neon). Idealne jak będziemy pisać tekst o pets allowed.
+- [ ] **`/kosmetyki`** — fotki produktów OWAY / London Grooming na półce studia. 1:1, 1200×1200, naturalne światło.
+- [ ] **Headshoty 4×6 z lokalnych dzielnic** dla `/lokalizacje/[dzielnica]` (Powiśle, Mokotów itp.) — opcjonalnie, ładne tło ulicy + neon FRIME.
+
+### Co już jest zrobione (referencja na przyszłość)
+
+Mapa wgranych assetów leży w `public/images/`:
+- `hero/hero-chair.jpg` — DSCF2451, hero główny
+- `vibe/frime-1-urodziny/` — 10 kadrów z 1 urodzin
+- `on/portfolio/curly-tank-1..4`, `curls-mid-1..3` — męskie editorial
+- `ona/portfolio/pixie-1..5`, `mullet-1..4`, `grzywka-1..4` — damskie editorial
+- `details/jack-russell.jpg` — pets allowed
+
+Razem 36 plików, ~11 MB. Wszystko zresize'owane do ~1500-1800 px po dłuższym boku, JPEG quality 78. Next/Image dorobi WebP/AVIF runtime.
+
+### Kadry świadomie odrzucone (i dlaczego)
+
+- Wszystkie kadry „bubble wrap" z sesji Michal (model 1 i 3) — zbyt eksperymentalne, nie pasują pod sloty marketingowe/usługowe.
+- Sesja Michal model 1 (mężczyzna z buzz cutem i tatuażami na klatce) — bardzo specyficzny styl, nie reprezentatywny dla „średniego klienta", mógłby zawęzić target.
+- DSCF2455 (drugie ujęcie fotela z DR1) — duplikat hero, niepotrzebny.
 
 ---
 

@@ -3,18 +3,32 @@ import { getTranslations } from "next-intl/server";
 import { site } from "@/content/site";
 import { Container } from "@/components/ui/Container";
 
-const dayLabel: Record<string, { pl: string; uk: string; en: string }> = {
-  mon: { pl: "Pon", uk: "Пн", en: "Mon" },
-  tue: { pl: "Wt", uk: "Вт", en: "Tue" },
-  wed: { pl: "Śr", uk: "Ср", en: "Wed" },
-  thu: { pl: "Czw", uk: "Чт", en: "Thu" },
-  fri: { pl: "Pt", uk: "Пт", en: "Fri" },
-  sat: { pl: "Sob", uk: "Сб", en: "Sat" },
-  sun: { pl: "Nd", uk: "Нд", en: "Sun" },
+type LocaleKey = "pl" | "uk" | "en" | "ru" | "de" | "fr" | "es" | "it";
+
+const dayLabel: Record<string, Record<LocaleKey, string>> = {
+  mon: { pl: "Pon", uk: "Пн", en: "Mon", ru: "Пн", de: "Mo", fr: "Lun", es: "Lun", it: "Lun" },
+  tue: { pl: "Wt", uk: "Вт", en: "Tue", ru: "Вт", de: "Di", fr: "Mar", es: "Mar", it: "Mar" },
+  wed: { pl: "Śr", uk: "Ср", en: "Wed", ru: "Ср", de: "Mi", fr: "Mer", es: "Mié", it: "Mer" },
+  thu: { pl: "Czw", uk: "Чт", en: "Thu", ru: "Чт", de: "Do", fr: "Jeu", es: "Jue", it: "Gio" },
+  fri: { pl: "Pt", uk: "Пт", en: "Fri", ru: "Пт", de: "Fr", fr: "Ven", es: "Vie", it: "Ven" },
+  sat: { pl: "Sob", uk: "Сб", en: "Sat", ru: "Сб", de: "Sa", fr: "Sam", es: "Sáb", it: "Sab" },
+  sun: { pl: "Nd", uk: "Нд", en: "Sun", ru: "Вс", de: "So", fr: "Dim", es: "Dom", it: "Dom" },
 };
 
-export async function Footer({ locale }: { locale: "pl" | "uk" | "en" }) {
+const closedShort: Record<LocaleKey, string> = {
+  pl: "nieczynne",
+  uk: "вихідний",
+  en: "closed",
+  ru: "выходной",
+  de: "geschlossen",
+  fr: "fermé",
+  es: "cerrado",
+  it: "chiuso",
+};
+
+export async function Footer({ locale }: { locale: LocaleKey }) {
   const t = await getTranslations("footer");
+  const tLang = await getTranslations("languages");
 
   return (
     <footer className="mt-auto border-t border-[var(--color-line)] bg-[var(--color-fg)] text-[var(--color-bg)]">
@@ -37,13 +51,7 @@ export async function Footer({ locale }: { locale: "pl" | "uk" | "en" }) {
                     {dayLabel[d.day][locale]}
                   </span>
                   <span>
-                    {d.closed
-                      ? locale === "pl"
-                        ? "nieczynne"
-                        : locale === "uk"
-                        ? "вихідний"
-                        : "closed"
-                      : `${d.open}–${d.close}`}
+                    {d.closed ? closedShort[locale] : `${d.open}–${d.close}`}
                   </span>
                 </li>
               ))}
@@ -115,7 +123,11 @@ export async function Footer({ locale }: { locale: "pl" | "uk" | "en" }) {
           </div>
         </div>
 
-        <div className="mono mt-12 flex flex-col items-start justify-between gap-2 border-t border-white/10 pt-6 text-[10px] opacity-60 md:flex-row md:items-center">
+        <div className="mt-10 border-t border-white/10 pt-6">
+          <div className="mono text-[10px] opacity-60">{tLang("title")}</div>
+          <div className="mono mt-2 text-sm">{tLang("list")}</div>
+        </div>
+        <div className="mono mt-8 flex flex-col items-start justify-between gap-2 border-t border-white/10 pt-6 text-[10px] opacity-60 md:flex-row md:items-center">
           <span>
             © {new Date().getFullYear()} {site.legal.legalName} ·{" "}
             {site.address.street} · NIP {site.legal.nip} · {t("rights")}.

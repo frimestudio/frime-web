@@ -5,6 +5,7 @@ import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
 import { JsonLd } from "@/components/JsonLd";
 import { serviceSchema, breadcrumbSchema } from "@/lib/seo";
@@ -115,10 +116,12 @@ export default async function KrotkiePage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-5">
-            <ImagePlaceholder
+            <LocalPhoto
+              src="/images/ona/portfolio/pixie-1.jpg"
+              alt="Krótka damska fryzura pixie z biżuterią — editorial FRIME"
               ratio="4/5"
-              label="Hero · krótka damska fryzura"
-              note="Editorial женский портрет с pixie или bob, мягкий свет, фон нейтральный. 4:5."
+              priority
+              sizes="(min-width: 768px) 40vw, 100vw"
             />
           </div>
         </Container>
@@ -138,10 +141,11 @@ export default async function KrotkiePage({ params }: Props) {
       <Section tone="invert">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
-            <ImagePlaceholder
+            <LocalPhoto
+              src="/images/ona/portfolio/pixie-3.jpg"
+              alt="Pixie cut profil — krótka damska fryzura FRIME"
               ratio="3/4"
-              label="Pixie / buzz cut · подборка"
-              note="4 фото: pixie classic, pixie undercut, buzz cut, bowl. 3:4 коллаж."
+              sizes="(min-width: 768px) 40vw, 100vw"
             />
           </div>
           <div className="md:col-span-7">

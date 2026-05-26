@@ -10,6 +10,7 @@ import { team, teamSlugs } from "@/content/team";
 import { site } from "@/content/site";
 import { personSchema } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
+import { pick } from "@/lib/i18n-pick";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -81,11 +82,7 @@ export default async function TeamMemberPage({ params }: Props) {
 
       <Section>
         <Heading as="h2" size="md">
-          {locale === "pl"
-            ? "Wybrane prace"
-            : locale === "uk"
-            ? "Вибрані роботи"
-            : "Selected work"}
+          {pick(locale, { pl: "Wybrane prace", uk: "Вибрані роботи", en: "Selected work", ru: "Избранные работы", de: "Ausgewählte Arbeiten", fr: "Sélection de travaux", es: "Trabajos seleccionados", it: "Lavori selezionati" })}
         </Heading>
         <div className="mt-8 grid gap-4 md:grid-cols-3">
           {[1, 2, 3, 4, 5, 6].map((i) => (
@@ -102,11 +99,7 @@ export default async function TeamMemberPage({ params }: Props) {
       <Section tone="invert">
         <div className="flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
           <Heading as="h3" size="md">
-            {locale === "pl"
-              ? "Wracaj do reszty zespołu"
-              : locale === "uk"
-              ? "Поверніться до команди"
-              : "Back to the team"}
+            {pick(locale, { pl: "Wracaj do reszty zespołu", uk: "Поверніться до команди", en: "Back to the team", ru: "Назад к команде", de: "Zurück zum Team", fr: "Retour à l'équipe", es: "Volver al equipo", it: "Torna al team" })}
           </Heading>
           <ButtonInternalLink
             href="/team"

@@ -71,19 +71,11 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
   const loc = locale as "pl" | "uk" | "en";
 
   const navLabels = {
-    team: { pl: "Poznaj zespół", uk: "Команда", en: "Meet the team" },
-    services: {
-      pl: "Cennik usług",
-      uk: "Прайс послуг",
-      en: "Service prices",
-    },
-    events: { pl: "Wydarzenia", uk: "Події", en: "Events" },
-    contact: { pl: "Kontakt", uk: "Контакт", en: "Contact" },
-    relatedTitle: {
-      pl: "Co dalej",
-      uk: "Що далі",
-      en: "What's next",
-    },
+    team: { pl: "Poznaj zespół", uk: "Команда", en: "Meet the team", ru: "Знакомство с командой", de: "Team kennenlernen", fr: "Rencontrer l'équipe", es: "Conoce al equipo", it: "Conosci il team" },
+    services: { pl: "Cennik usług", uk: "Прайс послуг", en: "Service prices", ru: "Прайс услуг", de: "Preisliste", fr: "Tarifs", es: "Tarifas", it: "Listino" },
+    events: { pl: "Wydarzenia", uk: "Події", en: "Events", ru: "События", de: "Events", fr: "Événements", es: "Eventos", it: "Eventi" },
+    contact: { pl: "Kontakt", uk: "Контакт", en: "Contact", ru: "Контакт", de: "Kontakt", fr: "Contact", es: "Contacto", it: "Contatti" },
+    relatedTitle: { pl: "Co dalej", uk: "Що далі", en: "What's next", ru: "Что дальше", de: "Was kommt", fr: "Et après", es: "Qué sigue", it: "Cosa segue" },
   };
 
   return (

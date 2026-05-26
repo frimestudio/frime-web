@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonLink } from "@/components/ui/Button";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { Container } from "@/components/ui/Container";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
 import { services } from "@/content/services";
@@ -105,11 +105,32 @@ export default async function OnPage({ params }: Props) {
           </div>
 
           <div className="md:col-span-5">
-            <ImagePlaceholder
-              ratio="4/5"
-              label="ON · before/after или editorial"
-              note="2-3 фото мужских работ. Желательно текстуры волос разных типов. 4:5, минимум 1200×1500."
-            />
+            <div className="grid grid-cols-2 gap-2">
+              <LocalPhoto
+                src="/images/on/portfolio/curly-tank-1.jpg"
+                alt="Strzyżenie męskie z teksturą — sesja editorial FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+              <LocalPhoto
+                src="/images/on/portfolio/curls-mid-1.jpg"
+                alt="Średniej długości loki — męska fryzura FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+              <LocalPhoto
+                src="/images/on/portfolio/curls-mid-3.jpg"
+                alt="Tekstura włosów po cięciu w FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+              <LocalPhoto
+                src="/images/on/portfolio/curly-tank-3.jpg"
+                alt="Editorial portret mężczyzny — sesja FRIME"
+                ratio="4/5"
+                sizes="(min-width: 768px) 20vw, 50vw"
+              />
+            </div>
           </div>
         </div>
       </Section>

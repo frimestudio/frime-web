@@ -5,17 +5,28 @@ import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { site } from "@/content/site";
 
-const dayLabel: Record<string, { pl: string; uk: string; en: string }> = {
-  mon: { pl: "Poniedziałek", uk: "Понеділок", en: "Monday" },
-  tue: { pl: "Wtorek", uk: "Вівторок", en: "Tuesday" },
-  wed: { pl: "Środa", uk: "Середа", en: "Wednesday" },
-  thu: { pl: "Czwartek", uk: "Четвер", en: "Thursday" },
-  fri: { pl: "Piątek", uk: "П'ятниця", en: "Friday" },
-  sat: { pl: "Sobota", uk: "Субота", en: "Saturday" },
-  sun: { pl: "Niedziela", uk: "Неділя", en: "Sunday" },
+type LocaleKey = "pl" | "uk" | "en" | "ru" | "de" | "fr" | "es" | "it";
+
+const dayLabel: Record<string, Record<LocaleKey, string>> = {
+  mon: { pl: "Poniedziałek", uk: "Понеділок", en: "Monday", ru: "Понедельник", de: "Montag", fr: "Lundi", es: "Lunes", it: "Lunedì" },
+  tue: { pl: "Wtorek", uk: "Вівторок", en: "Tuesday", ru: "Вторник", de: "Dienstag", fr: "Mardi", es: "Martes", it: "Martedì" },
+  wed: { pl: "Środa", uk: "Середа", en: "Wednesday", ru: "Среда", de: "Mittwoch", fr: "Mercredi", es: "Miércoles", it: "Mercoledì" },
+  thu: { pl: "Czwartek", uk: "Четвер", en: "Thursday", ru: "Четверг", de: "Donnerstag", fr: "Jeudi", es: "Jueves", it: "Giovedì" },
+  fri: { pl: "Piątek", uk: "П'ятниця", en: "Friday", ru: "Пятница", de: "Freitag", fr: "Vendredi", es: "Viernes", it: "Venerdì" },
+  sat: { pl: "Sobota", uk: "Субота", en: "Saturday", ru: "Суббота", de: "Samstag", fr: "Samedi", es: "Sábado", it: "Sabato" },
+  sun: { pl: "Niedziela", uk: "Неділя", en: "Sunday", ru: "Воскресенье", de: "Sonntag", fr: "Dimanche", es: "Domingo", it: "Domenica" },
 };
 
-const closedWord = { pl: "nieczynne", uk: "вихідний", en: "closed" };
+const closedWord: Record<LocaleKey, string> = {
+  pl: "nieczynne",
+  uk: "вихідний",
+  en: "closed",
+  ru: "выходной",
+  de: "geschlossen",
+  fr: "fermé",
+  es: "cerrado",
+  it: "chiuso",
+};
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -38,7 +49,7 @@ export default async function KontaktPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("kontakt");
-  const loc = locale as "pl" | "uk" | "en";
+  const loc = locale as LocaleKey;
 
   return (
     <>

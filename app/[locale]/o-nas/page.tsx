@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { Container } from "@/components/ui/Container";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { JsonLd } from "@/components/JsonLd";
 import { aboutPageSchema } from "@/lib/seo";
 import { site } from "@/content/site";
@@ -70,10 +70,11 @@ export default async function AboutPage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-5">
-            <ImagePlaceholder
+            <LocalPhoto
+              src="/images/vibe/frime-1-urodziny/bar.jpg"
+              alt="Wnętrze studia FRIME — bar i neonowe światło"
               ratio="3/4"
-              label="Wnętrze studia"
-              note="Фото интерьера или зеркала с командой в отражении. 3:4."
+              sizes="(min-width: 768px) 40vw, 100vw"
             />
           </div>
         </div>

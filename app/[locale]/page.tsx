@@ -5,6 +5,7 @@ import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonInternalLink, ButtonLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { Placeholder } from "@/components/ui/Placeholder";
 import { Marquee } from "@/components/ui/Marquee";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
@@ -105,10 +106,12 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-5">
-            <ImagePlaceholder
+            <LocalPhoto
+              src="/images/hero/hero-chair.jpg"
+              alt="FRIME studio — fotel fryzjerski w niebieskim świetle neonów"
               ratio="4/5"
-              label="Hero photo"
-              note="Editorial portrait 4:5, минимум 1600×2000. Лицо клиента или мастера крупно, на нейтральном фоне (как в их IG). Желательно из последней съёмки."
+              priority
+              sizes="(min-width: 768px) 40vw, 100vw"
             />
           </div>
         </Container>
@@ -142,24 +145,24 @@ export default async function HomePage({ params }: Props) {
                 href: "/on" as const,
                 title: t("pillar_on_title"),
                 desc: t("pillar_on_desc"),
-                imgLabel: "Pillar ON",
-                imgNote: "Фото мужской стрижки крупно, 4:5",
+                img: "/images/on/portfolio/curly-tank-3.jpg",
+                alt: "Mężczyzna z teksturowanymi lokami w studio FRIME",
               },
               {
                 key: "ona",
                 href: "/ona" as const,
                 title: t("pillar_ona_title"),
                 desc: t("pillar_ona_desc"),
-                imgLabel: "Pillar ONA",
-                imgNote: "Фото женской стрижки крупно, 4:5",
+                img: "/images/ona/portfolio/pixie-2.jpg",
+                alt: "Krótka kobieca fryzura pixie w studio FRIME",
               },
               {
                 key: "vibe",
                 href: "/vibe" as const,
                 title: t("pillar_vibe_title"),
                 desc: t("pillar_vibe_desc"),
-                imgLabel: "Pillar VIBE",
-                imgNote: "Фото с попапа или вечеринки, 4:5",
+                img: "/images/vibe/frime-1-urodziny/cake.jpg",
+                alt: "Niebieski tort FRIME na pierwszych urodzinach studia",
               },
             ] as const
           ).map((p) => (
@@ -168,10 +171,11 @@ export default async function HomePage({ params }: Props) {
               href={p.href}
               className="group block border border-[var(--color-line)] bg-[var(--color-bg)]"
             >
-              <ImagePlaceholder
+              <LocalPhoto
+                src={p.img}
+                alt={p.alt}
                 ratio="4/5"
-                label={p.imgLabel}
-                note={p.imgNote}
+                sizes="(min-width: 768px) 33vw, 100vw"
               />
               <div className="border-t border-[var(--color-line)] p-6">
                 <div className="display text-5xl group-hover:text-[var(--color-frime)]">

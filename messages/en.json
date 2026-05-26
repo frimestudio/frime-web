@@ -266,6 +266,11 @@
     "not_found_desc": "Maybe the address is wrong, maybe we lost something.",
     "loading": "One moment..."
   },
+  "languages": {
+    "title": "We speak",
+    "list": "Polish · English · Ukrainian · Russian",
+    "note": "Book in any of these languages, we'll sort it out in the studio."
+  },
   "cosmetics": {
     "kicker": "Care · what we work with",
     "title": "Cosmetics",

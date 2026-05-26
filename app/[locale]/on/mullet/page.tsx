@@ -5,6 +5,7 @@ import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
 import { JsonLd } from "@/components/JsonLd";
 import { serviceSchema, breadcrumbSchema } from "@/lib/seo";
@@ -122,10 +123,12 @@ export default async function MulletPage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-5">
-            <ImagePlaceholder
+            <LocalPhoto
+              src="/images/ona/portfolio/mullet-2.jpg"
+              alt="Mullet blond z grzywką — editorial FRIME"
               ratio="4/5"
-              label="Mullet hero · referencyjne zdjęcie"
-              note="Editorial portret клиента с mullet'ом, желательно с фактурой волос, 4:5, минимум 1600×2000."
+              priority
+              sizes="(min-width: 768px) 40vw, 100vw"
             />
           </div>
         </Container>
@@ -177,10 +180,11 @@ export default async function MulletPage({ params }: Props) {
       <Section>
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7 md:order-2">
-            <ImagePlaceholder
+            <LocalPhoto
+              src="/images/ona/portfolio/mullet-1.jpg"
+              alt="Wolf cut blond — damski mullet w FRIME"
               ratio="3/4"
-              label="Wolf cut / mullet damski · 4 warianty"
-              note="Коллаж 4 жен mullet/wolf cut: wolf cut, soft, curly, з grzywką. 3:4."
+              sizes="(min-width: 768px) 55vw, 100vw"
             />
           </div>
           <div className="md:col-span-5 md:order-1">
