@@ -4,7 +4,7 @@ import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/cn";
-import { useTransition } from "react";
+import { useEffect, useRef, useState, useTransition } from "react";
 
 const labels: Record<string, string> = {
   pl: "PL",
@@ -17,26 +17,55 @@ const labels: Record<string, string> = {
   it: "IT",
 };
 
+const PRIMARY: readonly string[] = ["pl", "en", "ru"];
+
 export function LocaleSwitcher({ className }: { className?: string }) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef<HTMLDivElement>(null);
+
+  const secondary = routing.locales.filter((l) => !PRIMARY.includes(l));
+  const visiblePrimary = PRIMARY.includes(locale)
+    ? PRIMARY
+    : [...PRIMARY, locale];
+
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e: MouseEvent) => {
+      if (
+        wrapRef.current &&
+        !wrapRef.current.contains(e.target as Node)
+      ) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [open]);
+
+  const switchTo = (l: string) => {
+    setOpen(false);
+    startTransition(() => {
+      router.replace(pathname, { locale: l as (typeof routing.locales)[number] });
+    });
+  };
 
   return (
-    <div className={cn("mono flex items-center gap-1 text-xs", className)}>
-      {routing.locales.map((l) => {
+    <div
+      ref={wrapRef}
+      className={cn("mono relative flex items-center gap-1 text-xs", className)}
+    >
+      {visiblePrimary.map((l) => {
         const active = l === locale;
         return (
           <button
             key={l}
             type="button"
             disabled={isPending || active}
-            onClick={() => {
-              startTransition(() => {
-                router.replace(pathname, { locale: l });
-              });
-            }}
+            onClick={() => switchTo(l)}
             className={cn(
               "px-1.5 py-1 transition-colors",
               active
@@ -49,6 +78,41 @@ export function LocaleSwitcher({ className }: { className?: string }) {
           </button>
         );
       })}
+
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-haspopup="true"
+        aria-label="More languages"
+        className="px-1.5 py-1 text-[var(--color-muted)] transition-colors hover:text-[var(--color-fg)]"
+      >
+        +
+      </button>
+
+      {open && (
+        <div className="absolute right-0 top-full z-50 mt-1 min-w-[100px] border border-[var(--color-line)] bg-[var(--color-bg)] py-1 shadow-lg">
+          {secondary.map((l) => {
+            const active = l === locale;
+            return (
+              <button
+                key={l}
+                type="button"
+                disabled={isPending || active}
+                onClick={() => switchTo(l)}
+                className={cn(
+                  "block w-full px-3 py-1.5 text-left transition-colors",
+                  active
+                    ? "bg-[var(--color-frime)] text-white"
+                    : "hover:bg-[var(--color-fg)] hover:text-white",
+                )}
+              >
+                {labels[l]}
+              </button>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

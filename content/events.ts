@@ -11,15 +11,15 @@ export type FrimeEvent = {
 export const events: FrimeEvent[] = [
   {
     slug: "bvclub-kiosk-popup",
-    title: "FRIME × BVCLUB KIOSK",
-    partner: "BVCLUB KIOSK",
-    date: "2025-06-06",
-    year: 2025,
-    status: "past",
+    title: "FRIME × BVCLUB × KIOSK",
+    partner: "BVCLUB × KIOSK",
+    date: "2026-06-06",
+    year: 2026,
+    status: "upcoming",
     summary: {
-      pl: "Pop-up store w studio. Vintage, skóry, DJ-set, drinki. Plakat z manekinami zrobiony specjalnie pod imprezę.",
-      uk: "Поп-ап стор в студії. Вінтаж, шкіра, DJ-сет, дрінки. Афіша з манекенами зроблена спеціально під подію.",
-      en: "Pop-up store inside the studio. Vintage stuff, leather goods, DJ set, drinks. Poster with mannequins made for the event.",
+      pl: "Pop-Up store w studio. Vintage, skóry, DJ-set, FREE DRINKS (0% ALCO). 13:00–20:00, Warszawa, Wilcza 26.",
+      uk: "Поп-ап стор в студії. Вінтаж, шкіра, DJ-сет, FREE DRINKS (0% ALCO). 13:00–20:00, Варшава, Wilcza 26.",
+      en: "Pop-up store inside the studio. Vintage, leather, DJ set, FREE DRINKS (0% ALCO). 13:00–20:00, Warsaw, Wilcza 26.",
     },
   },
   {
@@ -32,18 +32,6 @@ export const events: FrimeEvent[] = [
       pl: "Pierwsza rocznica studia. Plakat ilustrowany, drinki, znajomi, muzyka. Tak świętowaliśmy.",
       uk: "Перша річниця студії. Ілюстрована афіша, дрінки, друзі, музика. Так святкували.",
       en: "Studio's first birthday. Illustrated poster, drinks, friends, music. That's how we celebrated.",
-    },
-  },
-  {
-    slug: "next-event",
-    title: "Następne wydarzenie wkrótce",
-    date: "2026-09-01",
-    year: 2026,
-    status: "upcoming",
-    summary: {
-      pl: "Pracujemy nad kolejnym pop-upem. Szczegóły dopinamy z partnerem, ogłoszenie na Instagramie pod koniec lata.",
-      uk: "Працюємо над наступним поп-апом. Деталі узгоджуємо з партнером, оголошення в Instagram наприкінці літа.",
-      en: "We're working on the next pop-up. Details being locked with the partner, announcement on Instagram by end of summer.",
     },
   },
 ];

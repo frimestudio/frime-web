@@ -3,6 +3,7 @@
     "on": "ON",
     "ona": "ONA",
     "vibe": "VIBE",
+    "kosmetyki": "KOSMETYKI",
     "akademia": "AKADEMIA",
     "team": "TEAM",
     "kontakt": "KONTAKT",
@@ -18,7 +19,8 @@
     "terms": "Regulamin",
     "cookies": "Cookies",
     "rights": "Wszystkie prawa zastrzeżone",
-    "made_in": "Zrobione na Wilczej"
+    "made_in": "Zrobione na Wilczej",
+    "made_by": "Zrobione przez"
   },
   "home": {
     "hero_kicker": "Stylowe studio fryzjerskie unisex · Warszawa Wilcza 26 · dog-friendly",
@@ -28,14 +30,14 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5,0 z 305 opinii na Booksy",
     "hero_cta": "Umów wizytę",
-    "pillars_title": "Trzy powody, żeby do nas wpaść",
+    "pillars_title": "Każda wizyta zaczyna się od rozmowy o tym, czego naprawdę potrzebujesz",
     "pillar_on_title": "ON",
-    "pillar_on_desc": "Klasyczne strzyżenia męskie, mullety, brody, repigmentacja. Bez konkursu na największą gładkość, bez stadionowej muzyki w tle.",
+    "pillar_on_desc": "Klasyczne strzyżenia męskie. Nowoczesne i odważne formy: mullet, wolf cut, chelsea. Fade, taper fade, brody oraz repigmentacja.",
     "pillar_ona_title": "ONA",
-    "pillar_ona_desc": "Krótkie cięcia, grzywki, konsultacje koloru i trwałej. Każda wizyta zaczyna się od rozmowy o tym, co naprawdę chcesz na głowie.",
+    "pillar_ona_desc": "Klasyczne strzyżenia damskie oraz nowoczesne formy. Krótkie cięcia, grzywki i indywidualne podejście do stylu. Konsultacje koloru oraz trwałej.",
     "pillar_vibe_title": "VIBE",
-    "pillar_vibe_desc": "Pop-upy, kolaboracje, urodziny salonu. Raz na jakiś czas zamieniamy studio w mieszankę baru, sklepu i sceny.",
-    "team_title": "Stoją za nożyczkami",
+    "pillar_vibe_desc": "Pop-upy, kolaboracje i wydarzenia. Muzyka, moda, ludzie i dobra atmosfera. Od czasu do czasu studio zmienia się w przestrzeń spotkań, zakupów i wspólnego vibe'u.",
+    "team_title": "TEAM",
     "team_cta": "Poznaj zespół",
     "events_title": "Następna impreza",
     "events_cta": "Zobacz archiwum",
@@ -67,13 +69,13 @@
   },
   "services": {
     "on_title": "Strzyżenia męskie",
-    "on_intro": "Cztery podstawowe pozycje plus konsultacja. Wizyta trwa od pół godziny do półtorej, zależnie od tego, co robimy.",
+    "on_intro": "Strzyżenie dopasowane do Ciebie. Klasyka albo coś odważniejszego - wszystko zaczyna się od konsultacji.",
     "ona_title": "Strzyżenia damskie",
-    "ona_intro": "Krótkie i półdługie cięcia, grzywki, konsultacje koloru i trwałej.",
+    "ona_intro": "Klasyczne i nowoczesne formy. Krótkie cięcia, grzywki i indywidualne podejście - każda wizyta zaczyna się od konsultacji.",
     "price_from": "od",
     "duration": "czas trwania",
     "book": "Umów się",
-    "consultation_free": "Konsultacja gratis",
+    "consultation_free": "Konsultacja FREE",
     "deep_links_title_on": "Sprawdź konkretne usługi",
     "deep_links_title_ona": "Sprawdź konkretne usługi",
     "faq_title_on": "Często pytacie",
@@ -125,13 +127,13 @@
   },
   "team": {
     "title": "Zespół",
-    "intro": "Trzy osoby, trzy podejścia do nożyczek. Każdy z nas robi i męskie, i damskie.",
+    "intro": "Tworzymy miejsce z indywidualnym spojrzeniem na styl. Każdy z nas pracuje inaczej, ale łączy nas wspólne podejście do formy i estetyki.",
     "book_with": "Umów się do",
     "members": {
       "julia": {
         "name": "Julia",
-        "role": "Fryzjerka, współzałożycielka",
-        "bio": "Julia stoi za pomysłem FRIME. Współzałożycielka studia, robi zarówno męskie, jak i damskie cięcia. Lubi pracować z teksturą, mulletami i mocnymi grzywkami. Konkretne bio i historię uzupełnimy po krótkiej rozmowie ze znajomym."
+        "role": "Fryzjerka",
+        "bio": "Julia stoi za pomysłem FRIME. Robi zarówno męskie, jak i damskie cięcia. Lubi pracować z teksturą, mulletami i mocnymi grzywkami. Konkretne bio i historię uzupełnimy po krótkiej rozmowie ze znajomym."
       },
       "sasza": {
         "name": "Sasza",
@@ -142,6 +144,16 @@
         "name": "Kara",
         "role": "Fryzjerka",
         "bio": "Kara to nowsza twarz w zespole, ale szybko zbudowała grupę stałych klientek. Czuje się najlepiej w krótkich cięciach i mocnych grzywkach. Resztę bio dopiszemy razem."
+      },
+      "alex": {
+        "name": "ALEX",
+        "role": "Fryzjer",
+        "bio": "ALEX dołączył do FRIME w 2025. Pracuje zarówno męskie, jak i damskie cięcia. Pełne bio uzupełnimy wkrótce."
+      },
+      "inga": {
+        "name": "INGA",
+        "role": "Fryzjerka",
+        "bio": "INGA dołączyła do FRIME w 2025. Robi cięcia damskie i męskie, lubi mocne formy i pracę z kolorem. Pełne bio uzupełnimy wkrótce."
       }
     }
   },
@@ -248,8 +260,8 @@
   },
   "vibe_content": {
     "bvclub-kiosk-popup": {
-      "title": "FRIME × BVCLUB KIOSK",
-      "body": "W czerwcu 2025 zamieniliśmy studio na jeden dzień w pop-up store razem z BVCLUB KIOSK. Wjechało vintage, skóry, drobiazgi z drugiego obiegu, na konsoli kręcił DJ, w lodówce były darmowe drinki. Plakat zaprojektowaliśmy specjalnie pod tę imprezę, z rzędem manekinów i hasłem, które potem zostało nam jako brand: it doesn't matter who you are, everyone needs clothes and a haircut. Pop-up trwał od 13:00 do późnego wieczora. Ludzie wpadali w przerwie między cięciami, przy okazji upolowali coś z BVCLUB, dwie osoby zafundowały sobie spontaniczne cięcie w trakcie zakupów. To był pierwszy raz, kiedy zrozumieliśmy, że studio fryzjerskie może być kawałkiem sceny kulturalnej, a nie tylko miejscem usługi. Od tamtej pory traktujemy pop-upy jako serię, nie jednorazowy eksperyment."
+      "title": "FRIME × BVCLUB × KIOSK",
+      "body": "06/06. Pop-Up store w studio. Vintage, skóry, DJ-set, FREE DRINKS (0% ALCO). 13:00–20:00, Warszawa, Wilcza 26. BVCLUB i KIOSK to dwa niezależne brandy, z którymi zamieniamy studio na jeden dzień w przestrzeń vintage, mody i muzyki. Plakat z rzędem manekinów i hasło, które zostało z nami: it doesn't matter who you are, everyone needs clothes and a haircut."
     },
     "frime-1-urodziny": {
       "title": "FRIME 1 URODZINY",
@@ -578,5 +590,11 @@
       "cta_title": "Najprościej trafić przez Booksy",
       "cta_text": "Adres: Wilcza 26, 00-544 Warszawa, Śródmieście Południowe. W sezonie mamy pełno na kilka dni do przodu, więc warto zarezerwować z wyprzedzeniem."
     }
+  },
+  "cookies_banner": {
+    "title": "Cookies",
+    "body": "Strona używa wyłącznie niezbędnych plików cookies do podstawowego działania (np. zapamiętanie wybranego języka). Nie używamy analityki śledzącej ani plików reklamowych.",
+    "accept": "OK, rozumiem",
+    "more": "Więcej w polityce"
   }
 }

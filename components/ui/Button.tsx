@@ -15,10 +15,10 @@ const sizes: Record<Size, string> = {
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-[var(--color-frime)] text-[var(--color-frime-ink)] hover:bg-[var(--color-fg)]",
-  ink: "bg-[var(--color-fg)] text-[var(--color-bg)] hover:bg-[var(--color-frime)]",
+    "bg-[var(--color-frime)] text-white hover:bg-[var(--color-fg)] hover:text-white",
+  ink: "bg-[var(--color-fg)] text-white hover:bg-[var(--color-frime)] hover:text-white",
   ghost:
-    "border border-[var(--color-line)] bg-transparent hover:bg-[var(--color-fg)] hover:text-[var(--color-bg)]",
+    "border border-[var(--color-line)] bg-transparent hover:bg-[var(--color-fg)] hover:text-white",
 };
 
 type CommonProps = {

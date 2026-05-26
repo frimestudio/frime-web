@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { site } from "@/content/site";
@@ -11,7 +12,7 @@ export async function Header() {
     { href: "/on" as const, label: t("on") },
     { href: "/ona" as const, label: t("ona") },
     { href: "/vibe" as const, label: t("vibe") },
-    { href: "/akademia" as const, label: t("akademia") },
+    { href: "/kosmetyki" as const, label: t("kosmetyki") },
     { href: "/team" as const, label: t("team") },
     { href: "/kontakt" as const, label: t("kontakt") },
   ];
@@ -24,9 +25,14 @@ export async function Header() {
           className="flex items-center"
           aria-label={`${site.name} home`}
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-frime)] text-[10px] font-bold tracking-wider text-[var(--color-frime-ink)]">
-            FRIME
-          </span>
+          <Image
+            src="/images/brand/frime-wordmark-black.png"
+            alt="FRIME"
+            width={120}
+            height={32}
+            priority
+            className="h-7 w-auto md:h-8"
+          />
         </Link>
 
         <nav className="mono hidden items-center gap-6 text-xs md:flex">
@@ -41,8 +47,31 @@ export async function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <LocaleSwitcher className="hidden md:flex" />
+          <a
+            href={site.booking.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram @frime.studio"
+            className="hidden h-10 w-10 items-center justify-center border border-[var(--color-line)] transition-colors hover:bg-[var(--color-fg)] hover:text-[var(--color-bg)] md:inline-flex"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden
+            >
+              <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
           <span className="hidden md:inline-block">
             <ButtonLink
               href={site.booking.booksy}

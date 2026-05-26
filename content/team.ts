@@ -24,6 +24,18 @@ export const team: TeamMember[] = [
     joined: 2025,
     specialtyKeys: ["short cuts", "fringes", "color"],
   },
+  {
+    slug: "alex",
+    instagramHandle: "PLACEHOLDER · @alex.handle z IG",
+    joined: 2025,
+    specialtyKeys: ["cuts", "color", "styling"],
+  },
+  {
+    slug: "inga",
+    instagramHandle: "PLACEHOLDER · @inga.handle z IG",
+    joined: 2025,
+    specialtyKeys: ["cuts", "color", "styling"],
+  },
 ];
 
 export const teamSlugs = team.map((m) => m.slug);

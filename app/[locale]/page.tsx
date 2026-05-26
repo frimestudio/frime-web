@@ -123,10 +123,6 @@ export default async function HomePage({ params }: Props) {
           "STUDIO FRYZJERSKIE",
           "WARSZAWA",
           "WILCZA 26",
-          "ON",
-          "ONA",
-          "VIBE",
-          "TEAM",
           "★ 5,0",
         ]}
       />
@@ -245,11 +241,20 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-7">
-            <ImagePlaceholder
-              ratio="4/5"
-              label="Poster / event photo"
-              note="Афиша в стиле FRIME (collage, brutal type) или фото с прошлого попапа"
-            />
+            {upcoming?.slug === "bvclub-kiosk-popup" ? (
+              <LocalPhoto
+                src="/images/vibe/bvclub-kiosk-popup/poster.png"
+                alt="FRIME × BVCLUB × KIOSK Pop-up 06/06 — plakat"
+                ratio="2/3"
+                sizes="(min-width: 768px) 50vw, 100vw"
+              />
+            ) : (
+              <ImagePlaceholder
+                ratio="4/5"
+                label="Poster / event photo"
+                note="Афиша в стиле FRIME или фото с прошлого попапа"
+              />
+            )}
           </div>
         </div>
       </Section>

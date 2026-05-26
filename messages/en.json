@@ -3,6 +3,7 @@
     "on": "HIM",
     "ona": "HER",
     "vibe": "VIBE",
+    "kosmetyki": "COSMETICS",
     "akademia": "ACADEMY",
     "team": "TEAM",
     "kontakt": "CONTACT",
@@ -18,7 +19,8 @@
     "terms": "Terms",
     "cookies": "Cookies",
     "rights": "All rights reserved",
-    "made_in": "Made on Wilcza"
+    "made_in": "Made on Wilcza",
+    "made_by": "Made by"
   },
   "home": {
     "hero_kicker": "Stylish unisex hair studio · Warsaw Wilcza 26 · dog-friendly",
@@ -28,14 +30,14 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5.0 from 305 reviews on Booksy",
     "hero_cta": "Book a visit",
-    "pillars_title": "Three reasons to drop by",
+    "pillars_title": "Every visit starts with a conversation about what you really need",
     "pillar_on_title": "HIM",
-    "pillar_on_desc": "Classic men's cuts, mullets, beards, repigmentation. No competition for the smoothest fade, no stadium music in the background.",
+    "pillar_on_desc": "Classic men's cuts. Modern and bold forms: mullet, wolf cut, chelsea. Fade, taper fade, beards and repigmentation.",
     "pillar_ona_title": "HER",
-    "pillar_ona_desc": "Short cuts, fringes, color and perm consultations. Every visit starts with a real talk about what you actually want.",
+    "pillar_ona_desc": "Classic women's cuts and modern forms. Short cuts, fringes and an individual take on style. Color and perm consultations.",
     "pillar_vibe_title": "VIBE",
-    "pillar_vibe_desc": "Pop-ups, collaborations, studio birthdays. Every now and then we turn the studio into a mix of a bar, a shop and a stage.",
-    "team_title": "Behind the scissors",
+    "pillar_vibe_desc": "Pop-ups, collabs and events. Music, fashion, people and good energy. Once in a while the studio turns into a space for meetings, shopping and shared vibe.",
+    "team_title": "TEAM",
     "team_cta": "Meet the team",
     "events_title": "Next event",
     "events_cta": "See the archive",
@@ -67,13 +69,13 @@
   },
   "services": {
     "on_title": "Men's cuts",
-    "on_intro": "Four core services plus a consultation. A visit takes from thirty minutes to an hour and a half, depending on what we do.",
+    "on_intro": "Cut tailored to you. Classic or something bolder - it all starts with a consultation.",
     "ona_title": "Women's cuts",
-    "ona_intro": "Short and mid-length cuts, fringes, color and perm consultations.",
+    "ona_intro": "Classic and modern forms. Short cuts, fringes and an individual approach - every visit starts with a consultation.",
     "price_from": "from",
     "duration": "duration",
     "book": "Book",
-    "consultation_free": "Free consultation",
+    "consultation_free": "FREE consultation",
     "deep_links_title_on": "Specific services in detail",
     "deep_links_title_ona": "Specific services in detail",
     "faq_title_on": "Frequent questions",
@@ -125,13 +127,13 @@
   },
   "team": {
     "title": "Team",
-    "intro": "Three people, three takes on scissors. Each of us does both men's and women's cuts.",
+    "intro": "We build a place with an individual take on style. Each of us works differently, but we share an approach to form and aesthetics.",
     "book_with": "Book with",
     "members": {
       "julia": {
         "name": "Julia",
-        "role": "Stylist, co-founder",
-        "bio": "Julia is the person behind the FRIME idea. Co-founder of the studio, she cuts both men's and women's hair. She loves working with texture, mullets and strong fringes. A full bio with backstory will land here once we've sat down with the friend."
+        "role": "Hairdresser",
+        "bio": "Julia is the person behind the FRIME idea. She cuts both men's and women's hair. She loves working with texture, mullets and strong fringes. A full bio with backstory will land here once we've sat down with the friend."
       },
       "sasza": {
         "name": "Sasza",
@@ -142,6 +144,16 @@
         "name": "Kara",
         "role": "Stylist",
         "bio": "Kara is the newer face on the team, but quickly built up a steady group of regulars. Most comfortable in short cuts and strong fringes. The rest of the bio we'll add together."
+      },
+      "alex": {
+        "name": "ALEX",
+        "role": "Hairdresser",
+        "bio": "ALEX joined FRIME in 2025. Works both men's and women's cuts. Full bio coming soon."
+      },
+      "inga": {
+        "name": "INGA",
+        "role": "Hairdresser",
+        "bio": "INGA joined FRIME in 2025. Does women's and men's cuts, loves strong forms and color work. Full bio coming soon."
       }
     }
   },
@@ -248,8 +260,8 @@
   },
   "vibe_content": {
     "bvclub-kiosk-popup": {
-      "title": "FRIME × BVCLUB KIOSK",
-      "body": "In June 2025 we turned the studio into a one-day pop-up store with BVCLUB KIOSK. In came vintage, leather, second-hand small goods, a DJ behind the decks, free drinks in the fridge. We designed a poster for the event with a row of mannequins and the line that ended up sticking as a brand statement: it doesn't matter who you are, everyone needs clothes and a haircut. The pop-up ran from 1pm into the night. People came in between cuts, picked up something from BVCLUB on the way, and two people booked a spontaneous cut mid-shopping. That was the first time we understood that a hair studio can be a piece of cultural scene, not only a service. From that point we treat pop-ups as a series, not a one-off."
+      "title": "FRIME × BVCLUB × KIOSK",
+      "body": "06/06. Pop-Up store at the studio. Vintage, leather, DJ-set, FREE DRINKS (0% ALCO). 13:00-20:00, Warsaw, Wilcza 26. BVCLUB and KIOSK are two independent brands we team up with to turn the studio into a one-day space of vintage, fashion and music. A poster with a row of mannequins and a line that stuck with us: it doesn't matter who you are, everyone needs clothes and a haircut."
     },
     "frime-1-urodziny": {
       "title": "FRIME 1ST BIRTHDAY",
@@ -578,5 +590,11 @@
       "cta_title": "Booksy is the fastest way in",
       "cta_text": "Address: Wilcza 26, 00-544 Warsaw, Śródmieście Południowe. In peak season we fill up a few days ahead, so booking in advance saves time."
     }
+  },
+  "cookies_banner": {
+    "title": "Cookies",
+    "body": "This site uses only essential cookies needed for basic functionality (such as remembering your language choice). No tracking analytics, no advertising cookies.",
+    "accept": "OK, got it",
+    "more": "Read full policy"
   }
 }

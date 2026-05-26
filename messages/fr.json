@@ -3,6 +3,7 @@
     "on": "LUI",
     "ona": "ELLE",
     "vibe": "VIBE",
+    "kosmetyki": "COSMÉTIQUES",
     "akademia": "ACADÉMIE",
     "team": "ÉQUIPE",
     "kontakt": "CONTACT",
@@ -18,7 +19,8 @@
     "terms": "Règlement",
     "cookies": "Cookies",
     "rights": "Tous droits réservés",
-    "made_in": "Fait à Wilcza"
+    "made_in": "Fait à Wilcza",
+    "made_by": "Fait par"
   },
   "home": {
     "hero_kicker": "Studio de coiffure unisexe stylé · Varsovie Wilcza 26 · dog-friendly",
@@ -28,14 +30,14 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5,0 sur 305 avis Booksy",
     "hero_cta": "Réserver",
-    "pillars_title": "Trois raisons de passer",
+    "pillars_title": "Chaque visite commence par une conversation sur ce dont tu as vraiment besoin",
     "pillar_on_title": "LUI",
-    "pillar_on_desc": "Coupes hommes classiques, mullets, barbes, repigmentation. Sans course au fade le plus net, sans musique de stade en fond.",
+    "pillar_on_desc": "Coupes hommes classiques. Formes modernes et audacieuses : mullet, wolf cut, chelsea. Fade, taper fade, barbe et repigmentation.",
     "pillar_ona_title": "ELLE",
-    "pillar_ona_desc": "Coupes courtes, franges, consultations couleur et permanente. Chaque visite commence par une vraie discussion sur ce que tu veux vraiment.",
+    "pillar_ona_desc": "Coupes femmes classiques et formes modernes. Coupes courtes, franges et approche individuelle du style. Consultations couleur et permanente.",
     "pillar_vibe_title": "VIBE",
-    "pillar_vibe_desc": "Pop-ups, collaborations, anniversaires du studio. De temps en temps on transforme le studio en mix bar, boutique, scène.",
-    "team_title": "Derrière les ciseaux",
+    "pillar_vibe_desc": "Pop-ups, collaborations et événements. Musique, mode, gens et bonne ambiance. De temps en temps le studio devient un espace de rencontres, shopping et vibe partagé.",
+    "team_title": "TEAM",
     "team_cta": "Rencontrer l'équipe",
     "events_title": "Prochain événement",
     "events_cta": "Voir l'archive",
@@ -55,9 +57,9 @@
   },
   "services": {
     "on_title": "Coupes hommes",
-    "on_intro": "Quatre services principaux plus une consultation. Une visite dure de trente minutes à une heure et demie selon ce qu'on fait.",
+    "on_intro": "Coupe adaptée à toi. Classique ou plus audacieuse - tout commence par une consultation.",
     "ona_title": "Coupes femmes",
-    "ona_intro": "Coupes courtes et mi-longues, franges, consultations couleur et permanente.",
+    "ona_intro": "Formes classiques et modernes. Coupes courtes, franges et approche individuelle - chaque visite commence par une consultation.",
     "price_from": "à partir de",
     "duration": "durée",
     "book": "Réserver",
@@ -83,12 +85,14 @@
   },
   "team": {
     "title": "Équipe",
-    "intro": "Trois personnes, trois approches des ciseaux. Chacun de nous fait à la fois les coupes hommes et femmes.",
+    "intro": "On crée un lieu avec un regard individuel sur le style. Chacun travaille différemment, mais on partage la même approche de la forme et de l'esthétique.",
     "book_with": "Réserver avec",
     "members": {
-      "julia": { "name": "Julia", "role": "Styliste, cofondatrice", "bio": "Julia est derrière l'idée de FRIME. Cofondatrice du studio, elle coupe à la fois les cheveux d'hommes et de femmes. Elle aime travailler la texture, les mullets et les franges fortes. Bio complète à venir après une discussion avec l'ami." },
+      "julia": { "name": "Julia", "role": "Coiffeuse", "bio": "Julia est derrière l'idée de FRIME. Elle coupe à la fois les cheveux d'hommes et de femmes. Elle aime travailler la texture, les mullets et les franges fortes. Bio complète à venir après une discussion avec l'ami." },
       "sasza": { "name": "Sasza", "role": "Styliste", "bio": "Sasza a rejoint FRIME tôt. Spécialisé dans les fades nets et le travail de la barbe, mais dans un studio unisexe pas de cases rigides, donc aussi les coupes femmes. Bio complète à venir." },
-      "kara": { "name": "Kara", "role": "Styliste", "bio": "Kara est le nouveau visage de l'équipe, mais a vite construit un groupe de fidèles. À l'aise surtout avec les coupes courtes et les franges fortes. Le reste de la bio viendra ensemble." }
+      "kara": { "name": "Kara", "role": "Styliste", "bio": "Kara est le nouveau visage de l'équipe, mais a vite construit un groupe de fidèles. À l'aise surtout avec les coupes courtes et les franges fortes. Le reste de la bio viendra ensemble." },
+      "alex": { "name": "ALEX", "role": "Coiffeur", "bio": "ALEX a rejoint FRIME en 2025. Fait à la fois les coupes hommes et femmes. Bio complète à venir bientôt." },
+      "inga": { "name": "INGA", "role": "Coiffeuse", "bio": "INGA a rejoint FRIME en 2025. Fait les coupes femmes et hommes, aime les formes fortes et le travail de la couleur. Bio complète à venir bientôt." }
     }
   },
   "vibe": {
@@ -324,8 +328,8 @@
   },
   "vibe_content": {
     "bvclub-kiosk-popup": {
-      "title": "FRIME × BVCLUB KIOSK",
-      "body": "En juin 2025 on a transformé le studio en pop-up store d'une journée avec BVCLUB KIOSK. Vintage, cuir, petits objets de seconde main, un DJ aux platines, des verres offerts au frigo. L'affiche a été dessinée pour l'occasion, avec une rangée de mannequins et la phrase devenue notre brand-statement : it doesn't matter who you are, everyone needs clothes and a haircut. Le pop-up a tenu de 13h à tard. Les gens passaient entre deux coupes, repartaient avec un truc de BVCLUB, deux se sont fait couper les cheveux spontanément en plein shopping. Premier moment où on a compris qu'un studio de coiffure peut faire partie de la scène culturelle, pas juste un service."
+      "title": "FRIME × BVCLUB × KIOSK",
+      "body": "06/06. Pop-Up store au studio. Vintage, cuir, DJ-set, FREE DRINKS (0% ALCO). 13:00-20:00, Varsovie, Wilcza 26. BVCLUB et KIOSK sont deux marques indépendantes avec qui on transforme le studio pour une journée en espace vintage, mode et musique. Affiche avec une rangée de mannequins et une phrase qui nous est restée : it doesn't matter who you are, everyone needs clothes and a haircut."
     },
     "frime-1-urodziny": {
       "title": "FRIME 1ER ANNIVERSAIRE",
@@ -362,5 +366,11 @@
       "cta_title": "Booksy est le moyen le plus rapide",
       "cta_text": "Adresse : Wilcza 26, 00-544 Varsovie, Śródmieście Południowe. En haute saison on est complets quelques jours à l'avance, réserver tôt gagne du temps."
     }
+  },
+  "cookies_banner": {
+    "title": "Cookies",
+    "body": "Ce site utilise uniquement les cookies essentiels au bon fonctionnement (par exemple pour mémoriser la langue choisie). Pas d'analytique de tracking, pas de cookies publicitaires.",
+    "accept": "OK, compris",
+    "more": "Politique complète"
   }
 }

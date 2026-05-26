@@ -3,6 +3,7 @@
     "on": "LUI",
     "ona": "LEI",
     "vibe": "VIBE",
+    "kosmetyki": "COSMETICI",
     "akademia": "ACCADEMIA",
     "team": "TEAM",
     "kontakt": "CONTATTI",
@@ -18,7 +19,8 @@
     "terms": "Termini",
     "cookies": "Cookies",
     "rights": "Tutti i diritti riservati",
-    "made_in": "Fatto in Wilcza"
+    "made_in": "Fatto in Wilcza",
+    "made_by": "Fatto da"
   },
   "home": {
     "hero_kicker": "Studio di parrucchieri unisex stiloso · Varsavia Wilcza 26 · dog-friendly",
@@ -28,14 +30,14 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5,0 su 305 recensioni su Booksy",
     "hero_cta": "Prenota",
-    "pillars_title": "Tre motivi per passare",
+    "pillars_title": "Ogni visita inizia con una conversazione su ciò di cui hai davvero bisogno",
     "pillar_on_title": "LUI",
-    "pillar_on_desc": "Tagli maschili classici, mullet, barbe, repigmentazione. Senza gara al fade più perfetto, senza musica da stadio in sottofondo.",
+    "pillar_on_desc": "Tagli classici da uomo. Forme moderne e audaci: mullet, wolf cut, chelsea. Fade, taper fade, barbe e repigmentazione.",
     "pillar_ona_title": "LEI",
-    "pillar_ona_desc": "Tagli corti, frange, consulenza colore e permanente. Ogni visita inizia con una vera conversazione su cosa vuoi davvero.",
+    "pillar_ona_desc": "Tagli classici da donna e forme moderne. Tagli corti, frange e approccio individuale allo stile. Consulenze colore e permanente.",
     "pillar_vibe_title": "VIBE",
-    "pillar_vibe_desc": "Pop-up, collaborazioni, compleanni dello studio. Ogni tanto trasformiamo lo studio in un mix di bar, negozio e palco.",
-    "team_title": "Dietro le forbici",
+    "pillar_vibe_desc": "Pop-up, collaborazioni ed eventi. Musica, moda, persone e buona atmosfera. Di tanto in tanto lo studio diventa uno spazio di incontri, shopping e vibe condiviso.",
+    "team_title": "TEAM",
     "team_cta": "Conosci il team",
     "events_title": "Prossimo evento",
     "events_cta": "Vedi archivio",
@@ -55,9 +57,9 @@
   },
   "services": {
     "on_title": "Tagli maschili",
-    "on_intro": "Quattro servizi principali più una consulenza. Una visita dura da mezz'ora a un'ora e mezza a seconda di cosa facciamo.",
+    "on_intro": "Taglio fatto per te. Classico o qualcosa di più audace - tutto inizia con una consulenza.",
     "ona_title": "Tagli femminili",
-    "ona_intro": "Tagli corti e medi, frange, consulenze colore e permanente.",
+    "ona_intro": "Forme classiche e moderne. Tagli corti, frange e approccio individuale - ogni visita inizia con una consulenza.",
     "price_from": "da",
     "duration": "durata",
     "book": "Prenota",
@@ -83,12 +85,14 @@
   },
   "team": {
     "title": "Team",
-    "intro": "Tre persone, tre approcci alle forbici. Ciascuno di noi fa sia tagli maschili che femminili.",
+    "intro": "Creiamo un luogo con uno sguardo individuale sullo stile. Ognuno di noi lavora diversamente, ma ci unisce un approccio comune alla forma e all'estetica.",
     "book_with": "Prenota con",
     "members": {
-      "julia": { "name": "Julia", "role": "Stilista, cofondatrice", "bio": "Julia è dietro l'idea di FRIME. Cofondatrice dello studio, taglia capelli sia maschili che femminili. Le piace lavorare la texture, i mullet e le frange forti. Bio completa dopo una breve chiacchierata con l'amico." },
+      "julia": { "name": "Julia", "role": "Parrucchiera", "bio": "Julia è dietro l'idea di FRIME. Taglia capelli sia maschili che femminili. Le piace lavorare la texture, i mullet e le frange forti. Bio completa dopo una breve chiacchierata con l'amico." },
       "sasza": { "name": "Sasza", "role": "Stilista", "bio": "Sasza si è unito a FRIME presto. Specializzato in fade decisi e lavoro su barba, ma in uno studio unisex non ci sono caselle rigide, quindi anche tagli femminili. Bio completa in arrivo." },
-      "kara": { "name": "Kara", "role": "Stilista", "bio": "Kara è il volto più nuovo del team, ma ha costruito in fretta un gruppo di clienti fisse. Più a suo agio con tagli corti e frange forti. Il resto della bio lo aggiungeremo insieme." }
+      "kara": { "name": "Kara", "role": "Stilista", "bio": "Kara è il volto più nuovo del team, ma ha costruito in fretta un gruppo di clienti fisse. Più a suo agio con tagli corti e frange forti. Il resto della bio lo aggiungeremo insieme." },
+      "alex": { "name": "ALEX", "role": "Parrucchiere", "bio": "ALEX si è unito a FRIME nel 2025. Lavora sia tagli maschili che femminili. Bio completa in arrivo." },
+      "inga": { "name": "INGA", "role": "Parrucchiera", "bio": "INGA si è unita a FRIME nel 2025. Fa tagli femminili e maschili, ama le forme forti e il lavoro sul colore. Bio completa in arrivo." }
     }
   },
   "vibe": {
@@ -324,8 +328,8 @@
   },
   "vibe_content": {
     "bvclub-kiosk-popup": {
-      "title": "FRIME × BVCLUB KIOSK",
-      "body": "A giugno 2025 abbiamo trasformato lo studio in pop-up store di un giorno con BVCLUB KIOSK. Vintage, pelle, piccoli oggetti di seconda mano, un DJ in console, drink gratis nel frigo. Il poster è stato disegnato apposta, con una fila di manichini e la frase poi rimasta come brand-statement: it doesn't matter who you are, everyone needs clothes and a haircut. Il pop-up è andato dalle 13 fino a tardi."
+      "title": "FRIME × BVCLUB × KIOSK",
+      "body": "06/06. Pop-Up store in studio. Vintage, pelle, DJ-set, FREE DRINKS (0% ALCO). 13:00-20:00, Varsavia, Wilcza 26. BVCLUB e KIOSK sono due brand indipendenti con cui trasformiamo lo studio per un giorno in uno spazio di vintage, moda e musica. Un poster con una fila di manichini e una frase che ci è rimasta: it doesn't matter who you are, everyone needs clothes and a haircut."
     },
     "frime-1-urodziny": {
       "title": "FRIME 1° COMPLEANNO",
@@ -362,5 +366,11 @@
       "cta_title": "Booksy è il modo più veloce",
       "cta_text": "Indirizzo: Wilcza 26, 00-544 Varsavia, Śródmieście Południowe. In alta stagione siamo pieni alcuni giorni in anticipo, prenotare presto fa risparmiare tempo."
     }
+  },
+  "cookies_banner": {
+    "title": "Cookies",
+    "body": "Questo sito usa solo i cookies essenziali per il funzionamento di base (per esempio, ricordare la lingua scelta). Niente analytics di tracciamento, niente cookies pubblicitari.",
+    "accept": "OK, capito",
+    "more": "Politica completa"
   }
 }

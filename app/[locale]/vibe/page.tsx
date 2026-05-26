@@ -66,7 +66,7 @@ export default async function VibePage({ params }: Props) {
               <Heading
                 as="h2"
                 size="lg"
-                className="text-[var(--color-frime-ink)]"
+                className="text-white"
               >
                 {upcoming.title}
               </Heading>
@@ -79,11 +79,20 @@ export default async function VibePage({ params }: Props) {
               </p>
             </div>
             <div className="md:col-span-5">
-              <ImagePlaceholder
-                ratio="4/5"
-                label="Poster nadchodzącego eventu"
-                note="Афиша в стиле FRIME (collage / heavy type / brutal layout). 4:5, минимум 1200×1500."
-              />
+              {upcoming.slug === "bvclub-kiosk-popup" ? (
+                <LocalPhoto
+                  src="/images/vibe/bvclub-kiosk-popup/poster.png"
+                  alt="FRIME × BVCLUB × KIOSK Pop-up 06/06 — plakat"
+                  ratio="2/3"
+                  sizes="(min-width: 768px) 40vw, 100vw"
+                />
+              ) : (
+                <ImagePlaceholder
+                  ratio="4/5"
+                  label="Poster nadchodzącego eventu"
+                  note="Афиша 4:5, минимум 1200×1500"
+                />
+              )}
             </div>
           </div>
         ) : (

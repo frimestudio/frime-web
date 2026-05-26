@@ -3,6 +3,7 @@
     "on": "ER",
     "ona": "SIE",
     "vibe": "VIBE",
+    "kosmetyki": "KOSMETIK",
     "akademia": "AKADEMIE",
     "team": "TEAM",
     "kontakt": "KONTAKT",
@@ -18,7 +19,8 @@
     "terms": "Nutzungsbedingungen",
     "cookies": "Cookies",
     "rights": "Alle Rechte vorbehalten",
-    "made_in": "Gemacht in der Wilcza"
+    "made_in": "Gemacht in der Wilcza",
+    "made_by": "Gemacht von"
   },
   "home": {
     "hero_kicker": "Stylisches Unisex-Friseurstudio · Warschau Wilcza 26 · hundefreundlich",
@@ -28,14 +30,14 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5,0 aus 305 Bewertungen auf Booksy",
     "hero_cta": "Termin buchen",
-    "pillars_title": "Drei Gründe vorbeizuschauen",
+    "pillars_title": "Jeder Besuch beginnt mit einem Gespräch darüber, was du wirklich brauchst",
     "pillar_on_title": "ER",
-    "pillar_on_desc": "Klassische Männerhaarschnitte, Mullets, Bärte, Repigmentierung. Ohne Wettbewerb um den glattesten Fade, ohne Stadionmusik im Hintergrund.",
+    "pillar_on_desc": "Klassische Herrenschnitte. Moderne und mutige Formen: mullet, wolf cut, chelsea. Fade, taper fade, Bart und Repigmentierung.",
     "pillar_ona_title": "SIE",
-    "pillar_ona_desc": "Kurze Schnitte, Ponys, Farb- und Dauerwellenberatung. Jeder Besuch beginnt mit einem echten Gespräch über das, was du wirklich willst.",
+    "pillar_ona_desc": "Klassische Damenschnitte und moderne Formen. Kurze Schnitte, Ponys und individueller Stilansatz. Farb- und Dauerwelle-Beratungen.",
     "pillar_vibe_title": "VIBE",
-    "pillar_vibe_desc": "Pop-ups, Kollaborationen, Studio-Geburtstage. Ab und zu verwandeln wir das Studio in eine Mischung aus Bar, Shop und Bühne.",
-    "team_title": "Hinter den Scheren",
+    "pillar_vibe_desc": "Pop-ups, Kollaborationen und Events. Musik, Mode, Leute und gute Stimmung. Ab und zu wird das Studio zum Ort für Treffen, Shopping und gemeinsamen Vibe.",
+    "team_title": "TEAM",
     "team_cta": "Team kennenlernen",
     "events_title": "Nächstes Event",
     "events_cta": "Archiv ansehen",
@@ -55,13 +57,13 @@
   },
   "services": {
     "on_title": "Männerschnitte",
-    "on_intro": "Vier Kernleistungen plus Beratung. Ein Besuch dauert zwischen einer halben und eineinhalb Stunden, je nachdem, was wir machen.",
+    "on_intro": "Schnitt nach deinem Stil. Klassisch oder mutiger - alles beginnt mit einer Beratung.",
     "ona_title": "Damenschnitte",
-    "ona_intro": "Kurze und mittellange Schnitte, Ponys, Farb- und Dauerwellenberatungen.",
+    "ona_intro": "Klassische und moderne Formen. Kurze Schnitte, Ponys und individuelle Herangehensweise - jeder Besuch beginnt mit einer Beratung.",
     "price_from": "ab",
     "duration": "Dauer",
     "book": "Buchen",
-    "consultation_free": "Beratung kostenlos",
+    "consultation_free": "Beratung gratis",
     "deep_links_title_on": "Spezifische Leistungen im Detail",
     "deep_links_title_ona": "Spezifische Leistungen im Detail",
     "faq_title_on": "Häufige Fragen",
@@ -83,12 +85,14 @@
   },
   "team": {
     "title": "Team",
-    "intro": "Drei Menschen, drei Zugänge zur Schere. Jede:r von uns macht sowohl Männer- als auch Frauenschnitte.",
+    "intro": "Wir schaffen einen Ort mit individuellem Blick auf den Stil. Jeder von uns arbeitet anders, aber uns verbindet ein gemeinsamer Ansatz zu Form und Ästhetik.",
     "book_with": "Termin bei",
     "members": {
-      "julia": { "name": "Julia", "role": "Stylistin, Mitgründerin", "bio": "Julia steht hinter der Idee von FRIME. Mitgründerin des Studios, schneidet sowohl Männer- als auch Frauenhaar. Liebt Textur, Mullets und starke Ponys. Ein vollständiges Bio mit Hintergrund folgt nach einem kurzen Gespräch mit dem Inhaber." },
+      "julia": { "name": "Julia", "role": "Friseurin", "bio": "Julia steht hinter der Idee von FRIME. Sie schneidet sowohl Männer- als auch Frauenhaar. Liebt Textur, Mullets und starke Ponys. Ein vollständiges Bio mit Hintergrund folgt nach einem kurzen Gespräch mit dem Inhaber." },
       "sasza": { "name": "Sasza", "role": "Stylist", "bio": "Sasza ist früh zu FRIME gestoßen. Spezialisiert auf starke Fades und Bartarbeit, aber im Unisex-Studio gibt es keine starren Schubladen, daher auch Frauenschnitte. Volles Bio folgt." },
-      "kara": { "name": "Kara", "role": "Stylistin", "bio": "Kara ist das neuere Gesicht im Team, hat aber schnell eine treue Klientel aufgebaut. Am wohlsten in kurzen Schnitten und starken Ponys. Der Rest des Bios kommt gemeinsam dazu." }
+      "kara": { "name": "Kara", "role": "Stylistin", "bio": "Kara ist das neuere Gesicht im Team, hat aber schnell eine treue Klientel aufgebaut. Am wohlsten in kurzen Schnitten und starken Ponys. Der Rest des Bios kommt gemeinsam dazu." },
+      "alex": { "name": "ALEX", "role": "Friseur", "bio": "ALEX ist 2025 zu FRIME gestoßen. Schneidet sowohl Männer- als auch Frauenhaar. Vollständiges Bio folgt bald." },
+      "inga": { "name": "INGA", "role": "Friseurin", "bio": "INGA ist 2025 zu FRIME gestoßen. Macht Damen- und Herrenschnitte, liebt starke Formen und Farbarbeit. Vollständiges Bio folgt bald." }
     }
   },
   "vibe": {
@@ -324,8 +328,8 @@
   },
   "vibe_content": {
     "bvclub-kiosk-popup": {
-      "title": "FRIME × BVCLUB KIOSK",
-      "body": "Im Juni 2025 verwandelten wir das Studio für einen Tag in einen Pop-up-Store mit BVCLUB KIOSK. Reinkamen Vintage, Leder, Second-Hand-Kleinigkeiten, ein DJ am Pult, kostenlose Drinks im Kühlschrank. Das Poster zeigte eine Reihe von Mannequins und den Satz, der als Brand-Statement hängenblieb: it doesn't matter who you are, everyone needs clothes and a haircut. Der Pop-up lief von 13 Uhr bis spät. Leute kamen zwischen Schnitten rein, kauften etwas bei BVCLUB, zwei buchten spontan einen Schnitt mittendrin. Das war der Moment, in dem wir verstanden, dass ein Friseurstudio Teil einer kulturellen Szene sein kann, nicht nur ein Dienstleister."
+      "title": "FRIME × BVCLUB × KIOSK",
+      "body": "06/06. Pop-Up store im Studio. Vintage, Leder, DJ-set, FREE DRINKS (0% ALCO). 13:00-20:00, Warschau, Wilcza 26. BVCLUB und KIOSK sind zwei unabhängige Marken, mit denen wir das Studio für einen Tag in einen Raum für Vintage, Mode und Musik verwandeln. Ein Poster mit einer Reihe von Mannequins und ein Satz, der mit uns geblieben ist: it doesn't matter who you are, everyone needs clothes and a haircut."
     },
     "frime-1-urodziny": {
       "title": "FRIME 1. GEBURTSTAG",
@@ -362,5 +366,11 @@
       "cta_title": "Booksy ist der schnellste Weg",
       "cta_text": "Adresse: Wilcza 26, 00-544 Warschau, Śródmieście Południowe. In der Hochsaison sind wir Tage im Voraus voll, früh buchen spart Zeit."
     }
+  },
+  "cookies_banner": {
+    "title": "Cookies",
+    "body": "Diese Seite nutzt ausschließlich notwendige Cookies für die Grundfunktionen (z. B. um deine Sprachauswahl zu speichern). Keine Tracking-Analyse, keine Werbe-Cookies.",
+    "accept": "OK, verstanden",
+    "more": "Mehr in der Richtlinie"
   }
 }

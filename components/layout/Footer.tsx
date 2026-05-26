@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { site } from "@/content/site";
@@ -26,17 +27,31 @@ const closedShort: Record<LocaleKey, string> = {
   it: "chiuso",
 };
 
+const wladekMessage =
+  "Cześć! Widziałem stronę FRIME i też chcę mieć fajną, efektywną stronę. Możemy pogadać?";
+
 export async function Footer({ locale }: { locale: LocaleKey }) {
   const t = await getTranslations("footer");
   const tLang = await getTranslations("languages");
+  const tNav = await getTranslations("nav");
+
+  const wladekHref = `https://wa.me/48573337034?text=${encodeURIComponent(
+    wladekMessage,
+  )}`;
 
   return (
-    <footer className="mt-auto border-t border-[var(--color-line)] bg-[var(--color-fg)] text-[var(--color-bg)]">
+    <footer className="mt-auto border-t border-[var(--color-line)] bg-[var(--color-fg)] text-white">
       <Container className="py-14">
         <div className="grid gap-10 md:grid-cols-4">
           <div>
-            <div className="display text-5xl">FRIME</div>
-            <p className="mono mt-3 text-xs opacity-70">{site.tagline}</p>
+            <Image
+              src="/images/brand/frime-wordmark-white.png"
+              alt="FRIME"
+              width={180}
+              height={48}
+              className="h-10 w-auto md:h-12"
+            />
+            <p className="mono mt-4 text-xs opacity-70">{site.tagline}</p>
           </div>
 
           <div>
@@ -113,7 +128,7 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
             <h3 className="mono text-xs opacity-60">{t("legal_title")}</h3>
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <Link href="/kosmetyki">Kosmetyki</Link>
+                <Link href="/akademia">{tNav("akademia")}</Link>
               </li>
               <li>
                 <Link href="/polityka-prywatnosci">{t("privacy")}</Link>
@@ -137,7 +152,17 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
             © {new Date().getFullYear()} {site.legal.legalName} ·{" "}
             {site.address.street} · NIP {site.legal.nip} · {t("rights")}.
           </span>
-          <span>{t("made_in")}</span>
+          <span>
+            {t("made_by")}{" "}
+            <a
+              href={wladekHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-[var(--color-frime)]"
+            >
+              Wladyslaw Yasinski
+            </a>
+          </span>
         </div>
       </Container>
     </footer>
