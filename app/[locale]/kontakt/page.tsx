@@ -142,7 +142,14 @@ export default async function KontaktPage({ params }: Props) {
 
               <div>
                 <h2 className="mono text-xs opacity-60">{t("phone_title")}</h2>
-                <p className="mt-2 text-lg">{site.contact.phone}</p>
+                <p className="mt-2 text-lg">
+                  <a
+                    href={`tel:${site.contact.phoneTel}`}
+                    className="hover:text-[var(--color-frime)]"
+                  >
+                    {site.contact.phone}
+                  </a>
+                </p>
               </div>
 
               <div>

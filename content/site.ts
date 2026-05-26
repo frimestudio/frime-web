@@ -14,7 +14,8 @@ export const site = {
     lng: 21.0186,
   },
   contact: {
-    phone: "PLACEHOLDER · numer z Google Business Profile",
+    phone: "+48 530 335 018",
+    phoneTel: "+48530335018",
     email: "PLACEHOLDER · hello@frime.pl",
   },
   legal: {
@@ -41,7 +42,7 @@ export const site = {
     booksy: "https://frimestudio.booksy.com",
     instagram: "https://www.instagram.com/frime.studio/",
     tiktok: "https://www.tiktok.com/@frime.studio",
-    whatsapp: "PLACEHOLDER · link wa.me/...",
+    whatsapp: "https://wa.me/48530335018",
   },
   hours: {
     note: "Otwarte cały tydzień",

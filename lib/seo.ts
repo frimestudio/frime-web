@@ -33,7 +33,7 @@ export function localBusinessSchema() {
       "Stylowe, młodzieżowe studio fryzjerskie unisex w Warszawie na Wilczej 26. Strzyżenia męskie i damskie, mullety, wolf cuts, brody, repigmentacja. Dog-friendly, konsultacje koloru gratis, pop-upy i kolaboracje.",
     image: `${site.url}/og.png`,
     url: site.url,
-    telephone: site.contact.phone,
+    telephone: site.contact.phoneTel,
     email: site.contact.email,
     taxID: site.legal.nip,
     vatID: `PL${site.legal.nip}`,

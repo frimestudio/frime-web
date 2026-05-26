@@ -100,7 +100,12 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
               <br />
               {site.address.postal} {site.address.city}
               <br />
-              {site.contact.phone}
+              <a
+                href={`tel:${site.contact.phoneTel}`}
+                className="hover:text-[var(--color-frime)]"
+              >
+                {site.contact.phone}
+              </a>
             </address>
           </div>
 
