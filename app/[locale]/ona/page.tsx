@@ -41,7 +41,7 @@ export default async function OnaPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>ONA · {site.address.city}</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -56,7 +56,7 @@ export default async function OnaPage({ params }: Props) {
       <Section>
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
-            <ul className="divide-y divide-[var(--color-line)] border-y border-[var(--color-line)]">
+            <ul className="divide-y divide-line border-y border-line">
               {onaServices.map((s) => (
                 <li
                   key={s.slug}
@@ -79,8 +79,8 @@ export default async function OnaPage({ params }: Props) {
               ))}
             </ul>
 
-            <div className="mt-12 border border-[var(--color-frime)] bg-[var(--color-frime)] p-6 text-[var(--color-frime-ink)]">
-              <Heading as="h2" size="md" className="text-[var(--color-frime-ink)]">
+            <div className="mt-12 border border-frime bg-frime p-6 text-frime-ink">
+              <Heading as="h2" size="md" className="text-frime-ink">
                 {t("consultation_free")}
               </Heading>
               <ul className="mt-4 space-y-2">
@@ -143,7 +143,7 @@ export default async function OnaPage({ params }: Props) {
           <li>
             <Link
               href="/ona/krotkie-fryzury"
-              className="block h-full border border-[var(--color-line)] p-6 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+              className="block h-full border border-line p-6 hover:bg-frime hover:text-frime-ink"
             >
               <span className="mono text-[10px] opacity-60">
                 STRZYŻENIE
@@ -167,7 +167,7 @@ export default async function OnaPage({ params }: Props) {
           <li>
             <Link
               href="/on/mullet"
-              className="block h-full border border-[var(--color-line)] p-6 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+              className="block h-full border border-line p-6 hover:bg-frime hover:text-frime-ink"
             >
               <span className="mono text-[10px] opacity-60">
                 STRZYŻENIE

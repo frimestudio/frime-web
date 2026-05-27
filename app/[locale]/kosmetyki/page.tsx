@@ -52,7 +52,7 @@ export default async function CosmeticsPage({ params }: Props) {
     <>
       <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
 
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>{t("kicker")}</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -152,7 +152,7 @@ export default async function CosmeticsPage({ params }: Props) {
       <Section tone="frime">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
-            <Kicker className="text-[var(--color-frime-ink)] opacity-80">
+            <Kicker className="text-frime-ink opacity-80">
               {t("shop_soon_title")}
             </Kicker>
             <Heading as="h2" size="lg" className="mt-4">

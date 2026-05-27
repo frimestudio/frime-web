@@ -79,14 +79,14 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="grid gap-10 py-10 md:grid-cols-12 md:gap-8 md:py-16">
           <div className="md:col-span-7">
             <Kicker>{t("hero_kicker")}</Kicker>
             <h1 className="display mt-6 text-[clamp(3rem,11vw,11rem)]">
               <span className="block">{t("hero_slogan_1")}</span>
               <span className="block">{t("hero_slogan_2")}</span>
-              <span className="block text-[var(--color-frime)]">
+              <span className="block text-frime">
                 {t("hero_slogan_3")}
               </span>
               <span className="block">{t("hero_slogan_4")}</span>
@@ -100,7 +100,7 @@ export default async function HomePage({ params }: Props) {
               >
                 {t("hero_cta")}
               </ButtonLink>
-              <span className="mono text-xs text-[var(--color-muted)]">
+              <span className="mono text-xs text-muted">
                 {t("hero_proof")}
               </span>
             </div>
@@ -165,7 +165,7 @@ export default async function HomePage({ params }: Props) {
             <Link
               key={p.key}
               href={p.href}
-              className="group block border border-[var(--color-line)] bg-[var(--color-bg)]"
+              className="group block border border-line bg-bg"
             >
               <LocalPhoto
                 src={p.img}
@@ -173,8 +173,8 @@ export default async function HomePage({ params }: Props) {
                 ratio="4/5"
                 sizes="(min-width: 768px) 33vw, 100vw"
               />
-              <div className="border-t border-[var(--color-line)] p-6">
-                <div className="display text-5xl group-hover:text-[var(--color-frime)]">
+              <div className="border-t border-line p-6">
+                <div className="display text-5xl group-hover:text-frime">
                   {p.title}
                 </div>
                 <p className="mt-3 text-sm leading-relaxed">{p.desc}</p>
@@ -193,7 +193,7 @@ export default async function HomePage({ params }: Props) {
             href="/team"
             variant="ghost"
             size="md"
-            className="border-[var(--color-bg)] text-[var(--color-bg)]"
+            className="border-bg text-bg"
           >
             {t("team_cta")}
           </ButtonInternalLink>
@@ -262,7 +262,7 @@ export default async function HomePage({ params }: Props) {
       <Section tone="frime">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
-            <Kicker className="text-[var(--color-frime-ink)] opacity-80">
+            <Kicker className="text-frime-ink opacity-80">
               {t("reviews_title")}
             </Kicker>
             <div className="display mt-6 text-[clamp(5rem,14vw,14rem)] leading-none">
@@ -299,7 +299,7 @@ export default async function HomePage({ params }: Props) {
             <li key={i}>
               <Link
                 href={p.href}
-                className="block h-full border border-[var(--color-line)] p-6 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+                className="block h-full border border-line p-6 hover:bg-frime hover:text-frime-ink"
               >
                 <span className="mono text-[10px] opacity-60">{p.kicker}</span>
                 <span className="mt-3 block display text-2xl md:text-3xl">

@@ -18,7 +18,7 @@ export async function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 border-b border-[var(--color-line)] bg-[var(--color-bg)]/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-line bg-bg/95 backdrop-blur">
       <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between gap-6 px-6 py-3 md:px-10">
         <Link
           href="/"
@@ -40,7 +40,7 @@ export async function Header() {
             <Link
               key={l.href}
               href={l.href}
-              className="hover:text-[var(--color-frime)]"
+              className="hover:text-frime"
             >
               {l.label}
             </Link>
@@ -54,7 +54,7 @@ export async function Header() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram @frime.studio"
-            className="hidden h-10 w-10 items-center justify-center border border-[var(--color-line)] transition-colors hover:bg-[var(--color-fg)] hover:text-[var(--color-bg)] md:inline-flex"
+            className="hidden h-10 w-10 items-center justify-center border border-line transition-colors hover:bg-fg hover:text-bg md:inline-flex"
           >
             <svg
               viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ export async function Header() {
         </div>
       </div>
 
-      <nav className="mono flex items-center gap-4 overflow-x-auto border-t border-[var(--color-line)] px-6 py-2 text-[11px] md:hidden">
+      <nav className="mono flex items-center gap-4 overflow-x-auto border-t border-line px-6 py-2 text-[11px] md:hidden">
         {links.map((l) => (
           <Link
             key={l.href}

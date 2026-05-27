@@ -32,7 +32,7 @@ export function LocalPhoto({
   return (
     <div
       className={cn(
-        "relative w-full overflow-hidden bg-[var(--color-line)]",
+        "relative w-full overflow-hidden bg-line",
         ratioMap[ratio],
         className,
       )}

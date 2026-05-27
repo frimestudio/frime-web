@@ -30,13 +30,13 @@ export default async function TermsPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>REGULAMIN</Kicker>
           <Heading as="h1" size="lg" className="mt-6">
             {t("terms_title")}
           </Heading>
-          <p className="mt-6 max-w-prose text-base text-[var(--color-muted)]">
+          <p className="mt-6 max-w-prose text-base text-muted">
             {t("terms_intro")}
           </p>
         </Container>

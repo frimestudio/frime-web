@@ -41,7 +41,7 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
   )}`;
 
   return (
-    <footer className="mt-auto border-t border-[var(--color-line)] bg-[var(--color-fg)] text-white">
+    <footer className="mt-auto border-t border-line bg-fg text-bg">
       <Container className="py-14">
         <div className="grid gap-10 md:grid-cols-4">
           <div>
@@ -85,7 +85,7 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
                   href={site.booking.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[var(--color-frime)]"
+                  className="hover:text-frime"
                 >
                   Instagram
                 </a>
@@ -95,7 +95,7 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
                   href={site.booking.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[var(--color-frime)]"
+                  className="hover:text-frime"
                 >
                   TikTok
                 </a>
@@ -105,7 +105,7 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
                   href={site.booking.booksy}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[var(--color-frime)]"
+                  className="hover:text-frime"
                 >
                   Booksy
                 </a>
@@ -118,7 +118,7 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
               <br />
               <a
                 href={`tel:${site.contact.phoneTel}`}
-                className="hover:text-[var(--color-frime)]"
+                className="hover:text-frime"
               >
                 {site.contact.phone}
               </a>

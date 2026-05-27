@@ -27,13 +27,13 @@ export default async function CookiesPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>COOKIES</Kicker>
           <Heading as="h1" size="lg" className="mt-6">
             {t("cookies_title")}
           </Heading>
-          <p className="mt-6 max-w-prose text-base text-[var(--color-muted)]">
+          <p className="mt-6 max-w-prose text-base text-muted">
             {t("cookies_intro")}
           </p>
         </Container>

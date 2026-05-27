@@ -28,7 +28,7 @@ export function FAQ({ title, items }: FAQProps) {
     <div>
       <JsonLd data={schema} />
       <h2 className="display text-3xl md:text-4xl">{title}</h2>
-      <dl className="mt-6 divide-y divide-[var(--color-line)] border-y border-[var(--color-line)]">
+      <dl className="mt-6 divide-y divide-line border-y border-line">
         {items.map((it, i) => (
           <details key={i} className="group py-5">
             <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
@@ -37,7 +37,7 @@ export function FAQ({ title, items }: FAQProps) {
                 +
               </span>
             </summary>
-            <dd className="mt-3 max-w-prose text-sm leading-relaxed text-[var(--color-muted)] md:text-base">
+            <dd className="mt-3 max-w-prose text-sm leading-relaxed text-muted md:text-base">
               {it.a}
             </dd>
           </details>

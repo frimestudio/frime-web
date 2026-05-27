@@ -18,16 +18,16 @@ export function Section({
 }: SectionProps) {
   const toneClasses =
     tone === "invert"
-      ? "bg-[var(--color-fg)] text-[var(--color-bg)]"
+      ? "bg-fg text-bg"
       : tone === "frime"
-      ? "bg-[var(--color-frime)] text-[var(--color-frime-ink)]"
+      ? "bg-frime text-frime-ink"
       : "";
 
   return (
     <section
       id={id}
       className={cn(
-        "border-t border-[var(--color-line)] py-16 md:py-24",
+        "border-t border-line py-16 md:py-24",
         toneClasses,
         className,
       )}

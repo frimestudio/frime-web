@@ -6,7 +6,7 @@ type Variant = "primary" | "ghost" | "ink";
 type Size = "md" | "lg";
 
 const base =
-  "inline-flex items-center justify-center gap-2 font-medium uppercase tracking-wide transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-frime)]";
+  "inline-flex items-center justify-center gap-2 font-medium uppercase tracking-wide transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-frime";
 
 const sizes: Record<Size, string> = {
   md: "h-11 px-5 text-sm",
@@ -15,10 +15,10 @@ const sizes: Record<Size, string> = {
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-[var(--color-frime)] text-white hover:bg-[var(--color-fg)] hover:text-white",
-  ink: "bg-[var(--color-fg)] text-white hover:bg-[var(--color-frime)] hover:text-white",
+    "bg-frime text-bg hover:bg-fg hover:text-bg",
+  ink: "bg-fg text-bg hover:bg-frime hover:text-bg",
   ghost:
-    "border border-[var(--color-line)] bg-transparent hover:bg-[var(--color-fg)] hover:text-white",
+    "border border-line bg-transparent hover:bg-fg hover:text-bg",
 };
 
 type CommonProps = {

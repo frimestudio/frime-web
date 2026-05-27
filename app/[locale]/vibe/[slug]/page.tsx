@@ -38,7 +38,7 @@ export default async function VibeEventPage({ params }: Props) {
   return (
     <>
       <JsonLd data={eventSchema(slug)} />
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="grid gap-10 py-10 md:grid-cols-12 md:py-16">
           <div className="md:col-span-7">
             <Kicker>
@@ -135,7 +135,7 @@ export default async function VibeEventPage({ params }: Props) {
             href="/vibe"
             variant="ghost"
             size="md"
-            className="border-[var(--color-bg)] text-[var(--color-bg)]"
+            className="border-bg text-bg"
           >
             VIBE →
           </ButtonInternalLink>

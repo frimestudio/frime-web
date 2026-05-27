@@ -94,7 +94,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
       className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} h-full`}
     >
-      <body className="flex min-h-full flex-col bg-[var(--color-bg)] text-[var(--color-fg)] antialiased">
+      <body className="flex min-h-full flex-col bg-bg text-fg antialiased">
         <NextIntlClientProvider>
           <Header />
           <main className="flex-1 pb-16 md:pb-0">{children}</main>

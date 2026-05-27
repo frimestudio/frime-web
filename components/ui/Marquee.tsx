@@ -11,7 +11,7 @@ export function Marquee({ items, className, speed = 40 }: MarqueeProps) {
   return (
     <div
       className={cn(
-        "relative w-full overflow-hidden border-y border-[var(--color-line)] py-3",
+        "relative w-full overflow-hidden border-y border-line py-3",
         className,
       )}
       aria-hidden

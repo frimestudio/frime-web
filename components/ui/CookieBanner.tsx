@@ -32,7 +32,7 @@ export function CookieBanner() {
       role="dialog"
       aria-live="polite"
       aria-label={t("title")}
-      className="fixed inset-x-3 bottom-3 z-50 mx-auto max-w-[640px] border border-[var(--color-line)] bg-[var(--color-bg)] p-4 shadow-[0_10px_40px_rgba(0,0,0,0.18)] md:inset-x-auto md:left-1/2 md:bottom-6 md:-translate-x-1/2 md:p-5"
+      className="fixed inset-x-3 bottom-3 z-50 mx-auto max-w-[640px] border border-line bg-bg p-4 shadow-[0_10px_40px_rgba(0,0,0,0.18)] md:inset-x-auto md:left-1/2 md:bottom-6 md:-translate-x-1/2 md:p-5"
     >
       <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-5">
         <div className="text-xs leading-relaxed md:text-[13px]">
@@ -42,7 +42,7 @@ export function CookieBanner() {
           {t("body")}{" "}
           <Link
             href="/cookies"
-            className="underline underline-offset-2 hover:text-[var(--color-frime)]"
+            className="underline underline-offset-2 hover:text-frime"
           >
             {t("more")}
           </Link>
@@ -50,7 +50,7 @@ export function CookieBanner() {
         <button
           type="button"
           onClick={accept}
-          className="mono inline-flex h-10 shrink-0 items-center justify-center bg-[var(--color-frime)] px-5 text-xs uppercase tracking-wide text-white transition-colors hover:bg-[var(--color-fg)]"
+          className="mono inline-flex h-10 shrink-0 items-center justify-center bg-frime px-5 text-xs uppercase tracking-wide text-bg transition-colors hover:bg-fg"
         >
           {t("accept")}
         </button>

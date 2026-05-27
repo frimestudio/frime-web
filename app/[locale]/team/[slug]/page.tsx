@@ -43,7 +43,7 @@ export default async function TeamMemberPage({ params }: Props) {
   return (
     <>
       <JsonLd data={personSchema(member, name, role)} />
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="grid gap-10 py-10 md:grid-cols-12 md:py-16">
           <div className="md:col-span-7">
             <Kicker>TEAM · {site.name}</Kicker>
@@ -105,7 +105,7 @@ export default async function TeamMemberPage({ params }: Props) {
             href="/team"
             variant="ghost"
             size="md"
-            className="border-[var(--color-bg)] text-[var(--color-bg)]"
+            className="border-bg text-bg"
           >
             TEAM →
           </ButtonInternalLink>

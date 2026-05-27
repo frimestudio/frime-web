@@ -41,7 +41,7 @@ export default async function OnPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>ON · {site.address.city}</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -56,7 +56,7 @@ export default async function OnPage({ params }: Props) {
       <Section>
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
-            <ul className="divide-y divide-[var(--color-line)] border-y border-[var(--color-line)]">
+            <ul className="divide-y divide-line border-y border-line">
               {onServices.map((s) => (
                 <li
                   key={s.slug}
@@ -143,7 +143,7 @@ export default async function OnPage({ params }: Props) {
           <li>
             <Link
               href="/on/mullet"
-              className="block h-full border border-[var(--color-line)] p-6 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+              className="block h-full border border-line p-6 hover:bg-frime hover:text-frime-ink"
             >
               <span className="mono text-[10px] opacity-60">
                 STRZYŻENIE
@@ -161,7 +161,7 @@ export default async function OnPage({ params }: Props) {
           <li>
             <Link
               href="/on/repigmentacja"
-              className="block h-full border border-[var(--color-line)] p-6 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+              className="block h-full border border-line p-6 hover:bg-frime hover:text-frime-ink"
             >
               <span className="mono text-[10px] opacity-60">ZABIEG</span>
               <span className="mt-3 block display text-3xl">

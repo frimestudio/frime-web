@@ -39,7 +39,7 @@ export default async function TeamPage({ params }: Props) {
           path: "/team",
         })}
       />
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>TEAM</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -68,7 +68,7 @@ export default async function TeamPage({ params }: Props) {
                   note={`Студийный портрет ${name}. 3:4. Мягкий свет, нейтральный фон. Минимум 1200×1600.`}
                 />
                 <div className="mt-4">
-                  <div className="display text-4xl group-hover:text-[var(--color-frime)]">
+                  <div className="display text-4xl group-hover:text-frime">
                     {name}
                   </div>
                   <div className="mono mt-2 text-[10px] opacity-70">{role}</div>

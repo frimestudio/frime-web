@@ -11,7 +11,7 @@ export default async function NotFound() {
         404
       </div>
       <h1 className="text-2xl">{t("not_found_title")}</h1>
-      <p className="max-w-md text-base text-[var(--color-muted)]">
+      <p className="max-w-md text-base text-muted">
         {t("not_found_desc")}
       </p>
       <ButtonInternalLink href="/" variant="primary" size="md">

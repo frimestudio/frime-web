@@ -83,7 +83,7 @@ export default async function RepigmentacjaPage({ params }: Props) {
       />
       <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
 
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="grid gap-10 py-12 md:grid-cols-12 md:py-20">
           <div className="md:col-span-7">
             <Kicker>{t("kicker")}</Kicker>
@@ -185,9 +185,9 @@ export default async function RepigmentacjaPage({ params }: Props) {
             </p>
           </div>
         </div>
-        <dl className="mt-12 grid gap-px bg-[var(--color-line)] md:grid-cols-3">
+        <dl className="mt-12 grid gap-px bg-line md:grid-cols-3">
           {womenVariants.map((v, i) => (
-            <div key={i} className="bg-[var(--color-bg)] p-6">
+            <div key={i} className="bg-bg p-6">
               <dt className="display text-2xl md:text-3xl">{v.name}</dt>
               <dd className="mt-3 text-sm leading-relaxed md:text-base">
                 {v.desc}
@@ -254,7 +254,7 @@ export default async function RepigmentacjaPage({ params }: Props) {
             <li key={i}>
               <Link
                 href={r.href as "/on" | "/ona" | "/team" | "/on/mullet"}
-                className="block border border-[var(--color-line)] p-5 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+                className="block border border-line p-5 hover:bg-frime hover:text-frime-ink"
               >
                 <span className="mono text-[10px] opacity-60">→</span>
                 <span className="mt-2 block text-base font-medium">

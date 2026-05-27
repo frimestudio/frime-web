@@ -82,7 +82,7 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
     <>
       <JsonLd data={breadcrumbSchema(locale, t("title"))} />
 
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="grid gap-10 py-12 md:grid-cols-12 md:py-20">
           <div className="md:col-span-7">
             <Kicker>{t("kicker")}</Kicker>
@@ -125,7 +125,7 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
                 label="Wnętrze studia"
                 note="Фото интерьера, 3:4. Лучше всего общий план с тремя креслами и зеркалами."
               />
-              <div className="border border-[var(--color-line)] p-6">
+              <div className="border border-line p-6">
                 <div className="mono text-[10px] opacity-60">
                   {t("cta_title")}
                 </div>
@@ -153,7 +153,7 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
         <div className="mt-8 grid gap-4 md:grid-cols-4">
           <Link
             href="/team"
-            className="block border border-[var(--color-bg)] p-5 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+            className="block border border-bg p-5 hover:bg-frime hover:text-frime-ink"
           >
             <span className="mono text-[10px] opacity-60">TEAM</span>
             <span className="mt-2 block display text-2xl">
@@ -162,7 +162,7 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
           </Link>
           <Link
             href="/on"
-            className="block border border-[var(--color-bg)] p-5 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+            className="block border border-bg p-5 hover:bg-frime hover:text-frime-ink"
           >
             <span className="mono text-[10px] opacity-60">ON / ONA</span>
             <span className="mt-2 block display text-2xl">
@@ -171,7 +171,7 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
           </Link>
           <Link
             href="/vibe"
-            className="block border border-[var(--color-bg)] p-5 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+            className="block border border-bg p-5 hover:bg-frime hover:text-frime-ink"
           >
             <span className="mono text-[10px] opacity-60">VIBE</span>
             <span className="mt-2 block display text-2xl">
@@ -180,7 +180,7 @@ export default async function SrodmiescieLocationPage({ params }: Props) {
           </Link>
           <Link
             href="/kontakt"
-            className="block border border-[var(--color-bg)] p-5 hover:bg-[var(--color-frime)] hover:text-[var(--color-frime-ink)]"
+            className="block border border-bg p-5 hover:bg-frime hover:text-frime-ink"
           >
             <span className="mono text-[10px] opacity-60">KONTAKT</span>
             <span className="mt-2 block display text-2xl">

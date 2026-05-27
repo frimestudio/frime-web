@@ -33,7 +33,7 @@ export default async function AboutPage({ params }: Props) {
   return (
     <>
       <JsonLd data={aboutPageSchema(t("lede"))} />
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>O NAS · WILCZA 26</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -60,7 +60,7 @@ export default async function AboutPage({ params }: Props) {
                 ].map((v, i) => (
                   <div
                     key={i}
-                    className="border border-[var(--color-line)] p-5"
+                    className="border border-line p-5"
                   >
                     <div className="display text-2xl">{v.t}</div>
                     <p className="mt-3 text-sm leading-relaxed">{v.d}</p>
@@ -83,7 +83,7 @@ export default async function AboutPage({ params }: Props) {
       <Section tone="frime">
         <div className="grid items-center gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
-            <Kicker className="text-[var(--color-frime-ink)] opacity-80">
+            <Kicker className="text-frime-ink opacity-80">
               {t("proof_title")}
             </Kicker>
             <div className="display mt-6 text-[clamp(5rem,14vw,14rem)] leading-none">

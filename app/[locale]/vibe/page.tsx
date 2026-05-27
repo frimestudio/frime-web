@@ -44,7 +44,7 @@ export default async function VibePage({ params }: Props) {
           path: "/vibe",
         })}
       />
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>VIBE</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -57,7 +57,7 @@ export default async function VibePage({ params }: Props) {
       </section>
 
       <Section tone="frime">
-        <Kicker className="text-[var(--color-frime-ink)] opacity-80">
+        <Kicker className="text-frime-ink opacity-80">
           {t("next_title")}
         </Kicker>
         {upcoming ? (
@@ -66,7 +66,7 @@ export default async function VibePage({ params }: Props) {
               <Heading
                 as="h2"
                 size="lg"
-                className="text-white"
+                className="text-bg"
               >
                 {upcoming.title}
               </Heading>
@@ -113,7 +113,7 @@ export default async function VibePage({ params }: Props) {
             <Link
               key={e.slug}
               href={`/vibe/${e.slug}`}
-              className="group block border border-[var(--color-line)]"
+              className="group block border border-line"
             >
               {e.slug === "frime-1-urodziny" ? (
                 <LocalPhoto
@@ -129,9 +129,9 @@ export default async function VibePage({ params }: Props) {
                   note={`Афиша или фото с ${e.title}, ${e.date}`}
                 />
               )}
-              <div className="border-t border-[var(--color-line)] p-6">
+              <div className="border-t border-line p-6">
                 <div className="mono text-[10px] opacity-60">{e.date}</div>
-                <div className="display mt-2 text-3xl group-hover:text-[var(--color-frime)]">
+                <div className="display mt-2 text-3xl group-hover:text-frime">
                   {e.title}
                 </div>
                 <p className="mt-3 text-sm leading-relaxed">{e.summary[loc]}</p>

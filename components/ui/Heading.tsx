@@ -44,7 +44,7 @@ export function Kicker({
   className?: string;
 }) {
   return (
-    <p className={cn("mono text-xs md:text-sm text-[var(--color-muted)]", className)}>
+    <p className={cn("mono text-xs md:text-sm text-muted", className)}>
       {children}
     </p>
   );

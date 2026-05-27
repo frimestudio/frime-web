@@ -53,7 +53,7 @@ export default async function KontaktPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>KONTAKT · WILCZA 26</Kicker>
           <Heading as="h1" size="xl" className="mt-6">
@@ -65,7 +65,7 @@ export default async function KontaktPage({ params }: Props) {
       <Section>
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
-            <div className="aspect-video w-full overflow-hidden border border-[var(--color-line)]">
+            <div className="aspect-video w-full overflow-hidden border border-line">
               <iframe
                 src={`https://www.google.com/maps?q=${encodeURIComponent(
                   `${site.address.street}, ${site.address.postal} ${site.address.city}`,
@@ -145,7 +145,7 @@ export default async function KontaktPage({ params }: Props) {
                 <p className="mt-2 text-lg">
                   <a
                     href={`tel:${site.contact.phoneTel}`}
-                    className="hover:text-[var(--color-frime)]"
+                    className="hover:text-frime"
                   >
                     {site.contact.phone}
                   </a>
@@ -160,7 +160,7 @@ export default async function KontaktPage({ params }: Props) {
                       href={site.booking.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-[var(--color-frime)]"
+                      className="hover:text-frime"
                     >
                       Instagram
                     </a>
@@ -170,7 +170,7 @@ export default async function KontaktPage({ params }: Props) {
                       href={site.booking.tiktok}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-[var(--color-frime)]"
+                      className="hover:text-frime"
                     >
                       TikTok
                     </a>

@@ -43,7 +43,7 @@ export function WaitlistForm({
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="you@example.com"
-        className="h-14 border-b border-[var(--color-frime-ink)] bg-transparent text-2xl placeholder:opacity-40 focus:outline-none md:text-3xl"
+        className="h-14 border-b border-frime-ink bg-transparent text-2xl placeholder:opacity-40 focus:outline-none md:text-3xl"
       />
       <Button
         type="submit"

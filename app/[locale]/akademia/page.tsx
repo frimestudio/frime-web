@@ -29,7 +29,7 @@ export default async function AkademiaPage({ params }: Props) {
 
   return (
     <>
-      <section className="border-b border-[var(--color-line)]">
+      <section className="border-b border-line">
         <Container className="py-12 md:py-20">
           <Kicker>{t("kicker")}</Kicker>
           <Heading as="h1" size="xl" className="mt-6">

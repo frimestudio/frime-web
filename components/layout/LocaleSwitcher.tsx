@@ -70,7 +70,7 @@ export function LocaleSwitcher({ className }: { className?: string }) {
               "px-1.5 py-1 transition-colors",
               active
                 ? "underline underline-offset-4"
-                : "text-[var(--color-muted)] hover:text-[var(--color-fg)]",
+                : "text-muted hover:text-fg",
             )}
             aria-label={`Switch to ${labels[l]}`}
           >
@@ -85,13 +85,13 @@ export function LocaleSwitcher({ className }: { className?: string }) {
         aria-expanded={open}
         aria-haspopup="true"
         aria-label="More languages"
-        className="px-1.5 py-1 text-[var(--color-muted)] transition-colors hover:text-[var(--color-fg)]"
+        className="px-1.5 py-1 text-muted transition-colors hover:text-fg"
       >
         +
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full z-50 mt-1 min-w-[100px] border border-[var(--color-line)] bg-[var(--color-bg)] py-1 shadow-lg">
+        <div className="absolute right-0 top-full z-50 mt-1 min-w-[100px] border border-line bg-bg py-1 shadow-lg">
           {secondary.map((l) => {
             const active = l === locale;
             return (
@@ -103,8 +103,8 @@ export function LocaleSwitcher({ className }: { className?: string }) {
                 className={cn(
                   "block w-full px-3 py-1.5 text-left transition-colors",
                   active
-                    ? "bg-[var(--color-frime)] text-white"
-                    : "hover:bg-[var(--color-fg)] hover:text-white",
+                    ? "bg-frime text-bg"
+                    : "hover:bg-fg hover:text-bg",
                 )}
               >
                 {labels[l]}
