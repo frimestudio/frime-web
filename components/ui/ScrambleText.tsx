@@ -127,9 +127,7 @@ export function ScrambleText({
           {fullText}
         </span>
         <span aria-hidden>
-          {prefix}{" "}
-          <span style={{ color: "var(--color-frime)" }}>{name}</span>{" "}
-          <span style={{ color: "var(--color-frime)" }}>{surname}</span>
+          {prefix} {name} {surname}
         </span>
       </span>
     );
