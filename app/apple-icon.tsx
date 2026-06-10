@@ -13,15 +13,28 @@ export default function AppleIcon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#1a1aff",
-          color: "#ffffff",
-          fontSize: 128,
-          fontWeight: 900,
-          fontFamily: "Helvetica, Arial, sans-serif",
-          letterSpacing: "-0.04em",
+          background: "transparent",
         }}
       >
-        F
+        <div
+          style={{
+            width: 180,
+            height: 180,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#1a1aff",
+            borderRadius: "50%",
+            color: "#ffffff",
+            fontSize: 140,
+            fontWeight: 900,
+            fontFamily: "Helvetica, Arial, sans-serif",
+            letterSpacing: "-0.06em",
+            paddingBottom: 10,
+          }}
+        >
+          F
+        </div>
       </div>
     ),
     size,

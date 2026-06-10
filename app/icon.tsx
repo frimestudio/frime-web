@@ -13,15 +13,29 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#1a1aff",
-          color: "#ffffff",
-          fontSize: 44,
-          fontWeight: 900,
-          fontFamily: "Helvetica, Arial, sans-serif",
-          letterSpacing: "-0.04em",
+          background: "transparent",
         }}
       >
-        F
+        <div
+          style={{
+            width: 64,
+            height: 64,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#1a1aff",
+            borderRadius: "50%",
+            color: "#ffffff",
+            fontSize: 50,
+            fontWeight: 900,
+            fontFamily: "Helvetica, Arial, sans-serif",
+            letterSpacing: "-0.06em",
+            // lekko w górę, żeby F było optycznie wyśrodkowane w kółku
+            paddingBottom: 4,
+          }}
+        >
+          F
+        </div>
       </div>
     ),
     size,
