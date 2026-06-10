@@ -13,7 +13,7 @@ export const cosmeticsBrands: CosmeticsBrand[] = [
     name: "OWAY",
     country: "Włochy",
     category: "Pielęgnacja włosów, koloryzacja",
-    url: "https://owayspa.com",
+    url: "https://oway.com/",
     description: {
       pl: "Włoska linia profesjonalnej kosmetyki organicznej. Produkty pakowane w szkło i aluminium zamiast plastiku, składniki biodynamiczne, niewielki ślad węglowy w produkcji. Używamy OWAY do mycia, kolorów i pielęgnacji włosów. Sprawdza się zwłaszcza przy wrażliwej skórze głowy i farbowanych długich włosach.",
       uk: "Італійська лінія професійної органічної косметики. Продукти у скляній і алюмінієвій упаковці замість пластику, біодинамічні компоненти, невеликий вуглецевий слід. Користуємося OWAY для миття, фарбування і догляду за волоссям. Особливо добре працює на чутливій шкірі голови та фарбованому довгому волоссі.",
@@ -25,7 +25,7 @@ export const cosmeticsBrands: CosmeticsBrand[] = [
     name: "London Grooming",
     country: "Wielka Brytania",
     category: "Pielęgnacja męska, stylizacja",
-    url: "https://londongrooming.eu",
+    url: "https://www.londongrooming.com/",
     description: {
       pl: "Brytyjska linia męskiej pielęgnacji. Pomady, kremy do stylizacji, olejki i balsamy do brody. Klasyczna estetyka, mocne formuły, długi czas trzymania. Robimy nimi finisz większości męskich strzyżeń, szczególnie z fade'em i mocną grzywką.",
       uk: "Британська лінія чоловічого догляду. Помади, креми для укладки, олії і бальзами для бороди. Класична естетика, потужні формули, тривале тримання. Робимо ними фініш більшості чоловічих стрижок, особливо з фейдом і виразною чілкою.",

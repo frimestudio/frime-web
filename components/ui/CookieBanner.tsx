@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { startPostHog } from "@/lib/posthog";
 
 const STORAGE_KEY = "frime-cookies-consent";
 
@@ -12,7 +13,10 @@ export function CookieBanner() {
 
   useEffect(() => {
     const consent = typeof window !== "undefined" ? window.localStorage.getItem(STORAGE_KEY) : null;
-    if (!consent) {
+    if (consent === "accepted") {
+      // Zgoda z wcześniejszej wizyty → startujemy analitykę od razu.
+      startPostHog();
+    } else if (!consent) {
       const timer = window.setTimeout(() => setVisible(true), 600);
       return () => window.clearTimeout(timer);
     }
@@ -22,6 +26,8 @@ export function CookieBanner() {
     try {
       window.localStorage.setItem(STORAGE_KEY, "accepted");
     } catch {}
+    // Zgoda wyrażona → startujemy analitykę (init liczy bieżącą odsłonę).
+    startPostHog();
     setVisible(false);
   };
 

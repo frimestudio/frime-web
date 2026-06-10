@@ -30,7 +30,7 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5.0 from 305 reviews on Booksy",
     "hero_cta": "Book a visit",
-    "pillars_title": "Every visit starts with a conversation about what you really need",
+    "pillars_title": "Every visit starts with a conversation about <accent>what you really need</accent>",
     "pillar_on_title": "HIM",
     "pillar_on_desc": "Classic men's cuts. Modern and bold forms: mullet, wolf cut, chelsea. Fade, taper fade, beards and repigmentation.",
     "pillar_ona_title": "HER",
@@ -45,6 +45,12 @@
     "reviews_proof": "5.0 average from 305 reviews, data from Booksy",
     "location_title": "Wilcza 26, Śródmieście",
     "location_cta": "How to get here",
+    "magazines_kicker": "To read",
+    "magazines_title": "Magazines at the studio",
+    "magazines_intro": "We host issues from newonce and Aktivist. Drop by, grab a copy or read on the spot with a coffee.",
+    "magazines_newonce_desc": "Magazine and radio about music, fashion and culture.",
+    "magazines_aktivist_desc": "Independent lifestyle magazine from Warsaw.",
+    "magazines_link_label": "Magazine site",
     "popular_title": "Popular right now",
     "popular_intro": "A quick door into what people search for at our place most often.",
     "faq_title": "Frequent questions about FRIME",
@@ -263,9 +269,13 @@
       "title": "FRIME × BVCLUB × KIOSK",
       "body": "06/06. Pop-Up store at the studio. Vintage, leather, DJ-set, FREE DRINKS (0% ALCO). 13:00-20:00, Warsaw, Wilcza 26. BVCLUB and KIOSK are two independent brands we team up with to turn the studio into a one-day space of vintage, fashion and music. A poster with a row of mannequins and a line that stuck with us: it doesn't matter who you are, everyone needs clothes and a haircut."
     },
+    "popup-popiloni-maki-yoco": {
+      "title": "POP-UP × POPILONI × MAKI × YOCO",
+      "body": "On a Sunday afternoon, July 13th 2025, we turned the studio into a small shop with soul for four hours. Three local brands joined us: Popiloni Ceramics with unique ceramics from Gdańsk, Maki Candles with candles and scents that set the mood, and Yoco Coffee running the bar. Music by alexnoisbit. Plenty of things to touch, smell and take home. The pop-up ran from 12:00 to 16:00 and continued the series we started with BVCLUB × KIOSK. The studio as a bar, a shop, a place where people from different worlds meet for one day."
+    },
     "frime-1-urodziny": {
       "title": "FRIME 1ST BIRTHDAY",
-      "body": "In spring 2025, exactly a year after the first cut in the new studio, we threw a small birthday party. Hand-drawn poster, a bartender with two champagne glasses crossed into a letter V, drinks for everyone who showed up, music until closing. We celebrated with clients, friends from the industry and people who helped us launch. That day made it obvious how quickly three people and three stations turned into a small local community. The second birthday lands in spring 2026, this time with more weight."
+      "body": "Studio's first birthday, July 18th 2026, right here at Wilcza 26. Hand-drawn poster, a bartender with two champagne glasses crossed into a letter V, drinks for everyone who shows up, music until late. We celebrate with clients, friends from the industry and the people who helped us launch. From three people and three stations a small local community grew, and we want to gather it under one roof. Detailed program and times go out on Instagram closer to the date."
     },
     "next-event": {
       "title": "Next event",
@@ -280,6 +290,8 @@
   },
   "languages": {
     "title": "We speak",
+    "list_visible": "Polish · English",
+    "list_hidden": " · Ukrainian · Russian",
     "list": "Polish · English · Ukrainian · Russian",
     "note": "Book in any of these languages, we'll sort it out in the studio."
   },

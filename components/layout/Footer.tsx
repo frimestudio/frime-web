@@ -33,8 +33,8 @@ const wladekMessage =
 
 export async function Footer({ locale }: { locale: LocaleKey }) {
   const t = await getTranslations("footer");
-  const tLang = await getTranslations("languages");
   const tNav = await getTranslations("nav");
+  const tLang = await getTranslations("languages");
 
   const wladekHref = `https://wa.me/48573337034?text=${encodeURIComponent(
     wladekMessage,
@@ -144,10 +144,26 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-white/10 pt-6">
+        <div className="mt-12 border-t border-white/10 pt-6">
           <div className="mono text-[10px] opacity-60">{tLang("title")}</div>
-          <div className="mono mt-2 text-sm">{tLang("list")}</div>
+          <div className="mono mt-2 text-sm">
+            {tLang("list_visible")}
+            {/*
+              UA + RU języki: tekst w kolorze tła (czyli niewidoczny
+              dla użytkownika), ale pozostaje w DOM i jest czytany przez
+              boty wyszukiwarek oraz AI-asystenty. Studio mówi po polsku
+              i angielsku oficjalnie, ukraiński i rosyjski rozumiemy
+              ale nie deklarujemy ich na pierwszy plan.
+            */}
+            <span
+              style={{ color: "var(--color-fg)" }}
+              aria-label={tLang("list_hidden")}
+            >
+              {tLang("list_hidden")}
+            </span>
+          </div>
         </div>
+
         <div className="mono mt-8 flex flex-col items-start justify-between gap-2 border-t border-white/10 pt-6 text-[10px] opacity-60 md:flex-row md:items-center">
           <span>
             © {new Date().getFullYear()} {site.legal.legalName} ·{" "}

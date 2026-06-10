@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Anton } from "next/font/google";
+import { Geist, Geist_Mono, Anton, Oswald } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -27,6 +27,18 @@ const anton = Anton({
   variable: "--font-anton",
   subsets: ["latin", "latin-ext"],
   weight: "400",
+  // Wyłączamy auto-generowany "Anton Fallback" bo on łapie też cyrylicę
+  // i blokuje cascade do Oswald. Dla cyrylicy chcemy realne glify Oswalda.
+  adjustFontFallback: false,
+});
+
+// Display fallback dla cyrylicy (Anton nie ma glifów cyrylickich).
+// Oswald jest stylistycznie najbliższe z dostępnych w next/font/google z pełnym subsetem cyrillic.
+const oswald = Oswald({
+  variable: "--font-display-cyrillic",
+  subsets: ["latin", "cyrillic", "cyrillic-ext"],
+  weight: "700",
+  adjustFontFallback: false,
 });
 
 export function generateStaticParams() {
@@ -92,9 +104,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} h-full`}
+      className={`${geistSans.variable} ${geistMono.variable} ${anton.variable} ${oswald.variable} h-full`}
     >
-      <body className="flex min-h-full flex-col bg-bg text-fg antialiased">
+      <body className={`flex min-h-full flex-col bg-bg text-fg antialiased ${["ru", "uk"].includes(locale) ? "is-cyrillic" : ""}`}>
         <NextIntlClientProvider>
           <Header />
           <main className="flex-1 pb-16 md:pb-0">{children}</main>

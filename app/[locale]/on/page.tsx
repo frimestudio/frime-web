@@ -58,29 +58,34 @@ export default async function OnPage({ params }: Props) {
           <div className="md:col-span-7">
             <ul className="divide-y divide-line border-y border-line">
               {onServices.map((s) => (
-                <li
-                  key={s.slug}
-                  className="grid grid-cols-12 items-baseline gap-4 py-5"
-                >
-                  <div className="col-span-7 md:col-span-8">
-                    <div className="display text-2xl md:text-3xl">
-                      {s.name[loc]}
+                <li key={s.slug}>
+                  <a
+                    href={site.booking.booksy}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="grid grid-cols-12 items-baseline gap-4 py-5 transition-colors hover:bg-frime hover:text-frime-ink"
+                    aria-label={`${s.name[loc]} — ${t("book")}`}
+                  >
+                    <div className="col-span-7 md:col-span-8">
+                      <div className="display text-2xl md:text-3xl">
+                        {s.name[loc]}
+                      </div>
+                      <div className="mono mt-1 text-[10px] opacity-60">
+                        {t("duration")}: {s.durationMin}
+                        {s.durationMax ? `–${s.durationMax}` : ""} min
+                      </div>
                     </div>
-                    <div className="mono mt-1 text-[10px] opacity-60">
-                      {t("duration")}: {s.durationMin}
-                      {s.durationMax ? `–${s.durationMax}` : ""} min
+                    <div className="mono col-span-5 text-right text-sm md:col-span-4">
+                      {t("price_from")} {s.priceFrom}
+                      {s.priceTo ? `–${s.priceTo}` : ""} zł
                     </div>
-                  </div>
-                  <div className="mono col-span-5 text-right text-sm md:col-span-4">
-                    {t("price_from")} {s.priceFrom}
-                    {s.priceTo ? `–${s.priceTo}` : ""} zł
-                  </div>
+                  </a>
                 </li>
               ))}
             </ul>
 
-            <div className="mt-12">
-              <Heading as="h2" size="md">
+            <div className="mt-12 border border-frime bg-frime p-6 text-frime-ink">
+              <Heading as="h2" size="md" className="text-frime-ink">
                 {t("consultation_free")}
               </Heading>
               <ul className="mt-4 space-y-2">

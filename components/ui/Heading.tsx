@@ -15,6 +15,11 @@ const sizeMap = {
   sm: "text-[clamp(1.25rem,2vw,1.75rem)]",
 };
 
+// Duże rozmiary (xl, lg) potrzebują luźniejszego line-height,
+// inaczej wiersze nachodzą na siebie. Klasa .display-hero z globals.css
+// nadaje większy leading i działa też dla cyrylicy (Oswald).
+const looseSizes = new Set(["xl", "lg"]);
+
 export function Heading({
   children,
   as = "h2",
@@ -27,6 +32,7 @@ export function Heading({
     <Tag
       className={cn(
         display ? "display" : "font-semibold tracking-tight",
+        display && looseSizes.has(size) ? "display-hero" : null,
         sizeMap[size],
         className,
       )}

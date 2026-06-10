@@ -58,6 +58,27 @@
   text-transform: uppercase;
 }
 
+/* Anton nie ma glifów cyrylickich. Na locale ru/uk całe display
+   przełączamy na Oswald (700) ze stylem najbliższym Antonowi,
+   który ma pełny subset cyrillic. */
+.is-cyrillic .display {
+  font-family: var(--font-display-cyrillic), Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Hero display: zachowujemy brutalist gęstość (line-height 0.85),
+   ale dorzucamy stałe 2px odstępu między wierszami, żeby litery
+   się nie zlewały. Skala stała niezależnie od font-size dzięki calc. */
+.display.display-hero {
+  line-height: calc(0.85em + 2px);
+}
+
+/* Oswald (cyrylica) ma większy cap-height, potrzebuje minimalnie luźniej. */
+.is-cyrillic .display.display-hero {
+  line-height: calc(0.92em + 2px);
+}
+
 .mono {
   font-family: var(--font-geist-mono), ui-monospace, monospace;
   letter-spacing: 0.02em;

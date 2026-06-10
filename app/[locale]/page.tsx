@@ -6,6 +6,7 @@ import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonInternalLink, ButtonLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { LocalPhoto } from "@/components/ui/LocalPhoto";
+import { HeroCarousel } from "@/components/ui/HeroCarousel";
 import { Placeholder } from "@/components/ui/Placeholder";
 import { Marquee } from "@/components/ui/Marquee";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
@@ -83,7 +84,7 @@ export default async function HomePage({ params }: Props) {
         <Container className="grid gap-10 py-10 md:grid-cols-12 md:gap-8 md:py-16">
           <div className="md:col-span-7">
             <Kicker>{t("hero_kicker")}</Kicker>
-            <h1 className="display mt-6 text-[clamp(3rem,11vw,11rem)]">
+            <h1 className="display display-hero mt-6 text-[clamp(3rem,11vw,11rem)]">
               <span className="block">{t("hero_slogan_1")}</span>
               <span className="block">{t("hero_slogan_2")}</span>
               <span className="block text-frime">
@@ -106,12 +107,19 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-5">
-            <LocalPhoto
-              src="/images/hero/hero-chair.jpg"
-              alt="FRIME studio — fotel fryzjerski w niebieskim świetle neonów"
+            <HeroCarousel
               ratio="4/5"
               priority
-              sizes="(min-width: 768px) 40vw, 100vw"
+              slides={[
+                { src: "/images/hero/studio-01.jpg", alt: "Wnętrze studia FRIME — fotel i lustro" },
+                { src: "/images/hero/studio-02.jpg", alt: "Detale studia FRIME na Wilczej 26 w Warszawie" },
+                { src: "/images/hero/studio-03.jpg", alt: "Stanowiska fryzjerskie w FRIME — Wilcza 26" },
+                { src: "/images/hero/studio-04.jpg", alt: "Atmosfera studia FRIME — Śródmieście Warszawa" },
+                { src: "/images/hero/magazines-newonce.jpg", alt: "Magazyn newonce w studio FRIME — do poczytania na miejscu" },
+                { src: "/images/hero/magazines-aktivist.jpg", alt: "Aktivist magazine w studio FRIME — bierz i czytaj" },
+                { src: "/images/hero/outside-01.jpg", alt: "FRIME od zewnątrz — Wilcza 26 Warszawa" },
+                { src: "/images/hero/outside-02.jpg", alt: "Witryna FRIME na Wilczej 26" },
+              ]}
             />
           </div>
         </Container>
@@ -130,7 +138,11 @@ export default async function HomePage({ params }: Props) {
       <Section>
         <div className="mb-12 flex items-end justify-between">
           <Heading as="h2" size="lg">
-            {t("pillars_title")}
+            {t.rich("pillars_title", {
+              accent: (chunks) => (
+                <span className="text-[var(--color-frime)]">{chunks}</span>
+              ),
+            })}
           </Heading>
         </div>
         <div className="grid gap-8 md:grid-cols-3">
@@ -181,6 +193,72 @@ export default async function HomePage({ params }: Props) {
               </div>
             </Link>
           ))}
+        </div>
+      </Section>
+
+      <Section>
+        <div className="grid gap-10 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <Kicker>{t("magazines_kicker")}</Kicker>
+            <Heading as="h2" size="lg" className="mt-4">
+              {t("magazines_title")}
+            </Heading>
+            <p className="mt-6 max-w-prose text-base leading-relaxed md:text-lg">
+              {t("magazines_intro")}
+            </p>
+          </div>
+          <div className="md:col-span-7">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <a
+                href="https://newonce.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block border border-line bg-bg"
+              >
+                <LocalPhoto
+                  src="/images/hero/magazines-newonce.jpg"
+                  alt="newonce magazine w studio FRIME"
+                  ratio="4/5"
+                  sizes="(min-width: 768px) 30vw, 100vw"
+                />
+                <div className="border-t border-line p-5">
+                  <div className="display text-2xl group-hover:text-frime">
+                    newonce
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed">
+                    {t("magazines_newonce_desc")}
+                  </p>
+                  <span className="mono mt-3 inline-block text-[10px] opacity-60">
+                    newonce.net →
+                  </span>
+                </div>
+              </a>
+              <a
+                href="https://aktivist.pl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block border border-line bg-bg"
+              >
+                <LocalPhoto
+                  src="/images/hero/magazines-aktivist.jpg"
+                  alt="Aktivist magazine w studio FRIME"
+                  ratio="4/5"
+                  sizes="(min-width: 768px) 30vw, 100vw"
+                />
+                <div className="border-t border-line p-5">
+                  <div className="display text-2xl group-hover:text-frime">
+                    Aktivist
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed">
+                    {t("magazines_aktivist_desc")}
+                  </p>
+                  <span className="mono mt-3 inline-block text-[10px] opacity-60">
+                    aktivist.pl →
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </Section>
 

@@ -30,11 +30,11 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5,0 z 305 opinii na Booksy",
     "hero_cta": "Umów wizytę",
-    "pillars_title": "Każda wizyta zaczyna się od rozmowy o tym, czego naprawdę potrzebujesz",
+    "pillars_title": "Każda wizyta zaczyna się od rozmowy o tym, <accent>czego naprawdę potrzebujesz</accent>",
     "pillar_on_title": "ON",
-    "pillar_on_desc": "Klasyczne strzyżenia męskie. Nowoczesne i odważne formy: mullet, wolf cut, chelsea. Fade, taper fade, brody oraz repigmentacja.",
+    "pillar_on_desc": "Nowoczesne i odważne formy oraz klasyczne strzyżenia męskie - Mullet, Side Part, Wolf Cut, Taper Fade, Middle Part… a może Buzz Cut?",
     "pillar_ona_title": "ONA",
-    "pillar_ona_desc": "Klasyczne strzyżenia damskie oraz nowoczesne formy. Krótkie cięcia, grzywki i indywidualne podejście do stylu. Konsultacje koloru oraz trwałej.",
+    "pillar_ona_desc": "Pixie, Bob czy same końcówki? Klasyczne strzyżenia damskie i nowoczesne formy. Krótkie cięcia, grzywki oraz indywidualne podejście do klienta. Konsultacje koloru oraz trwałej.",
     "pillar_vibe_title": "VIBE",
     "pillar_vibe_desc": "Pop-upy, kolaboracje i wydarzenia. Muzyka, moda, ludzie i dobra atmosfera. Od czasu do czasu studio zmienia się w przestrzeń spotkań, zakupów i wspólnego vibe'u.",
     "team_title": "TEAM",
@@ -45,6 +45,12 @@
     "reviews_proof": "5,0 średnia z 305 ocen, dane z Booksy",
     "location_title": "Wilcza 26, Śródmieście",
     "location_cta": "Jak do nas trafić",
+    "magazines_kicker": "Do poczytania",
+    "magazines_title": "Magazyny w studio",
+    "magazines_intro": "U nas zostawiają swoje wydania newonce i Aktivist. Wpadnij, weź egzemplarz albo poczytaj na miejscu przy kawie.",
+    "magazines_newonce_desc": "Magazyn i radio o muzyce, modzie i kulturze.",
+    "magazines_aktivist_desc": "Niezależny magazyn lifestyle'owy z Warszawy.",
+    "magazines_link_label": "Strona magazynu",
     "popular_title": "Popularne teraz",
     "popular_intro": "Krótkie wejście w to, czego najczęściej szuka się u nas w sieci.",
     "faq_title": "Najczęstsze pytania o FRIME",
@@ -69,15 +75,15 @@
   },
   "services": {
     "on_title": "Strzyżenia męskie",
-    "on_intro": "Strzyżenie dopasowane do Ciebie. Klasyka albo coś odważniejszego - wszystko zaczyna się od konsultacji.",
+    "on_intro": "Strzyżenie dopasowane do Ciebie. Klasyka albo coś odważniejszego - wszystko ustalimy przy fotelu.",
     "ona_title": "Strzyżenia damskie",
     "ona_intro": "Klasyczne i nowoczesne formy. Krótkie cięcia, grzywki i indywidualne podejście - każda wizyta zaczyna się od konsultacji.",
     "price_from": "od",
     "duration": "czas trwania",
     "book": "Umów się",
     "consultation_free": "Konsultacja FREE",
-    "deep_links_title_on": "Sprawdź konkretne usługi",
-    "deep_links_title_ona": "Sprawdź konkretne usługi",
+    "deep_links_title_on": "Więcej o naszych usługach",
+    "deep_links_title_ona": "Więcej o naszych usługach",
     "faq_title_on": "Często pytacie",
     "faq_title_ona": "Często pytacie",
     "faq_on": [
@@ -265,7 +271,11 @@
     },
     "frime-1-urodziny": {
       "title": "FRIME 1 URODZINY",
-      "body": "Wiosną 2025, dokładnie po roku od pierwszego cięcia w nowym studio, zrobiliśmy małą imprezę urodzinową. Plakat zilustrowany ręcznie, barman z dwoma kieliszkami szampana złożonymi w literę V, drinki dla wszystkich, którzy wpadli, i muzyka aż do zamknięcia. Świętowaliśmy z klientami, znajomymi z branży i ludźmi, którzy pomagali nam wystartować. Ten dzień najlepiej pokazał, jak szybko z trzech ludzi i trzech stanowisk zrobiło się małe lokalne community. Drugie urodziny planujemy na wiosnę 2026, tym razem z większym rozmachem."
+      "body": "Pierwsza rocznica studia, 18 lipca 2026 roku, w samej Wilczej 26. Plakat ilustrowany ręcznie, barman z dwoma kieliszkami szampana złożonymi w literę V, drinki dla wszystkich, którzy wpadną, i muzyka do późna. Świętujemy z klientami, znajomymi z branży i ludźmi, którzy pomagali nam wystartować. Z trzech ludzi i trzech stanowisk wyrosła mała lokalna społeczność, którą chcemy zebrać pod jednym dachem. Szczegółowy program i godziny ogłaszamy na Instagramie tuż przed datą."
+    },
+    "popup-popiloni-maki-yoco": {
+      "title": "POP-UP × POPILONI × MAKI × YOCO",
+      "body": "W niedzielne popołudnie 13 lipca 2025 zamieniliśmy studio na cztery godziny w mały butik z duszą. Wpadły do nas trzy lokalne marki: Popiloni Ceramics z unikalną ceramiką prosto z Gdańska, Maki Candles ze świecami i zapachami, które robią klimat, i Yoco Coffee, którzy odpowiadali za kawę. Za muzyką stał alexnoisbit. Dużo rzeczy do dotknięcia, powąchania i zabrania ze sobą. Pop-up trwał od 12:00 do 16:00 i był kontynuacją serii, którą zaczęliśmy od BVCLUB × KIOSK. Studio jako bar, jako sklep, jako miejsce, gdzie ludzie z różnych światów stykają się na jeden dzień."
     },
     "next-event": {
       "title": "Następne wydarzenie",
@@ -280,6 +290,8 @@
   },
   "languages": {
     "title": "Mówimy",
+    "list_visible": "Po polsku · po angielsku",
+    "list_hidden": " · po ukraińsku · po rosyjsku",
     "list": "Po polsku · po angielsku · po ukraińsku · po rosyjsku",
     "note": "Zarezerwuj w jednym z tych języków, w studio się dogadamy."
   },

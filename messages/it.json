@@ -30,7 +30,7 @@
     "hero_slogan_4": "A HAIRCUT.",
     "hero_proof": "5,0 su 305 recensioni su Booksy",
     "hero_cta": "Prenota",
-    "pillars_title": "Ogni visita inizia con una conversazione su ciò di cui hai davvero bisogno",
+    "pillars_title": "Ogni visita inizia con una conversazione su <accent>ciò di cui hai davvero bisogno</accent>",
     "pillar_on_title": "LUI",
     "pillar_on_desc": "Tagli classici da uomo. Forme moderne e audaci: mullet, wolf cut, chelsea. Fade, taper fade, barbe e repigmentazione.",
     "pillar_ona_title": "LEI",
@@ -45,6 +45,12 @@
     "reviews_proof": "5,0 di media su 305 valutazioni, dati da Booksy",
     "location_title": "Wilcza 26, Śródmieście",
     "location_cta": "Come arrivare",
+    "magazines_kicker": "Da leggere",
+    "magazines_title": "Riviste in studio",
+    "magazines_intro": "Da noi trovi i numeri di newonce e Aktivist. Passa, prendine una o leggile da noi con un caffè.",
+    "magazines_newonce_desc": "Rivista e radio su musica, moda e cultura.",
+    "magazines_aktivist_desc": "Rivista lifestyle indipendente da Varsavia.",
+    "magazines_link_label": "Sito della rivista",
     "popular_title": "Popolare ora",
     "popular_intro": "Un ingresso rapido a quello che si cerca di più da noi online.",
     "faq_title": "Domande frequenti su FRIME",
@@ -331,9 +337,13 @@
       "title": "FRIME × BVCLUB × KIOSK",
       "body": "06/06. Pop-Up store in studio. Vintage, pelle, DJ-set, FREE DRINKS (0% ALCO). 13:00-20:00, Varsavia, Wilcza 26. BVCLUB e KIOSK sono due brand indipendenti con cui trasformiamo lo studio per un giorno in uno spazio di vintage, moda e musica. Un poster con una fila di manichini e una frase che ci è rimasta: it doesn't matter who you are, everyone needs clothes and a haircut."
     },
+    "popup-popiloni-maki-yoco": {
+      "title": "POP-UP × POPILONI × MAKI × YOCO",
+      "body": "Una domenica pomeriggio, il 13 luglio 2025, abbiamo trasformato lo studio per quattro ore in un piccolo negozio con anima. Sono passati tre brand locali: Popiloni Ceramics con ceramica unica da Gdańsk, Maki Candles con candele e profumi che creano atmosfera, e Yoco Coffee al banco caffè. Musica di alexnoisbit. Tante cose da toccare, annusare e portare a casa. Il pop-up è andato dalle 12 alle 16 e ha continuato la serie iniziata con BVCLUB × KIOSK."
+    },
     "frime-1-urodziny": {
       "title": "FRIME 1° COMPLEANNO",
-      "body": "In primavera 2025, esattamente un anno dopo il primo taglio nel nuovo studio, abbiamo fatto una piccola festa di compleanno. Poster illustrato a mano, barman con due flute di champagne incrociati a formare una V, drink per tutti, musica fino alla chiusura."
+      "body": "Primo compleanno dello studio, 18 luglio 2026, proprio qui in Wilcza 26. Poster illustrato a mano, barman con due flute di champagne incrociati a formare una V, drink per chiunque passi, musica fino a tardi. Festeggiamo con clienti, amici del settore e chi ci ha aiutato a partire. Da tre persone e tre postazioni è cresciuta una piccola community locale che vogliamo riunire sotto un tetto. Programma dettagliato e orari su Instagram poco prima della data."
     },
     "next-event": {
       "title": "Prossimo evento",
@@ -342,6 +352,8 @@
   },
   "languages": {
     "title": "Parliamo",
+    "list_visible": "Polacco · inglese",
+    "list_hidden": " · ucraino · russo",
     "list": "Polacco · inglese · ucraino · russo",
     "note": "Prenota in una di queste lingue, in studio ci capiamo."
   },
