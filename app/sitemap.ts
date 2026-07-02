@@ -11,6 +11,7 @@ const staticPaths = [
   "/on/repigmentacja",
   "/ona",
   "/ona/krotkie-fryzury",
+  "/ona/balayage",
   "/team",
   "/vibe",
   "/akademia",

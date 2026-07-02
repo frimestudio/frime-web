@@ -284,6 +284,105 @@
         { "label": "Unser Team", "href": "/team" }
       ]
     },
+    "balayage": {
+      "kicker": "Färben · SIE",
+      "title": "Balayage und Airtouch",
+      "lede": "Aufhellung, die nach Sommer aussieht, nicht nach Strähnchen von vor zwanzig Jahren. Balayage, Airtouch und Babylights machen wir in der Wilcza 26, immer nach einer kostenlosen Beratung mit Preisangebot vor Ort.",
+      "intro_title": "Was Balayage von klassischer Färbung unterscheidet",
+      "intro_body": "Bei klassischer Färbung liegt die Farbe gleichmäßig vom Ansatz bis in die Spitzen, und nach drei Wochen zeigt sich der Ansatz als harter Streifen. Balayage funktioniert anders. Wir malen die Farbe von Hand, Strähne für Strähne, mit weichem Übergang vom natürlichen Ansatz zu helleren Spitzen. Das Ergebnis sieht aus, als wäre das Haar von selbst am Meer ausgeblichen. Der Ansatz verschmilzt mit dem Rest, statt monatlicher Korrektur reicht eine Auffrischung alle drei bis vier Monate. Eine Färbung für alle, die Veränderung wollen, ohne an den Friseurstuhl gekettet zu sein.",
+      "techniques_title": "Techniken, die wir machen",
+      "techniques_body": "Die Namen klingen ähnlich, die Ergebnisse sind es nicht. Bei der Beratung schauen wir uns dein Haar an und sagen ehrlich, welche Technik wirklich das liefert, was auf deinen Referenzfotos ist.",
+      "techniques": [
+        {
+          "name": "Klassisches Balayage",
+          "desc": "Handgemalte Strähnen ab der Längenmitte abwärts. Ein sonniger, malerischer Übergang mit minimalem Eingriff am Ansatz."
+        },
+        {
+          "name": "Airtouch",
+          "desc": "Die Strähnen trennt ein Luftstrom, aufgehellt wird nur, was in der Hand bleibt. Die präziseste Technik, der Ansatz wächst praktisch unsichtbar heraus."
+        },
+        {
+          "name": "Babylights",
+          "desc": "Sehr feine Reflexe über den ganzen Kopf verteilt. Der Effekt von Kinderhaar in der Sonne."
+        },
+        {
+          "name": "Face Framing",
+          "desc": "Hellere Strähnen ums Gesicht. Die schnelle Option, wenn du den Look auffrischen willst, ohne komplette Aufhellung."
+        }
+      ],
+      "effects_title": "Farbe und Tönung",
+      "effects_body": "Aufhellen ist die halbe Arbeit. Die andere Hälfte ist die Tönung, also der Zielton für die aufgehellten Strähnen. Wir arbeiten mit der italienischen Linie OWAY, die die Haarstruktur respektvoll behandelt.",
+      "effects": [
+        {
+          "name": "Kühles Blond",
+          "desc": "Aschige, skandinavische Töne ohne Gelbstich. Braucht gute Aufhellung und regelmäßige Tönung."
+        },
+        {
+          "name": "Beige und Sand",
+          "desc": "Neutrale Töne, die zu den meisten Hauttypen passen und den Ansatz verzeihen."
+        },
+        {
+          "name": "Karamell und Honig",
+          "desc": "Warme Töne für dunkle Basen. Tiefe und Licht statt radikalem Farbwechsel."
+        },
+        {
+          "name": "Gloss",
+          "desc": "Tönung für Farbauffrischung und Glanz zwischen den Besuchen. Schnell, ohne Aufhellung."
+        }
+      ],
+      "visit_title": "So läuft der Besuch ab",
+      "visit_body": "Wir starten mit einer kostenlosen Beratung: Wir schauen uns das Haar an, fragen nach der Färbehistorie und den Fotos, die du mitbringst. Nach schwieriger Farbhistorie machen wir einen Strähnentest. Die Aufhellung mit Tönung dauert zweieinhalb bis fünf Stunden, je nach Länge, Dichte und Ausgangsbasis. Plan dir einen ruhigen Nachmittag ein, Kaffee und eine gute Playlist gibt es bei uns.",
+      "care_title": "Pflege nach der Aufhellung",
+      "care_body": "Die ersten 48 Stunden nicht waschen, die Farbe soll sich stabilisieren. Danach Shampoo für aufgehelltes Haar, einmal pro Woche Silbershampoo, wenn wir den Ton kühl halten. Regelmäßiges Ölen der Spitzen und Hitzeschutz vorm Föhnen sind das Minimum. Ein Gloss alle sechs bis acht Wochen hält den Ton, die komplette Balayage-Auffrischung reicht alle drei bis vier Monate.",
+      "price_label": "Preis",
+      "price_value": "individuelles Angebot nach kostenloser Beratung",
+      "duration_label": "Dauer",
+      "duration_value": "2,5-5 Stunden inklusive Tönung",
+      "faq_title": "Häufige Fragen zu Balayage",
+      "faq": [
+        {
+          "q": "Balayage oder Airtouch, was nehmen?",
+          "a": "Balayage gibt einen freieren, malerischen Effekt und geht schneller. Airtouch ist präziser und der Ansatz wächst noch weicher heraus, aber der Termin dauert länger und kostet mehr. Wir beraten dich, nachdem wir Haar und Referenzen gesehen haben."
+        },
+        {
+          "q": "Ruiniert die Aufhellung mein Haar?",
+          "a": "Jede Aufhellung greift in die Struktur ein, aber Technik und Produkte machen den Unterschied. Wir arbeiten mit OWAY, passen die Stärke des Aufhellers an den Haarzustand an und sagen offen, wenn zwei Termine sicherer sind."
+        },
+        {
+          "q": "Wie lange hält der Effekt?",
+          "a": "Balayage wächst schön heraus, eine komplette Auffrischung alle drei bis vier Monate reicht. Die Tönung lohnt sich alle sechs bis acht Wochen."
+        },
+        {
+          "q": "Ich habe dunkles Haar. Geht Blond in einem Termin?",
+          "a": "Kommt auf Basis und Farbhistorie an. Von natürlicher dunkler Basis oft ja, nach schwarzer Farbe fast nie. Wir versprechen keine Wunder, nur um einen Termin zu verkaufen. Wir sagen, was realistisch machbar ist."
+        },
+        {
+          "q": "Ich hatte früher Henna oder Drogeriefarbe. Ein Problem?",
+          "a": "Das ist eine wichtige Info, erwähne sie bei der Beratung. Henna und manche Pigmente reagieren unvorhersehbar, deshalb machen wir in solchen Fällen immer einen Strähnentest."
+        },
+        {
+          "q": "Was kostet Balayage bei FRIME?",
+          "a": "Der Preis hängt von Länge, Dichte und Ausgangsbasis ab, deshalb kalkulieren wir nach einer kostenlosen Beratung. Sie dauert eine Viertelstunde und verpflichtet zu nichts."
+        }
+      ],
+      "cta_title": "Farbberatung buchen",
+      "cta_text": "Die Beratung ist kostenlos und dauert 15 Minuten. Komm mit Referenzen, den Rest übernehmen wir. Am schnellsten buchst du über Booksy.",
+      "related_title": "Sieh auch",
+      "related": [
+        {
+          "label": "Kurze Damenschnitte",
+          "href": "/ona/krotkie-fryzury"
+        },
+        {
+          "label": "Damenschnitte und Pony",
+          "href": "/ona"
+        },
+        {
+          "label": "Produkte, mit denen wir arbeiten",
+          "href": "/kosmetyki"
+        }
+      ]
+    },
     "mullet": {
       "kicker": "Schnitt · ER / SIE",
       "title": "Mullet bei FRIME",

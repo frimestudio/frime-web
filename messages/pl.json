@@ -482,6 +482,105 @@
         { "label": "Nasz zespół", "href": "/team" }
       ]
     },
+    "balayage": {
+      "kicker": "Koloryzacja · ONA",
+      "title": "Balayage i airtouch",
+      "lede": "Rozjaśnianie, które wygląda jak lato, nie jak pasemka sprzed dwudziestu lat. Balayage, airtouch i babylights robimy na Wilczej 26, zawsze po darmowej konsultacji i wycenie na miejscu.",
+      "intro_title": "Czym balayage różni się od zwykłej koloryzacji",
+      "intro_body": "Przy klasycznej koloryzacji farba idzie równo od nasady po końce, a odrost widać po trzech tygodniach jako wyraźny pas. Balayage działa inaczej. Kolor malujemy ręcznie, wybranymi pasmami, z miękkim przejściem od naturalnej nasady do jaśniejszych końców. Efekt wygląda, jakby włosy same wyblakły nad morzem. Odrost zlewa się z resztą, więc zamiast poprawki co miesiąc wystarczy odświeżenie raz na trzy, cztery miesiące. To koloryzacja dla osób, które chcą zmiany bez niewoli comiesięcznych wizyt.",
+      "techniques_title": "Techniki, które robimy",
+      "techniques_body": "Nazwy brzmią podobnie, a efekty są różne. Na konsultacji obejrzymy twoje włosy i powiemy, która technika realnie da to, co masz na referencyjnych zdjęciach.",
+      "techniques": [
+        {
+          "name": "Balayage klasyczny",
+          "desc": "Ręcznie malowane pasma od połowy długości w dół. Słoneczne, malarskie przejście i minimum ingerencji przy nasadzie."
+        },
+        {
+          "name": "Airtouch",
+          "desc": "Pasma oddziela strumień powietrza, rozjaśniamy tylko te, które zostają w ręce. Najbardziej precyzyjna technika, odrost schodzi praktycznie niewidocznie."
+        },
+        {
+          "name": "Babylights",
+          "desc": "Bardzo cienkie refleksy rozrzucone po całej głowie. Efekt dziecięcych włosów rozświetlonych słońcem."
+        },
+        {
+          "name": "Face framing",
+          "desc": "Jaśniejsze pasma wokół twarzy. Szybka opcja, kiedy chcesz odświeżyć wygląd bez pełnego rozjaśniania."
+        }
+      ],
+      "effects_title": "Kolor i tonowanie",
+      "effects_body": "Rozjaśnienie to połowa pracy. Druga połowa to tonowanie, czyli nadanie pasmom docelowego odcienia. Pracujemy na włoskiej linii OWAY, która traktuje strukturę włosa z szacunkiem.",
+      "effects": [
+        {
+          "name": "Zimny blond",
+          "desc": "Popielate, skandynawskie tony bez żółtych refleksów. Wymaga dobrego rozjaśnienia i regularnego tonowania."
+        },
+        {
+          "name": "Beż i piasek",
+          "desc": "Neutralne odcienie, które pasują do większości karnacji i wybaczają odrost."
+        },
+        {
+          "name": "Karmel i miód",
+          "desc": "Ciepłe tony dla ciemnych baz. Głębia i światło zamiast radykalnej zmiany koloru."
+        },
+        {
+          "name": "Gloss",
+          "desc": "Tonowanie odświeżające odcień i połysk między wizytami. Szybkie, bez rozjaśniania."
+        }
+      ],
+      "visit_title": "Jak wygląda wizyta",
+      "visit_body": "Zaczynamy od darmowej konsultacji: oglądamy włosy, pytamy o historię koloryzacji i o zdjęcia, które przynosisz. Po trudnej historii koloru robimy test pasma. Samo rozjaśnianie z tonowaniem trwa od dwóch i pół do pięciu godzin zależnie od długości, gęstości i punktu startowego. Zarezerwuj sobie spokojne popołudnie, kawa i dobra playlista są u nas.",
+      "care_title": "Pielęgnacja po rozjaśnianiu",
+      "care_body": "Pierwsze 48 godzin bez mycia, niech kolor się ustabilizuje. Potem szampon do włosów rozjaśnianych, a raz w tygodniu fioletowy, jeśli trzymamy zimny odcień. Regularne olejowanie końców i osłona termiczna przed suszarką to minimum. Gloss co sześć do ośmiu tygodni podtrzyma odcień, pełne odświeżenie balayage wystarczy raz na trzy, cztery miesiące.",
+      "price_label": "Cena",
+      "price_value": "wycena indywidualna po darmowej konsultacji",
+      "duration_label": "Czas",
+      "duration_value": "2,5-5 godzin z tonowaniem",
+      "faq_title": "Często pytacie o balayage",
+      "faq": [
+        {
+          "q": "Balayage czy airtouch, co wybrać?",
+          "a": "Balayage daje swobodniejszy, malarski efekt i trwa krócej. Airtouch jest precyzyjniejszy, odrost schodzi jeszcze płynniej, ale wizyta trwa dłużej i kosztuje więcej. Na konsultacji doradzimy po obejrzeniu włosów i referencji."
+        },
+        {
+          "q": "Czy rozjaśnianie zniszczy mi włosy?",
+          "a": "Każde rozjaśnianie ingeruje w strukturę, ale technika i produkty robią różnicę. Pracujemy na OWAY, moc rozjaśniacza dobieramy do stanu włosów i mówimy wprost, jeśli bezpieczniej rozłożyć efekt na dwie wizyty."
+        },
+        {
+          "q": "Ile utrzymuje się efekt?",
+          "a": "Balayage ładnie rośnie, więc pełne odświeżenie wystarczy raz na trzy, cztery miesiące. Tonowanie odcienia warto powtarzać co sześć do ośmiu tygodni."
+        },
+        {
+          "q": "Mam ciemne włosy. Da się zrobić blond w jedną wizytę?",
+          "a": "Zależy od bazy i historii koloru. Z naturalnej ciemnej bazy często tak, po czarnej farbie prawie nigdy. Nie obiecujemy na konsultacji cudów tylko po to, żeby sprzedać wizytę. Mówimy, co realnie wyjdzie."
+        },
+        {
+          "q": "Robiłam wcześniej hennę albo farby z drogerii. To problem?",
+          "a": "To ważna informacja, powiedz o niej na konsultacji. Henna i niektóre pigmenty reagują nieprzewidywalnie, dlatego w takich przypadkach zawsze robimy test pasma."
+        },
+        {
+          "q": "Ile kosztuje balayage w FRIME?",
+          "a": "Cena zależy od długości, gęstości i punktu startowego, dlatego wyceniamy po darmowej konsultacji. Trwa kwadrans i do niczego nie zobowiązuje."
+        }
+      ],
+      "cta_title": "Umów konsultację koloru",
+      "cta_text": "Konsultacja jest darmowa i trwa 15 minut. Przyjdź z referencjami, resztą zajmiemy się my. Rezerwacja najszybciej przez Booksy.",
+      "related_title": "Zobacz też",
+      "related": [
+        {
+          "label": "Krótkie fryzury damskie",
+          "href": "/ona/krotkie-fryzury"
+        },
+        {
+          "label": "Strzyżenia damskie i grzywki",
+          "href": "/ona"
+        },
+        {
+          "label": "Kosmetyki, na których pracujemy",
+          "href": "/kosmetyki"
+        }
+      ]
+    },
     "mullet": {
       "kicker": "Strzyżenie · ON / ONA",
       "title": "Mullet w FRIME",

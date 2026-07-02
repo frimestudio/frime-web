@@ -482,6 +482,105 @@
         { "label": "Our team", "href": "/team" }
       ]
     },
+    "balayage": {
+      "kicker": "Colour · HER",
+      "title": "Balayage and airtouch",
+      "lede": "Lightening that looks like summer, not like highlights from twenty years ago. We do balayage, airtouch and babylights at Wilcza 26, always after a free consultation with a quote on the spot.",
+      "intro_title": "How balayage differs from regular colour",
+      "intro_body": "With classic colour the dye goes evenly from roots to ends, and three weeks later the regrowth shows as a hard line. Balayage works differently. We paint the colour by hand, strand by strand, with a soft transition from your natural base to lighter ends. The result looks like your hair faded by the sea on its own. Regrowth blends into the rest, so instead of a touch-up every month you need a refresh every three or four months. It is colour for people who want a change without being chained to the salon chair.",
+      "techniques_title": "Techniques we do",
+      "techniques_body": "The names sound alike, the results are not. At the consultation we look at your hair and tell you honestly which technique will actually give you what is in your reference photos.",
+      "techniques": [
+        {
+          "name": "Classic balayage",
+          "desc": "Hand-painted strands from mid-length down. A sunny, painterly transition with minimal work at the roots."
+        },
+        {
+          "name": "Airtouch",
+          "desc": "Strands are separated with a blast of air and we lighten only what stays in the hand. The most precise technique, regrowth is practically invisible."
+        },
+        {
+          "name": "Babylights",
+          "desc": "Very fine highlights scattered across the whole head. The effect of children's hair lit by the sun."
+        },
+        {
+          "name": "Face framing",
+          "desc": "Lighter strands around the face. A quick option when you want to refresh the look without full lightening."
+        }
+      ],
+      "effects_title": "Colour and toning",
+      "effects_body": "Lightening is half the job. The other half is toning, giving the lightened strands their target shade. We work with the Italian OWAY line, which treats hair structure with respect.",
+      "effects": [
+        {
+          "name": "Cool blonde",
+          "desc": "Ashy, Scandinavian tones with no yellow cast. Needs proper lightening and regular toning."
+        },
+        {
+          "name": "Beige and sand",
+          "desc": "Neutral shades that suit most skin tones and forgive regrowth."
+        },
+        {
+          "name": "Caramel and honey",
+          "desc": "Warm tones for dark bases. Depth and light instead of a radical colour change."
+        },
+        {
+          "name": "Gloss",
+          "desc": "A toning refresh for shade and shine between visits. Quick, no lightening involved."
+        }
+      ],
+      "visit_title": "What the visit looks like",
+      "visit_body": "We start with a free consultation: we look at your hair, ask about your colour history and the photos you bring. After a difficult colour history we do a strand test. The lightening itself with toning takes two and a half to five hours depending on length, density and starting point. Book yourself a calm afternoon, coffee and a good playlist are on us.",
+      "care_title": "Aftercare",
+      "care_body": "First 48 hours without washing, let the colour settle. Then a shampoo for lightened hair, plus a purple one once a week if we keep the shade cool. Regular oiling of the ends and heat protection before blow-drying are the minimum. A gloss every six to eight weeks holds the tone, a full balayage refresh is enough every three or four months.",
+      "price_label": "Price",
+      "price_value": "individual quote after a free consultation",
+      "duration_label": "Time",
+      "duration_value": "2.5-5 hours including toning",
+      "faq_title": "Balayage questions we hear a lot",
+      "faq": [
+        {
+          "q": "Balayage or airtouch, which one?",
+          "a": "Balayage gives a freer, painterly effect and takes less time. Airtouch is more precise and regrowth blends even smoother, but the visit is longer and costs more. We advise at the consultation after seeing your hair and references."
+        },
+        {
+          "q": "Will lightening ruin my hair?",
+          "a": "Any lightening affects the structure, but technique and products make the difference. We work with OWAY, match the lightener strength to your hair condition and say plainly if it is safer to split the result over two visits."
+        },
+        {
+          "q": "How long does the effect last?",
+          "a": "Balayage grows out nicely, so a full refresh every three or four months is enough. Toning is worth repeating every six to eight weeks."
+        },
+        {
+          "q": "I have dark hair. Can I go blonde in one visit?",
+          "a": "Depends on your base and colour history. From a natural dark base often yes, after black dye almost never. We do not promise miracles at the consultation just to sell a visit. We tell you what will realistically work."
+        },
+        {
+          "q": "I used henna or box dye before. Is that a problem?",
+          "a": "It is important information, mention it at the consultation. Henna and some pigments react unpredictably, so in these cases we always do a strand test."
+        },
+        {
+          "q": "How much does balayage cost at FRIME?",
+          "a": "The price depends on length, density and starting point, so we quote after a free consultation. It takes fifteen minutes and commits you to nothing."
+        }
+      ],
+      "cta_title": "Book a colour consultation",
+      "cta_text": "The consultation is free and takes 15 minutes. Come with references, we handle the rest. Booking is fastest via Booksy.",
+      "related_title": "See also",
+      "related": [
+        {
+          "label": "Short women's cuts",
+          "href": "/ona/krotkie-fryzury"
+        },
+        {
+          "label": "Women's cuts and fringes",
+          "href": "/ona"
+        },
+        {
+          "label": "Products we work with",
+          "href": "/kosmetyki"
+        }
+      ]
+    },
     "mullet": {
       "kicker": "Haircut · HIM / HER",
       "title": "Mullet at FRIME",

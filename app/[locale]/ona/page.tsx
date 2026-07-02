@@ -144,7 +144,31 @@ export default async function OnaPage({ params }: Props) {
         <Heading as="h2" size="md">
           {t("deep_links_title_ona")}
         </Heading>
-        <ul className="mt-6 grid gap-4 md:grid-cols-2">
+        <ul className="mt-6 grid gap-4 md:grid-cols-3">
+          <li>
+            <Link
+              href="/ona/balayage"
+              className="block h-full border border-line p-6 hover:bg-frime hover:text-frime-ink"
+            >
+              <span className="mono text-[10px] opacity-60">
+                KOLORYZACJA
+              </span>
+              <span className="mt-3 block display text-3xl">
+                {locale === "pl"
+                  ? "Balayage i airtouch"
+                  : locale === "uk"
+                  ? "Balayage і airtouch"
+                  : "Balayage and airtouch"}
+              </span>
+              <span className="mt-3 block text-sm">
+                {locale === "pl"
+                  ? "Techniki rozjaśniania, tonowanie, pielęgnacja. Darmowa konsultacja."
+                  : locale === "uk"
+                  ? "Техніки освітлення, тонування, догляд. Безкоштовна консультація."
+                  : "Lightening techniques, toning, aftercare. Free consultation."}
+              </span>
+            </Link>
+          </li>
           <li>
             <Link
               href="/ona/krotkie-fryzury"

@@ -284,6 +284,105 @@
         { "label": "Notre équipe", "href": "/team" }
       ]
     },
+    "balayage": {
+      "kicker": "Coloration · ELLE",
+      "title": "Balayage et airtouch",
+      "lede": "Un éclaircissement qui évoque l'été, pas les mèches d'il y a vingt ans. Balayage, airtouch et babylights au Wilcza 26, toujours après une consultation gratuite avec devis sur place.",
+      "intro_title": "Ce qui distingue le balayage d'une coloration classique",
+      "intro_body": "Avec une coloration classique, le produit couvre uniformément des racines aux pointes, et trois semaines plus tard la repousse forme une ligne nette. Le balayage fonctionne autrement. Nous peignons la couleur à la main, mèche par mèche, avec une transition douce de la base naturelle vers des pointes plus claires. Le résultat donne l'impression que les cheveux ont blondi d'eux-mêmes au bord de la mer. La repousse se fond dans la masse, donc au lieu d'une retouche mensuelle, un rafraîchissement tous les trois ou quatre mois suffit. Une coloration pour celles qui veulent du changement sans être enchaînées au fauteuil.",
+      "techniques_title": "Les techniques que nous pratiquons",
+      "techniques_body": "Les noms se ressemblent, les résultats non. En consultation, nous regardons vos cheveux et vous disons franchement quelle technique donnera vraiment ce que montrent vos photos de référence.",
+      "techniques": [
+        {
+          "name": "Balayage classique",
+          "desc": "Des mèches peintes à la main de la mi-longueur vers le bas. Une transition solaire et picturale, avec un minimum d'intervention aux racines."
+        },
+        {
+          "name": "Airtouch",
+          "desc": "Les mèches sont triées au souffle d'air, seules celles qui restent en main sont éclaircies. La technique la plus précise, la repousse est quasiment invisible."
+        },
+        {
+          "name": "Babylights",
+          "desc": "Des reflets très fins répartis sur toute la tête. L'effet de cheveux d'enfant éclairés par le soleil."
+        },
+        {
+          "name": "Face framing",
+          "desc": "Des mèches plus claires autour du visage. L'option rapide pour rafraîchir le look sans éclaircissement complet."
+        }
+      ],
+      "effects_title": "Couleur et patine",
+      "effects_body": "L'éclaircissement, c'est la moitié du travail. L'autre moitié, c'est la patine, qui donne aux mèches leur nuance finale. Nous travaillons avec la ligne italienne OWAY, respectueuse de la structure du cheveu.",
+      "effects": [
+        {
+          "name": "Blond froid",
+          "desc": "Des tons cendrés, scandinaves, sans reflets jaunes. Exige un bon éclaircissement et une patine régulière."
+        },
+        {
+          "name": "Beige et sable",
+          "desc": "Des nuances neutres qui vont à la plupart des carnations et pardonnent la repousse."
+        },
+        {
+          "name": "Caramel et miel",
+          "desc": "Des tons chauds pour les bases foncées. De la profondeur et de la lumière plutôt qu'un changement radical."
+        },
+        {
+          "name": "Gloss",
+          "desc": "Une patine qui ravive la nuance et la brillance entre deux visites. Rapide, sans éclaircissement."
+        }
+      ],
+      "visit_title": "Comment se passe la visite",
+      "visit_body": "Tout commence par une consultation gratuite : nous examinons les cheveux, parlons de l'historique de coloration et des photos que vous apportez. Après un historique compliqué, nous faisons un test de mèche. L'éclaircissement avec patine prend de deux heures et demie à cinq heures selon la longueur, la densité et la base de départ. Prévoyez un après-midi tranquille, le café et une bonne playlist sont chez nous.",
+      "care_title": "Le soin après éclaircissement",
+      "care_body": "Les premières 48 heures sans lavage, laissez la couleur se stabiliser. Ensuite un shampooing pour cheveux éclaircis, et un violet une fois par semaine si la nuance reste froide. Huiler régulièrement les pointes et protéger de la chaleur avant le séchage, c'est le minimum. Un gloss toutes les six à huit semaines entretient la nuance, un rafraîchissement complet du balayage suffit tous les trois ou quatre mois.",
+      "price_label": "Prix",
+      "price_value": "devis individuel après consultation gratuite",
+      "duration_label": "Durée",
+      "duration_value": "2,5 à 5 heures patine comprise",
+      "faq_title": "Vos questions sur le balayage",
+      "faq": [
+        {
+          "q": "Balayage ou airtouch, que choisir ?",
+          "a": "Le balayage donne un effet plus libre, plus pictural, et prend moins de temps. L'airtouch est plus précis, la repousse se fond encore mieux, mais la visite est plus longue et plus chère. Nous conseillons en consultation, après avoir vu les cheveux et les références."
+        },
+        {
+          "q": "L'éclaircissement va-t-il abîmer mes cheveux ?",
+          "a": "Tout éclaircissement touche la structure, mais la technique et les produits font la différence. Nous travaillons avec OWAY, adaptons la force de l'éclaircissant à l'état des cheveux et disons franchement s'il est plus sûr de répartir le résultat sur deux visites."
+        },
+        {
+          "q": "Combien de temps dure l'effet ?",
+          "a": "Le balayage repousse joliment, un rafraîchissement complet tous les trois ou quatre mois suffit. La patine mérite d'être refaite toutes les six à huit semaines."
+        },
+        {
+          "q": "J'ai les cheveux foncés. Le blond en une visite, c'est possible ?",
+          "a": "Cela dépend de la base et de l'historique. Sur une base foncée naturelle, souvent oui, après une coloration noire, presque jamais. Nous ne promettons pas de miracles pour vendre une visite. Nous disons ce qui est réaliste."
+        },
+        {
+          "q": "J'ai utilisé du henné ou des colorations de supermarché. C'est un problème ?",
+          "a": "C'est une information importante, mentionnez-la en consultation. Le henné et certains pigments réagissent de façon imprévisible, dans ces cas nous faisons toujours un test de mèche."
+        },
+        {
+          "q": "Combien coûte un balayage chez FRIME ?",
+          "a": "Le prix dépend de la longueur, de la densité et de la base de départ, nous établissons donc le devis après une consultation gratuite. Elle dure un quart d'heure et n'engage à rien."
+        }
+      ],
+      "cta_title": "Réserver une consultation couleur",
+      "cta_text": "La consultation est gratuite et dure 15 minutes. Venez avec vos références, nous nous occupons du reste. Réservation la plus rapide via Booksy.",
+      "related_title": "À voir aussi",
+      "related": [
+        {
+          "label": "Coupes courtes femme",
+          "href": "/ona/krotkie-fryzury"
+        },
+        {
+          "label": "Coupes femme et franges",
+          "href": "/ona"
+        },
+        {
+          "label": "Les produits que nous utilisons",
+          "href": "/kosmetyki"
+        }
+      ]
+    },
     "mullet": {
       "kicker": "Coupe · LUI / ELLE",
       "title": "Mullet chez FRIME",

@@ -284,6 +284,105 @@
         { "label": "Nuestro equipo", "href": "/team" }
       ]
     },
+    "balayage": {
+      "kicker": "Coloración · ELLA",
+      "title": "Balayage y airtouch",
+      "lede": "Una iluminación que parece verano, no mechas de hace veinte años. Hacemos balayage, airtouch y babylights en Wilcza 26, siempre tras una consulta gratuita con presupuesto en el momento.",
+      "intro_title": "En qué se diferencia el balayage de un tinte clásico",
+      "intro_body": "Con el tinte clásico el color cubre uniforme de raíces a puntas, y a las tres semanas la raíz se nota como una línea dura. El balayage funciona distinto. Pintamos el color a mano, mechón a mechón, con una transición suave de la base natural a unas puntas más claras. El resultado parece pelo aclarado por el sol junto al mar. La raíz se funde con el resto, así que en vez de retoque mensual basta un refresco cada tres o cuatro meses. Es color para quien quiere cambio sin vivir encadenada al sillón.",
+      "techniques_title": "Técnicas que hacemos",
+      "techniques_body": "Los nombres suenan parecido, los resultados no. En la consulta miramos tu pelo y te decimos con franqueza qué técnica dará de verdad lo que sale en tus fotos de referencia.",
+      "techniques": [
+        {
+          "name": "Balayage clásico",
+          "desc": "Mechones pintados a mano de medios a puntas. Transición solar y pictórica con mínima intervención en la raíz."
+        },
+        {
+          "name": "Airtouch",
+          "desc": "Los mechones se separan con aire y aclaramos solo lo que queda en la mano. La técnica más precisa, la raíz crece prácticamente invisible."
+        },
+        {
+          "name": "Babylights",
+          "desc": "Reflejos muy finos repartidos por toda la cabeza. El efecto de pelo de niña iluminado por el sol."
+        },
+        {
+          "name": "Face framing",
+          "desc": "Mechones más claros alrededor de la cara. La opción rápida para refrescar el look sin aclarado completo."
+        }
+      ],
+      "effects_title": "Color y matiz",
+      "effects_body": "Aclarar es la mitad del trabajo. La otra mitad es matizar, dar a los mechones su tono final. Trabajamos con la línea italiana OWAY, que trata la estructura del pelo con respeto.",
+      "effects": [
+        {
+          "name": "Rubio frío",
+          "desc": "Tonos ceniza, escandinavos, sin reflejos amarillos. Pide buen aclarado y matiz regular."
+        },
+        {
+          "name": "Beige y arena",
+          "desc": "Tonos neutros que favorecen a la mayoría y perdonan la raíz."
+        },
+        {
+          "name": "Caramelo y miel",
+          "desc": "Tonos cálidos para bases oscuras. Profundidad y luz en vez de cambio radical."
+        },
+        {
+          "name": "Gloss",
+          "desc": "Matiz que refresca tono y brillo entre visitas. Rápido, sin aclarar."
+        }
+      ],
+      "visit_title": "Cómo es la visita",
+      "visit_body": "Empezamos con una consulta gratuita: miramos el pelo, preguntamos por el historial de color y por las fotos que traes. Tras un historial complicado hacemos prueba de mechón. El aclarado con matiz lleva de dos horas y media a cinco según largo, densidad y punto de partida. Resérvate una tarde tranquila, el café y una buena playlist van por nuestra cuenta.",
+      "care_title": "Cuidado tras el aclarado",
+      "care_body": "Las primeras 48 horas sin lavar, deja que el color se asiente. Después champú para pelo aclarado, y uno violeta una vez por semana si mantenemos el tono frío. Aceite regular en las puntas y protector térmico antes del secador son el mínimo. Un gloss cada seis u ocho semanas sostiene el tono, el refresco completo del balayage basta cada tres o cuatro meses.",
+      "price_label": "Precio",
+      "price_value": "presupuesto individual tras consulta gratuita",
+      "duration_label": "Tiempo",
+      "duration_value": "2,5-5 horas con matiz incluido",
+      "faq_title": "Lo que más preguntáis sobre el balayage",
+      "faq": [
+        {
+          "q": "¿Balayage o airtouch, cuál elijo?",
+          "a": "El balayage da un efecto más libre y pictórico y lleva menos tiempo. El airtouch es más preciso y la raíz se funde aún mejor, pero la visita es más larga y cuesta más. Te aconsejamos en la consulta tras ver tu pelo y tus referencias."
+        },
+        {
+          "q": "¿El aclarado me estropeará el pelo?",
+          "a": "Todo aclarado toca la estructura, pero la técnica y los productos marcan la diferencia. Trabajamos con OWAY, ajustamos la fuerza del decolorante al estado del pelo y te decimos claro si es más seguro repartir el resultado en dos visitas."
+        },
+        {
+          "q": "¿Cuánto dura el efecto?",
+          "a": "El balayage crece bonito, así que un refresco completo cada tres o cuatro meses basta. El matiz conviene repetirlo cada seis u ocho semanas."
+        },
+        {
+          "q": "Tengo el pelo oscuro. ¿Puedo ser rubia en una visita?",
+          "a": "Depende de la base y del historial de color. Desde base oscura natural muchas veces sí, tras tinte negro casi nunca. No prometemos milagros en la consulta para vender una visita. Te decimos lo que saldrá de verdad."
+        },
+        {
+          "q": "Usé henna o tintes de súper. ¿Es un problema?",
+          "a": "Es información importante, cuéntalo en la consulta. La henna y algunos pigmentos reaccionan de forma imprevisible, por eso en esos casos siempre hacemos prueba de mechón."
+        },
+        {
+          "q": "¿Cuánto cuesta un balayage en FRIME?",
+          "a": "El precio depende del largo, la densidad y el punto de partida, por eso presupuestamos tras una consulta gratuita. Dura un cuarto de hora y no compromete a nada."
+        }
+      ],
+      "cta_title": "Reserva tu consulta de color",
+      "cta_text": "La consulta es gratuita y dura 15 minutos. Ven con referencias, del resto nos ocupamos nosotros. La reserva más rápida es por Booksy.",
+      "related_title": "Mira también",
+      "related": [
+        {
+          "label": "Cortes cortos de mujer",
+          "href": "/ona/krotkie-fryzury"
+        },
+        {
+          "label": "Cortes de mujer y flequillos",
+          "href": "/ona"
+        },
+        {
+          "label": "Los productos con los que trabajamos",
+          "href": "/kosmetyki"
+        }
+      ]
+    },
     "mullet": {
       "kicker": "Corte · ÉL / ELLA",
       "title": "Mullet en FRIME",

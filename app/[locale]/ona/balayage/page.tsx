@@ -1,0 +1,258 @@
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { Container } from "@/components/ui/Container";
+import { Section } from "@/components/ui/Section";
+import { Heading, Kicker } from "@/components/ui/Heading";
+import { ButtonLink } from "@/components/ui/Button";
+import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { FAQ, type FAQItem } from "@/components/ui/FAQ";
+import { JsonLd } from "@/components/JsonLd";
+import { serviceSchema, breadcrumbSchema } from "@/lib/seo";
+import { site } from "@/content/site";
+
+type Props = { params: Promise<{ locale: string }> };
+type Variant = { name: string; desc: string };
+type Related = { label: string; href: string };
+
+const path = "/ona/balayage";
+
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "services_content.balayage",
+  });
+  const titleByLocale: Record<string, string> = {
+    pl: "Balayage i airtouch Warszawa Śródmieście · FRIME Wilcza 26",
+    uk: "Balayage і airtouch Варшава Śródmieście · FRIME Wilcza 26",
+    en: "Balayage and airtouch in central Warsaw · FRIME Wilcza 26",
+  };
+  const descByLocale: Record<string, string> = {
+    pl: "Balayage, airtouch i babylights w studio FRIME na Wilczej 26 w Warszawie. Rozjaśnianie i tonowanie na OWAY, darmowa konsultacja z wyceną, zapisy przez Booksy.",
+    uk: "Balayage, airtouch і babylights у студії FRIME на Wilczej 26 у Варшаві. Освітлення і тонування на OWAY, безкоштовна консультація з оцінкою, запис через Booksy.",
+    en: "Balayage, airtouch and babylights at FRIME studio, Wilcza 26, Warsaw. OWAY lightening and toning, free consultation with a quote, booking via Booksy.",
+  };
+  return {
+    title: titleByLocale[locale] ?? t("title"),
+    description: descByLocale[locale] ?? t("lede"),
+    alternates: {
+      canonical: path,
+      languages: { pl: path, uk: `/uk${path}`, en: `/en${path}` },
+    },
+    openGraph: {
+      title: titleByLocale[locale],
+      description: descByLocale[locale],
+      type: "article",
+    },
+  };
+}
+
+export default async function BalayagePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("services_content.balayage");
+  const loc = locale as "pl" | "uk" | "en";
+  const prefix = loc === "pl" ? "" : `/${loc}`;
+  const fullUrl = `${site.url}${prefix}${path}`;
+
+  const techniques = t.raw("techniques") as Variant[];
+  const effects = t.raw("effects") as Variant[];
+  const faqItems = t.raw("faq") as FAQItem[];
+  const related = t.raw("related") as Related[];
+
+  const breadcrumbItems = [
+    { name: "FRIME", url: `${site.url}${prefix}/` },
+    {
+      name: loc === "pl" ? "ONA" : loc === "uk" ? "ВОНА" : "HER",
+      url: `${site.url}${prefix}/ona`,
+    },
+    { name: t("title"), url: fullUrl },
+  ];
+
+  return (
+    <>
+      {/* Bez bloku offers: cena balayage jest wyceniana indywidualnie. */}
+      <JsonLd
+        data={serviceSchema({
+          name: t("title"),
+          description: t("lede"),
+          category: "Hair coloring",
+          url: fullUrl,
+        })}
+      />
+      <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
+
+      <section className="border-b border-line">
+        <Container className="grid gap-10 py-12 md:grid-cols-12 md:py-20">
+          <div className="md:col-span-7">
+            <Kicker>{t("kicker")}</Kicker>
+            <Heading as="h1" size="xl" className="mt-6">
+              {t("title")}
+            </Heading>
+            <p className="mt-8 max-w-2xl text-base leading-relaxed md:text-lg">
+              {t("lede")}
+            </p>
+            <div className="mono mt-8 flex flex-wrap gap-x-8 gap-y-2 text-xs">
+              <span>
+                <span className="opacity-60">{t("price_label")}: </span>
+                {t("price_value")}
+              </span>
+              <span>
+                <span className="opacity-60">{t("duration_label")}: </span>
+                {t("duration_value")}
+              </span>
+            </div>
+            <div className="mt-8">
+              <ButtonLink
+                href={site.booking.booksy}
+                external
+                size="lg"
+                variant="primary"
+              >
+                Booksy →
+              </ButtonLink>
+            </div>
+          </div>
+          <div className="md:col-span-5">
+            <ImagePlaceholder
+              ratio="4/5"
+              label="Balayage · efekt na modelce"
+              note="Фото работы: балейаж/airtouch со спины или 3/4, дневной свет. 4:5, мин. 1200×1500. Лучше реальная работа FRIME из IG."
+            />
+          </div>
+        </Container>
+      </section>
+
+      <Section>
+        <div className="max-w-prose">
+          <Heading as="h2" size="md">
+            {t("intro_title")}
+          </Heading>
+          <p className="mt-4 text-base leading-relaxed md:text-lg">
+            {t("intro_body")}
+          </p>
+        </div>
+      </Section>
+
+      <Section tone="invert">
+        <div className="grid gap-10 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <ImagePlaceholder
+              ratio="3/4"
+              label="Proces · malowanie pasm"
+              note="Фото процесса: мастер наносит осветлитель кистью. 3:4. Тёмный фон впишется в инверт-секцию."
+            />
+          </div>
+          <div className="md:col-span-7">
+            <Heading as="h2" size="lg">
+              {t("techniques_title")}
+            </Heading>
+            <p className="mt-4 max-w-prose text-base leading-relaxed">
+              {t("techniques_body")}
+            </p>
+            <dl className="mt-8 divide-y divide-white/20 border-y border-white/20">
+              {techniques.map((v, i) => (
+                <div key={i} className="grid grid-cols-12 gap-4 py-5">
+                  <dt className="col-span-12 display text-2xl md:col-span-4 md:text-3xl">
+                    {v.name}
+                  </dt>
+                  <dd className="col-span-12 text-sm leading-relaxed md:col-span-8 md:text-base">
+                    {v.desc}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </Section>
+
+      <Section>
+        <div className="max-w-prose">
+          <Heading as="h2" size="lg">
+            {t("effects_title")}
+          </Heading>
+          <p className="mt-4 text-base leading-relaxed">{t("effects_body")}</p>
+        </div>
+        <dl className="mt-12 grid gap-px bg-line md:grid-cols-2">
+          {effects.map((v, i) => (
+            <div key={i} className="bg-bg p-6">
+              <dt className="display text-2xl md:text-3xl">{v.name}</dt>
+              <dd className="mt-3 text-sm leading-relaxed md:text-base">
+                {v.desc}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </Section>
+
+      <Section tone="frime">
+        <div className="grid gap-10 md:grid-cols-12">
+          <div className="md:col-span-6">
+            <Heading as="h2" size="md">
+              {t("visit_title")}
+            </Heading>
+            <p className="mt-4 max-w-prose text-base leading-relaxed md:text-lg">
+              {t("visit_body")}
+            </p>
+          </div>
+          <div className="md:col-span-6">
+            <Heading as="h2" size="md">
+              {t("care_title")}
+            </Heading>
+            <p className="mt-4 max-w-prose text-base leading-relaxed md:text-lg">
+              {t("care_body")}
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <Section>
+        <FAQ title={t("faq_title")} items={faqItems} />
+      </Section>
+
+      <Section tone="invert">
+        <div className="grid gap-10 md:grid-cols-12 md:items-center">
+          <div className="md:col-span-7">
+            <Heading as="h2" size="lg">
+              {t("cta_title")}
+            </Heading>
+            <p className="mt-4 max-w-prose text-base leading-relaxed md:text-lg">
+              {t("cta_text")}
+            </p>
+          </div>
+          <div className="md:col-span-5 md:text-right">
+            <ButtonLink
+              href={site.booking.booksy}
+              external
+              size="lg"
+              variant="primary"
+            >
+              Booksy →
+            </ButtonLink>
+          </div>
+        </div>
+      </Section>
+
+      <Section>
+        <Heading as="h3" size="md">
+          {t("related_title")}
+        </Heading>
+        <ul className="mt-6 grid gap-4 md:grid-cols-3">
+          {related.map((r, i) => (
+            <li key={i}>
+              <Link
+                href={r.href as "/ona" | "/ona/krotkie-fryzury" | "/kosmetyki"}
+                className="block border border-line p-5 hover:bg-frime hover:text-frime-ink"
+              >
+                <span className="mono text-[10px] opacity-60">→</span>
+                <span className="mt-2 block text-base font-medium">
+                  {r.label}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Section>
+    </>
+  );
+}

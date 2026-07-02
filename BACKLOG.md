@@ -64,7 +64,7 @@ Plan kontentu na rok jest w [`docs/CONTENT_PLAN_2026.md`](docs/CONTENT_PLAN_2026
 - [ ] `/ona/grzywka` — "grzywka warszawa"
 - [ ] `/ona/koloryzacja-konsultacja` — "konsultacja koloru warszawa"
 - [ ] `/ona/bob` — "bob warszawa"
-- [ ] `/ona/balayage` — "balayage warszawa śródmieście", "airtouch warszawa". Wysokomarżowe frazy damskie, klientka wpisuje konkretną usługę, nie "fryzjer" (wniosek z doc Google Ads & SEO, 07.2026)
+- [x] `/ona/balayage` — "balayage warszawa śródmieście", "airtouch warszawa". Wysokomarżowe frazy damskie, klientka wpisuje konkretną usługę, nie "fryzjer" (wniosek z doc Google Ads & SEO, 07.2026). Zrobione 02.07.2026: 8 lokalizacji, schema Service bez ceny (wycena po konsultacji), FAQ x6
 
 Każda: 500 słów real content, 2-3 zdjęcia, FAQ, cena, CTA na Booksy. Pisane jak człowiek.
 

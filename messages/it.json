@@ -284,6 +284,105 @@
         { "label": "Il nostro team", "href": "/team" }
       ]
     },
+    "balayage": {
+      "kicker": "Colore · LEI",
+      "title": "Balayage e airtouch",
+      "lede": "Una schiaritura che sa d'estate, non di méches di vent'anni fa. Balayage, airtouch e babylights in Wilcza 26, sempre dopo una consulenza gratuita con preventivo sul posto.",
+      "intro_title": "Cosa distingue il balayage da una colorazione classica",
+      "intro_body": "Con la colorazione classica il colore copre uniforme dalle radici alle punte, e dopo tre settimane la ricrescita si vede come una riga netta. Il balayage funziona diversamente. Dipingiamo il colore a mano, ciocca per ciocca, con un passaggio morbido dalla base naturale a punte più chiare. Il risultato sembra un capello schiarito da solo al mare. La ricrescita si fonde con il resto, quindi invece del ritocco mensile basta un refresh ogni tre o quattro mesi. Un colore per chi vuole il cambiamento senza vivere incatenata alla poltrona.",
+      "techniques_title": "Le tecniche che facciamo",
+      "techniques_body": "I nomi si somigliano, i risultati no. In consulenza guardiamo i tuoi capelli e ti diciamo con franchezza quale tecnica darà davvero quello che c'è nelle tue foto di riferimento.",
+      "techniques": [
+        {
+          "name": "Balayage classico",
+          "desc": "Ciocche dipinte a mano dalle lunghezze in giù. Un passaggio solare e pittorico con minimo intervento alla radice."
+        },
+        {
+          "name": "Airtouch",
+          "desc": "Le ciocche si separano con un getto d'aria, schiariamo solo quelle che restano in mano. La tecnica più precisa, la ricrescita è praticamente invisibile."
+        },
+        {
+          "name": "Babylights",
+          "desc": "Riflessi sottilissimi distribuiti su tutta la testa. L'effetto dei capelli da bambina illuminati dal sole."
+        },
+        {
+          "name": "Face framing",
+          "desc": "Ciocche più chiare intorno al viso. L'opzione veloce per rinfrescare il look senza schiaritura completa."
+        }
+      ],
+      "effects_title": "Colore e tonalizzazione",
+      "effects_body": "Schiarire è metà del lavoro. L'altra metà è tonalizzare, dare alle ciocche la sfumatura finale. Lavoriamo con la linea italiana OWAY, che tratta la struttura del capello con rispetto.",
+      "effects": [
+        {
+          "name": "Biondo freddo",
+          "desc": "Toni cenere, scandinavi, senza riflessi gialli. Richiede una buona schiaritura e tonalizzazioni regolari."
+        },
+        {
+          "name": "Beige e sabbia",
+          "desc": "Sfumature neutre che stanno bene quasi a tutte e perdonano la ricrescita."
+        },
+        {
+          "name": "Caramello e miele",
+          "desc": "Toni caldi per basi scure. Profondità e luce invece di un cambio radicale."
+        },
+        {
+          "name": "Gloss",
+          "desc": "Una tonalizzazione che ravviva sfumatura e lucentezza tra una visita e l'altra. Veloce, senza schiarire."
+        }
+      ],
+      "visit_title": "Come si svolge la visita",
+      "visit_body": "Si parte da una consulenza gratuita: guardiamo i capelli, chiediamo la storia del colore e le foto che porti. Dopo una storia complicata facciamo il test della ciocca. La schiaritura con tonalizzazione richiede dalle due ore e mezza alle cinque, secondo lunghezza, densità e punto di partenza. Riservati un pomeriggio tranquillo, caffè e una buona playlist li mettiamo noi.",
+      "care_title": "La cura dopo la schiaritura",
+      "care_body": "Le prime 48 ore senza lavaggio, lascia che il colore si assesti. Poi shampoo per capelli schiariti, e uno violet una volta a settimana se teniamo la sfumatura fredda. Olio regolare sulle punte e termoprotettore prima del phon sono il minimo. Un gloss ogni sei o otto settimane mantiene il tono, il refresh completo del balayage basta ogni tre o quattro mesi.",
+      "price_label": "Prezzo",
+      "price_value": "preventivo individuale dopo consulenza gratuita",
+      "duration_label": "Tempo",
+      "duration_value": "2,5-5 ore tonalizzazione inclusa",
+      "faq_title": "Le domande più frequenti sul balayage",
+      "faq": [
+        {
+          "q": "Balayage o airtouch, quale scegliere?",
+          "a": "Il balayage dà un effetto più libero e pittorico e richiede meno tempo. L'airtouch è più preciso e la ricrescita si fonde ancora meglio, ma la visita dura di più e costa di più. Ti consigliamo in consulenza, dopo aver visto capelli e riferimenti."
+        },
+        {
+          "q": "La schiaritura mi rovinerà i capelli?",
+          "a": "Ogni schiaritura tocca la struttura, ma tecnica e prodotti fanno la differenza. Lavoriamo con OWAY, tariamo la forza del decolorante sullo stato dei capelli e ti diciamo chiaro se è più sicuro dividere il risultato in due visite."
+        },
+        {
+          "q": "Quanto dura l'effetto?",
+          "a": "Il balayage ricresce bene, quindi un refresh completo ogni tre o quattro mesi basta. La tonalizzazione conviene ripeterla ogni sei o otto settimane."
+        },
+        {
+          "q": "Ho i capelli scuri. Posso diventare bionda in una visita?",
+          "a": "Dipende dalla base e dalla storia del colore. Da base scura naturale spesso sì, dopo una tinta nera quasi mai. Non promettiamo miracoli in consulenza per vendere una visita. Diciamo cosa verrà davvero."
+        },
+        {
+          "q": "Ho usato henné o tinte da supermercato. È un problema?",
+          "a": "È un'informazione importante, dilla in consulenza. L'henné e alcuni pigmenti reagiscono in modo imprevedibile, per questo in quei casi facciamo sempre il test della ciocca."
+        },
+        {
+          "q": "Quanto costa un balayage da FRIME?",
+          "a": "Il prezzo dipende da lunghezza, densità e punto di partenza, per questo facciamo il preventivo dopo una consulenza gratuita. Dura un quarto d'ora e non impegna a nulla."
+        }
+      ],
+      "cta_title": "Prenota la consulenza colore",
+      "cta_text": "La consulenza è gratuita e dura 15 minuti. Vieni con i riferimenti, al resto pensiamo noi. La prenotazione più veloce è via Booksy.",
+      "related_title": "Guarda anche",
+      "related": [
+        {
+          "label": "Tagli corti da donna",
+          "href": "/ona/krotkie-fryzury"
+        },
+        {
+          "label": "Tagli donna e frangette",
+          "href": "/ona"
+        },
+        {
+          "label": "I prodotti con cui lavoriamo",
+          "href": "/kosmetyki"
+        }
+      ]
+    },
     "mullet": {
       "kicker": "Taglio · LUI / LEI",
       "title": "Mullet da FRIME",

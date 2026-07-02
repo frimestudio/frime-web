@@ -79,6 +79,7 @@ Konsultacja koloru i trwałej zawsze gratis (15 min).
 - [Strona główna](${site.url}/): pełne wprowadzenie, opinie, lokalizacja
 - [Strzyżenia ON (męskie)](${site.url}/on): cennik, FAQ, repigmentacja, brody
 - [Strzyżenia ONA (damskie)](${site.url}/ona): cennik, konsultacje, grzywki
+- [Balayage i airtouch](${site.url}/ona/balayage): techniki rozjaśniania, tonowanie, pielęgnacja, FAQ, darmowa konsultacja z wyceną
 - [Mullet, wolf cut, shag](${site.url}/on/mullet): głęboka strona o mulletach męskich i damskich, 8 wariantów + FAQ
 - [Zespół](${site.url}/team): Julia, Sasza, Kara z indywidualnymi stronami
 - [VIBE — wydarzenia i pop-upy](${site.url}/vibe): archiwum kolaboracji i imprez

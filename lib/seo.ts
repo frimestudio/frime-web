@@ -165,7 +165,8 @@ export function serviceSchema(opts: {
   name: string;
   description: string;
   category?: string;
-  priceMin: number;
+  /** Brak ceny = usługa wyceniana indywidualnie, schema bez bloku offers. */
+  priceMin?: number;
   priceMax?: number;
   url: string;
   image?: string;
@@ -185,18 +186,22 @@ export function serviceSchema(opts: {
       "@type": "City",
       name: site.address.city,
     },
-    offers: {
-      "@type": "Offer",
-      url: opts.url,
-      priceCurrency: "PLN",
-      price: opts.priceMin,
-      priceSpecification: {
-        "@type": "PriceSpecification",
-        minPrice: opts.priceMin,
-        maxPrice: opts.priceMax ?? opts.priceMin,
-        priceCurrency: "PLN",
-      },
-    },
+    ...(opts.priceMin !== undefined
+      ? {
+          offers: {
+            "@type": "Offer",
+            url: opts.url,
+            priceCurrency: "PLN",
+            price: opts.priceMin,
+            priceSpecification: {
+              "@type": "PriceSpecification",
+              minPrice: opts.priceMin,
+              maxPrice: opts.priceMax ?? opts.priceMin,
+              priceCurrency: "PLN",
+            },
+          },
+        }
+      : {}),
     image: opts.image,
   };
 }
