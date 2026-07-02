@@ -6,6 +6,8 @@ export type FrimeEvent = {
   year: number;
   status: "upcoming" | "past";
   summary: { pl: string; uk: string; en: string };
+  /** Plakat/zdjęcie w /public. Główna pokazuje event tylko gdy jest plakat. */
+  poster?: { src: string; alt: string };
 };
 
 export const events: FrimeEvent[] = [
@@ -16,6 +18,10 @@ export const events: FrimeEvent[] = [
     date: "2026-06-06",
     year: 2026,
     status: "past",
+    poster: {
+      src: "/images/vibe/bvclub-kiosk-popup/poster.png",
+      alt: "FRIME × BVCLUB × KIOSK Pop-up 06/06 — plakat z manekinami",
+    },
     summary: {
       pl: "Pop-Up store w studio. Vintage, skóry, DJ-set, FREE DRINKS (0% ALCO). 13:00–20:00, Warszawa, Wilcza 26.",
       uk: "Поп-ап стор в студії. Вінтаж, шкіра, DJ-сет, FREE DRINKS (0% ALCO). 13:00–20:00, Варшава, Wilcza 26.",
@@ -71,4 +77,18 @@ export function getPastEvents() {
   return events
     .filter((e) => e.status === "past" || e.date < now)
     .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+// Wydarzenie do bloku na głównej: najbliższe przyszłe jeśli ma plakat,
+// w przeciwnym razie ostatnie przeszłe z plakatem (żółty placeholder
+// na głównej wyglądał źle, więc bez plakatu nie promujemy).
+export function getFeaturedEvent():
+  | { event: FrimeEvent; kind: "upcoming" | "last" }
+  | undefined {
+  const upcoming = getUpcomingEvent();
+  if (upcoming?.poster) return { event: upcoming, kind: "upcoming" };
+  const lastWithPoster = getPastEvents().find((e) => e.poster);
+  if (lastWithPoster) return { event: lastWithPoster, kind: "last" };
+  if (upcoming) return { event: upcoming, kind: "upcoming" };
+  return undefined;
 }

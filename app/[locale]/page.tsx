@@ -12,7 +12,8 @@ import { Marquee } from "@/components/ui/Marquee";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
 import { site } from "@/content/site";
 import { team } from "@/content/team";
-import { getUpcomingEvent } from "@/content/events";
+import { getFeaturedEvent } from "@/content/events";
+import { pick } from "@/lib/i18n-pick";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -24,7 +25,7 @@ export default async function HomePage({ params }: Props) {
 
   const t = await getTranslations("home");
   const tTeam = await getTranslations("team");
-  const upcoming = getUpcomingEvent();
+  const featured = getFeaturedEvent();
   const faqItems = t.raw("faq") as FAQItem[];
 
   const popularLinks: {
@@ -313,13 +314,23 @@ export default async function HomePage({ params }: Props) {
       <Section>
         <div className="grid gap-8 md:grid-cols-12">
           <div className="md:col-span-5">
-            <Kicker>{t("events_title")}</Kicker>
+            {/*
+              Najbliższe wydarzenie pokazujemy tylko gdy ma plakat.
+              Bez plakatu wracamy do ostatniego przeszłego z plakatem
+              i podpisujemy blok "Ostatnie wydarzenie".
+            */}
+            <Kicker>
+              {featured?.kind === "last"
+                ? t("events_last_title")
+                : t("events_title")}
+            </Kicker>
             <Heading as="h2" size="lg" className="mt-4">
-              {upcoming?.title ?? "PLACEHOLDER · Najbliższe wydarzenie"}
+              {featured?.event.title ?? "PLACEHOLDER · Najbliższe wydarzenie"}
             </Heading>
             <p className="mt-4 text-base leading-relaxed">
-              {upcoming?.summary[locale as "pl" | "uk" | "en"] ??
-                "PLACEHOLDER · krótki opis wydarzenia"}
+              {featured
+                ? pick(locale, featured.event.summary)
+                : "PLACEHOLDER · krótki opis wydarzenia"}
             </p>
             <div className="mt-8 flex gap-4">
               <ButtonInternalLink href="/vibe" variant="ink" size="md">
@@ -328,10 +339,10 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-7">
-            {upcoming?.slug === "bvclub-kiosk-popup" ? (
+            {featured?.event.poster ? (
               <LocalPhoto
-                src="/images/vibe/bvclub-kiosk-popup/poster.png"
-                alt="FRIME × BVCLUB × KIOSK Pop-up 06/06 — plakat"
+                src={featured.event.poster.src}
+                alt={featured.event.poster.alt}
                 ratio="2/3"
                 sizes="(min-width: 768px) 50vw, 100vw"
               />
