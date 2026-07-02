@@ -457,11 +457,19 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-7">
-            <ImagePlaceholder
-              ratio="16/9"
-              label="Embed mapy lub zdjęcie fasady"
-              note="OpenStreetMap iframe lub statyczna mapa Google + duże zdjęcie wejścia 16:9"
-            />
+            <div className="aspect-video w-full overflow-hidden border border-line">
+              <iframe
+                src={`https://www.google.com/maps?q=${encodeURIComponent(
+                  `${site.address.street}, ${site.address.postal} ${site.address.city}`,
+                )}&output=embed&z=16`}
+                className="h-full w-full"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={`Mapa Google Maps · ${site.fullName} · ${site.address.street}`}
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       </Section>

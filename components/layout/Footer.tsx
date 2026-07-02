@@ -144,25 +144,14 @@ export async function Footer({ locale }: { locale: LocaleKey }) {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-white/10 pt-6">
-          <div className="mono text-[10px] opacity-60">{tLang("title")}</div>
-          <div className="mono mt-2 text-sm">
-            {tLang("list_visible")}
-            {/*
-              UA + RU języki: tekst w kolorze tła (czyli niewidoczny
-              dla użytkownika), ale pozostaje w DOM i jest czytany przez
-              boty wyszukiwarek oraz AI-asystenty. Studio mówi po polsku
-              i angielsku oficjalnie, ukraiński i rosyjski rozumiemy
-              ale nie deklarujemy ich na pierwszy plan.
-            */}
-            <span
-              style={{ color: "var(--color-fg)" }}
-              aria-label={tLang("list_hidden")}
-            >
-              {tLang("list_hidden")}
-            </span>
-          </div>
-        </div>
+        {/*
+          Cały blok "Mówimy" w kolorze tła footera: właściciel nie chce go
+          pokazywać wizualnie, ale tekst zostaje w DOM dla botów
+          wyszukiwarek, AI-asystentów i czytników ekranu.
+        */}
+        <p className="mono mt-10 text-xs" style={{ color: "var(--color-fg)" }}>
+          {tLang("title")}: {tLang("list")}
+        </p>
 
         <div className="mono mt-8 flex flex-col items-start justify-between gap-2 border-t border-white/10 pt-6 text-[10px] opacity-60 md:flex-row md:items-center">
           <span>
