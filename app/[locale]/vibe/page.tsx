@@ -34,6 +34,10 @@ export default async function VibePage({ params }: Props) {
   const upcoming = getUpcomingEvent();
   const past = getPastEvents();
   const loc = locale as "pl" | "uk" | "en";
+  // Okładka eventu: plakat, a gdy go nie ma — pierwsze zdjęcie z galerii.
+  const upcomingCover = upcoming
+    ? (upcoming.poster ?? upcoming.photos?.[0])
+    : undefined;
 
   return (
     <>
@@ -79,11 +83,11 @@ export default async function VibePage({ params }: Props) {
               </p>
             </div>
             <div className="md:col-span-5">
-              {upcoming.slug === "bvclub-kiosk-popup" ? (
+              {upcomingCover ? (
                 <LocalPhoto
-                  src="/images/vibe/bvclub-kiosk-popup/poster.png"
-                  alt="FRIME × BVCLUB × KIOSK Pop-up 06/06 — plakat"
-                  ratio="2/3"
+                  src={upcomingCover.src}
+                  alt={upcomingCover.alt}
+                  ratio={upcoming.poster ? "2/3" : "4/5"}
                   sizes="(min-width: 768px) 40vw, 100vw"
                 />
               ) : (
@@ -109,35 +113,40 @@ export default async function VibePage({ params }: Props) {
           {t("archive_title")}
         </Heading>
         <div className="mt-10 grid gap-8 md:grid-cols-2">
-          {past.map((e) => (
-            <Link
-              key={e.slug}
-              href={`/vibe/${e.slug}`}
-              className="group block border border-line"
-            >
-              {e.slug === "frime-1-urodziny" ? (
-                <LocalPhoto
-                  src="/images/vibe/frime-1-urodziny/cake.jpg"
-                  alt="Niebieski tort FRIME na pierwszych urodzinach studia"
-                  ratio="4/5"
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                />
-              ) : (
-                <ImagePlaceholder
-                  ratio="4/5"
-                  label={`Poster · ${e.title}`}
-                  note={`Афиша или фото с ${e.title}, ${e.date}`}
-                />
-              )}
-              <div className="border-t border-line p-6">
-                <div className="mono text-[10px] opacity-60">{e.date}</div>
-                <div className="display mt-2 text-3xl group-hover:text-frime">
-                  {e.title}
+          {past.map((e) => {
+            const cover = e.poster ?? e.photos?.[0];
+            return (
+              <Link
+                key={e.slug}
+                href={`/vibe/${e.slug}`}
+                className="group block border border-line"
+              >
+                {cover ? (
+                  <LocalPhoto
+                    src={cover.src}
+                    alt={cover.alt}
+                    ratio="4/5"
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                  />
+                ) : (
+                  <ImagePlaceholder
+                    ratio="4/5"
+                    label={`Poster · ${e.title}`}
+                    note={`Афиша или фото с ${e.title}, ${e.date}`}
+                  />
+                )}
+                <div className="border-t border-line p-6">
+                  <div className="mono text-[10px] opacity-60">{e.date}</div>
+                  <div className="display mt-2 text-3xl group-hover:text-frime">
+                    {e.title}
+                  </div>
+                  <p className="mt-3 text-sm leading-relaxed">
+                    {e.summary[loc]}
+                  </p>
                 </div>
-                <p className="mt-3 text-sm leading-relaxed">{e.summary[loc]}</p>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       </Section>
     </>
