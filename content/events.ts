@@ -8,6 +8,8 @@ export type FrimeEvent = {
   summary: { pl: string; uk: string; en: string };
   /** Plakat/zdjęcie w /public. Główna pokazuje event tylko gdy jest plakat. */
   poster?: { src: string; alt: string };
+  /** Galeria z wydarzenia. Główna bierze pierwsze 3, strona eventu wszystkie. */
+  photos?: { src: string; alt: string }[];
 };
 
 export const events: FrimeEvent[] = [
@@ -19,9 +21,35 @@ export const events: FrimeEvent[] = [
     year: 2026,
     status: "past",
     poster: {
-      src: "/images/vibe/bvclub-kiosk-popup/poster.png",
+      src: "/images/vibe/bvclub-kiosk-popup/poster.jpg",
       alt: "FRIME × BVCLUB × KIOSK Pop-up 06/06 — plakat z manekinami",
     },
+    photos: [
+      {
+        src: "/images/vibe/bvclub-kiosk-popup/photo-01.jpg",
+        alt: "Klientka z torbą K1OSK w studio FRIME — pop-up 06/06",
+      },
+      {
+        src: "/images/vibe/bvclub-kiosk-popup/photo-02.jpg",
+        alt: "Gość pop-upu z torbą K1OSK przed studiem FRIME",
+      },
+      {
+        src: "/images/vibe/bvclub-kiosk-popup/photo-03.jpg",
+        alt: "DJ-set na pop-upie FRIME × BVCLUB × K1OSK",
+      },
+      {
+        src: "/images/vibe/bvclub-kiosk-popup/photo-04.jpg",
+        alt: "Goście przy popielniczce na tle plakatów pop-upu FRIME",
+      },
+      {
+        src: "/images/vibe/bvclub-kiosk-popup/photo-05.jpg",
+        alt: "Stylizacja z kozakami croco między wieszakami vintage",
+      },
+      {
+        src: "/images/vibe/bvclub-kiosk-popup/photo-06.jpg",
+        alt: "Manekin na banerze POP-UP — instalacja FRIME × BVCLUB × K1OSK",
+      },
+    ],
     summary: {
       pl: "Pop-Up store w studio. Vintage, skóry, DJ-set, FREE DRINKS (0% ALCO). 13:00–20:00, Warszawa, Wilcza 26.",
       uk: "Поп-ап стор в студії. Вінтаж, шкіра, DJ-сет, FREE DRINKS (0% ALCO). 13:00–20:00, Варшава, Wilcza 26.",
@@ -34,6 +62,32 @@ export const events: FrimeEvent[] = [
     date: "2026-07-18",
     year: 2026,
     status: "upcoming",
+    photos: [
+      {
+        src: "/images/vibe/frime-1-urodziny/crowd-blue.jpg",
+        alt: "Goście pod studio FRIME w niebieskim świetle zmierzchu",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/toast.jpg",
+        alt: "Wzniesiony kieliszek na urodzinach FRIME",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/guest-glasses.jpg",
+        alt: "Uśmiechnięty gość w okularach na FRIME 1 urodziny",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/pouring.jpg",
+        alt: "Nalewanie szampana — detal na FRIME 1 urodziny",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/window-frim.jpg",
+        alt: "Odbicie napisu FRIME w witrynie studia",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/group-installation.jpg",
+        alt: "Goście pod biało-niebieską instalacją w studio FRIME",
+      },
+    ],
     summary: {
       pl: "Pierwsza rocznica studia. Plakat ilustrowany, drinki, znajomi, muzyka. Świętujemy razem.",
       uk: "Перша річниця студії. Ілюстрована афіша, дрінки, друзі, музика. Святкуємо разом.",

@@ -53,7 +53,16 @@ export default async function VibeEventPage({ params }: Props) {
             </p>
           </div>
           <div className="md:col-span-5">
-            {slug === "frime-1-urodziny" ? (
+            {/* Hero: plakat > tort urodzinowy (legacy) > placeholder */}
+            {event.poster ? (
+              <LocalPhoto
+                src={event.poster.src}
+                alt={event.poster.alt}
+                ratio="2/3"
+                priority
+                sizes="(min-width: 768px) 40vw, 100vw"
+              />
+            ) : slug === "frime-1-urodziny" ? (
               <LocalPhoto
                 src="/images/vibe/frime-1-urodziny/cake.jpg"
                 alt="Niebieski tort FRIME z napisem — pierwsze urodziny studia"
@@ -77,33 +86,9 @@ export default async function VibeEventPage({ params }: Props) {
           {pick(loc, { pl: "Galeria", uk: "Галерея", en: "Gallery", ru: "Галерея", de: "Galerie", fr: "Galerie", es: "Galería", it: "Galleria" })}
         </Heading>
         <div className="mt-8 grid gap-4 md:grid-cols-3">
-          {slug === "frime-1-urodziny"
-            ? [
-                {
-                  src: "/images/vibe/frime-1-urodziny/crowd-blue.jpg",
-                  alt: "Goście pod studio FRIME w niebieskim świetle zmierzchu",
-                },
-                {
-                  src: "/images/vibe/frime-1-urodziny/toast.jpg",
-                  alt: "Wzniesiony kieliszek na urodzinach FRIME",
-                },
-                {
-                  src: "/images/vibe/frime-1-urodziny/guest-glasses.jpg",
-                  alt: "Uśmiechnięty gość w okularach na FRIME 1 urodziny",
-                },
-                {
-                  src: "/images/vibe/frime-1-urodziny/pouring.jpg",
-                  alt: "Nalewanie szampana — detal na FRIME 1 urodziny",
-                },
-                {
-                  src: "/images/vibe/frime-1-urodziny/window-frim.jpg",
-                  alt: "Odbicie napisu FRIME w witrynie studia",
-                },
-                {
-                  src: "/images/vibe/frime-1-urodziny/group-installation.jpg",
-                  alt: "Goście pod biało-niebieską instalacją w studio FRIME",
-                },
-              ].map((p) => (
+          {/* Galeria z content/events.ts; placeholdery dopóki brak zdjęć */}
+          {event.photos?.length
+            ? event.photos.map((p) => (
                 <LocalPhoto
                   key={p.src}
                   src={p.src}

@@ -355,6 +355,20 @@ export default async function HomePage({ params }: Props) {
             )}
           </div>
         </div>
+        {/* Trzy kadry z wydarzenia pod plakatem — reszta na stronie eventu */}
+        {featured?.event.photos?.length ? (
+          <div className="mt-4 grid grid-cols-3 gap-2 md:mt-6 md:gap-4">
+            {featured.event.photos.slice(0, 3).map((p) => (
+              <LocalPhoto
+                key={p.src}
+                src={p.src}
+                alt={p.alt}
+                ratio="1/1"
+                sizes="(min-width: 768px) 30vw, 33vw"
+              />
+            ))}
+          </div>
+        ) : null}
       </Section>
 
       <Section tone="frime">
