@@ -20,6 +20,14 @@ export function Marquee({
   // do kopii nie powstała wizualna dziura.
   const joined = items.join(separator) + separator;
 
+  // Każda połowa taśmy to REPS powtórzeń ciągu. Na szerokich ekranach
+  // (>~1500px) pojedyncza kopia jest węższa od viewportu i pod koniec
+  // pętli robiła się biała dziura — potrójna kopia pokrywa każdy
+  // rozsądny viewport. Czas animacji skalujemy razy REPS, żeby
+  // prędkość w pikselach została taka sama.
+  const REPS = 3;
+  const half = joined.repeat(REPS);
+
   return (
     <div
       className={cn(
@@ -30,15 +38,15 @@ export function Marquee({
     >
       <div
         className="flex w-max animate-marquee whitespace-nowrap"
-        style={{ animationDuration: `${speed}s` }}
+        style={{ animationDuration: `${speed * REPS}s` }}
       >
         {/*
-          Dwie identyczne kopie. translateX(-50%) przewija pierwszą
+          Dwie identyczne połowy. translateX(-50%) przewija pierwszą
           dokładnie na pozycję drugiej, dzięki czemu pętla jest
           niewidoczna i wstęga wygląda na nieskończoną.
         */}
-        <span className="display shrink-0 text-2xl md:text-3xl">{joined}</span>
-        <span className="display shrink-0 text-2xl md:text-3xl">{joined}</span>
+        <span className="display shrink-0 text-2xl md:text-3xl">{half}</span>
+        <span className="display shrink-0 text-2xl md:text-3xl">{half}</span>
       </div>
       <style>{`
         @keyframes marquee {
