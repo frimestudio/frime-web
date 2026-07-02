@@ -4,6 +4,7 @@ import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonLink, ButtonInternalLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { Placeholder } from "@/components/ui/Placeholder";
 import { Container } from "@/components/ui/Container";
 import { team, teamSlugs } from "@/content/team";
@@ -71,11 +72,21 @@ export default async function TeamMemberPage({ params }: Props) {
             </div>
           </div>
           <div className="md:col-span-5">
-            <ImagePlaceholder
-              ratio="3/4"
-              label={`Portrait · ${name}`}
-              note={`Главный портрет ${name}, 3:4, минимум 1200×1600`}
-            />
+            {member.photo ? (
+              <LocalPhoto
+                src={member.photo}
+                alt={`${name} — fryzjer w studio FRIME, Warszawa Wilcza 26`}
+                ratio="3/4"
+                priority
+                sizes="(min-width: 768px) 40vw, 100vw"
+              />
+            ) : (
+              <ImagePlaceholder
+                ratio="3/4"
+                label={`Portrait · ${name}`}
+                note={`Главный портрет ${name}, 3:4, минимум 1200×1600`}
+              />
+            )}
           </div>
         </Container>
       </section>

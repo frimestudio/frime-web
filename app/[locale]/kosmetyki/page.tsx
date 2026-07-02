@@ -4,6 +4,7 @@ import { Section } from "@/components/ui/Section";
 import { Heading, Kicker } from "@/components/ui/Heading";
 import { ButtonLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/seo";
 import { site } from "@/content/site";
@@ -83,11 +84,20 @@ export default async function CosmeticsPage({ params }: Props) {
             />
             <div className="grid gap-10 md:grid-cols-12">
               <div className={isInverted ? "md:col-span-5 md:order-2" : "md:col-span-5"}>
-                <ImagePlaceholder
-                  ratio="4/5"
-                  label={`${brand.name} · produkty na półce`}
-                  note={`Фото бутылочек ${brand.name} в студии или клиента, который держит продукт. 4:5.`}
-                />
+                {brand.photo ? (
+                  <LocalPhoto
+                    src={brand.photo.src}
+                    alt={brand.photo.alt}
+                    ratio="4/5"
+                    sizes="(min-width: 768px) 40vw, 100vw"
+                  />
+                ) : (
+                  <ImagePlaceholder
+                    ratio="4/5"
+                    label={`${brand.name} · produkty na półce`}
+                    note={`Фото бутылочек ${brand.name} в студии или клиента, который держит продукт. 4:5.`}
+                  />
+                )}
               </div>
               <div className={isInverted ? "md:col-span-7 md:order-1" : "md:col-span-7"}>
                 <Heading as="h2" size="lg">

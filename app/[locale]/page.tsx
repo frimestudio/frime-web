@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/ui/Container";
@@ -7,7 +8,6 @@ import { ButtonInternalLink, ButtonLink } from "@/components/ui/Button";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { LocalPhoto } from "@/components/ui/LocalPhoto";
 import { HeroCarousel } from "@/components/ui/HeroCarousel";
-import { Placeholder } from "@/components/ui/Placeholder";
 import { Marquee } from "@/components/ui/Marquee";
 import { FAQ, type FAQItem } from "@/components/ui/FAQ";
 import { site } from "@/content/site";
@@ -286,11 +286,20 @@ export default async function HomePage({ params }: Props) {
                 href={`/team/${m.slug}`}
                 className="block"
               >
-                <ImagePlaceholder
-                  ratio="3/4"
-                  label={`Portrait · ${name}`}
-                  note={`Студийный портрет ${name}, 3:4, мягкий свет`}
-                />
+                {m.photo ? (
+                  <LocalPhoto
+                    src={m.photo}
+                    alt={`${name} — fryzjer w studio FRIME, Warszawa`}
+                    ratio="3/4"
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                  />
+                ) : (
+                  <ImagePlaceholder
+                    ratio="3/4"
+                    label={`Portrait · ${name}`}
+                    note={`Студийный портрет ${name}, 3:4, мягкий свет`}
+                  />
+                )}
                 <div className="mt-3">
                   <div className="display text-3xl">{name}</div>
                   <div className="mono mt-1 text-[10px] opacity-70">{role}</div>
@@ -351,13 +360,22 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
           <div className="grid gap-4 md:col-span-7">
-            {[1, 2, 3].map((i) => (
-              <Placeholder
-                key={i}
-                label={`Cytat z opinii klienta #${i}`}
-                note="2-3 zdania prawdziwej opinii (z Booksy lub Google). Dodać imię i datę."
-                className="text-[var(--color-placeholder-fg)]"
-              />
+            {/* Zrzuty prawdziwych opinii z Booksy (Potwierdzony klient, 5★) */}
+            {[
+              { src: "/images/reviews/review-1.png", w: 1662, h: 434 },
+              { src: "/images/reviews/review-3.png", w: 1678, h: 406 },
+              { src: "/images/reviews/review-5.png", w: 1666, h: 450 },
+            ].map((r, i) => (
+              <div key={r.src} className="bg-white p-3 md:p-4">
+                <Image
+                  src={r.src}
+                  alt={`Opinia klienta z Booksy — 5 gwiazdek, zrzut ekranu ${i + 1}`}
+                  width={r.w}
+                  height={r.h}
+                  sizes="(min-width: 768px) 55vw, 100vw"
+                  className="h-auto w-full"
+                />
+              </div>
             ))}
           </div>
         </div>

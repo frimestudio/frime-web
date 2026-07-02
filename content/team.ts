@@ -3,6 +3,8 @@ export type TeamMember = {
   instagramHandle?: string;
   joined?: number;
   specialtyKeys: string[];
+  /** Portret w /public. Brak = ImagePlaceholder na stronach. */
+  photo?: string;
 };
 
 export const team: TeamMember[] = [
@@ -17,6 +19,7 @@ export const team: TeamMember[] = [
     instagramHandle: "PLACEHOLDER · @sasza.handle z IG",
     joined: 2024,
     specialtyKeys: ["fades", "beards", "editorial"],
+    photo: "/images/team/sasza-2.jpg",
   },
   {
     slug: "kara",
@@ -35,6 +38,7 @@ export const team: TeamMember[] = [
     instagramHandle: "PLACEHOLDER · @inga.handle z IG",
     joined: 2025,
     specialtyKeys: ["cuts", "color", "styling"],
+    photo: "/images/team/inga-2.jpg",
   },
 ];
 
