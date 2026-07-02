@@ -64,6 +64,7 @@ Plan kontentu na rok jest w [`docs/CONTENT_PLAN_2026.md`](docs/CONTENT_PLAN_2026
 - [ ] `/ona/grzywka` — "grzywka warszawa"
 - [ ] `/ona/koloryzacja-konsultacja` — "konsultacja koloru warszawa"
 - [ ] `/ona/bob` — "bob warszawa"
+- [ ] `/ona/balayage` — "balayage warszawa śródmieście", "airtouch warszawa". Wysokomarżowe frazy damskie, klientka wpisuje konkretną usługę, nie "fryzjer" (wniosek z doc Google Ads & SEO, 07.2026)
 
 Każda: 500 słów real content, 2-3 zdjęcia, FAQ, cena, CTA na Booksy. Pisane jak człowiek.
 
@@ -89,10 +90,19 @@ Każda: 500 słów real content, 2-3 zdjęcia, FAQ, cena, CTA na Booksy. Pisane 
 
 ### Marketing / SEO
 
-- [ ] **Wpis na lokalne katalogi**: panoramafirm.pl, baza-firm.com.pl, najlepszewwarszawie.pl, mapy.cz. Każdy z tym samym adresem co GBP.
+- [ ] **Wpis na lokalne katalogi**: panoramafirm.pl (pf.pl), pkt.pl, zumi.pl, cylex.pl, misterwhat.pl, biznesfinder.pl, targeo.pl, aleo.com, baza-firm.com.pl, najlepszewwarszawie.pl, mapy.cz. Każdy z identycznym NAP jak GBP (darmowe pakiety). Uwaga: w 48h zadzwoni handlowiec z pakietem premium za 1500 zł/rok — odmawiać, darmowy wpis wystarczy.
 - [ ] Wpis o studio do **3-5 polskich blogów lifestyle/beauty** (poprosić o link)
 - [ ] Współpraca z lokalnym IG-twórcą beauty (1 wymiana zamiast 1 płatna)
 - [ ] Backlinki przez współpracę z BVCLUB KIOSK i innymi partnerami pop-upów
+
+### Offsite dla Saszy (z doc "Google Ads & SEO", 07.2026 — rzeczy poza kodem strony)
+
+- [ ] **GBP co tydzień**: krótki wpis ze zdjęciem metamorfozy (Google Posts). Największa darmowa dźwignia lokalna.
+- [ ] **Opinie Google**: QR do profilu GBP przy kasie i na lustrach + automatyczny SMS w Booksy ~2h po wizycie z linkiem do opinii. Cel: 15-20 nowych opinii miesięcznie.
+- [ ] **NAP audit**: Booksy, Instagram, GBP i strona — adres Wilcza 26 i telefon zapisane identycznie co do znaku.
+- [ ] **Google Ads start** (1000-1500 PLN/mies na klik): kampania search na frazy usługowe (balayage/koloryzacja/strzyżenie męskie centrum) lądująca na podstrony usług + kampania w Mapach na "fryzjer blisko mnie". Wykluczyć frazy "tani", "promocja" — pozycjonujemy premium.
+- [ ] **Artykuł sponsorowany** na warszawskim portalu lokalnym z linkiem do frime.pl.
+- [ ] **KPI**: co tydzień kliknięcia "Zadzwoń"/"Wyznacz trasę" w GBP; co miesiąc rezerwacje Booksy ze źródła Google + przyrost opinii.
 
 ---
 

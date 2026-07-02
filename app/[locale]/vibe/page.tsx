@@ -87,7 +87,9 @@ export default async function VibePage({ params }: Props) {
                 <LocalPhoto
                   src={upcomingCover.src}
                   alt={upcomingCover.alt}
-                  ratio={upcoming.poster ? "2/3" : "4/5"}
+                  ratio={
+                    upcoming.poster ? (upcoming.poster.ratio ?? "2/3") : "4/5"
+                  }
                   sizes="(min-width: 768px) 40vw, 100vw"
                 />
               ) : (

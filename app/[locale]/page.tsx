@@ -343,7 +343,7 @@ export default async function HomePage({ params }: Props) {
               <LocalPhoto
                 src={featured.event.poster.src}
                 alt={featured.event.poster.alt}
-                ratio="2/3"
+                ratio={featured.event.poster.ratio ?? "2/3"}
                 sizes="(min-width: 768px) 50vw, 100vw"
               />
             ) : (

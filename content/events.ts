@@ -7,7 +7,7 @@ export type FrimeEvent = {
   status: "upcoming" | "past";
   summary: { pl: string; uk: string; en: string };
   /** Plakat/zdjęcie w /public. Główna pokazuje event tylko gdy jest plakat. */
-  poster?: { src: string; alt: string };
+  poster?: { src: string; alt: string; ratio?: "2/3" | "4/5" };
   /** Galeria z wydarzenia. Główna bierze pierwsze 3, strona eventu wszystkie. */
   photos?: { src: string; alt: string }[];
 };
@@ -87,6 +87,18 @@ export const events: FrimeEvent[] = [
         src: "/images/vibe/frime-1-urodziny/group-installation.jpg",
         alt: "Goście pod biało-niebieską instalacją w studio FRIME",
       },
+      {
+        src: "/images/vibe/frime-1-urodziny/dog-night.jpg",
+        alt: "Pies wśród gości urodzin FRIME — studio jest dog-friendly",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/lounge-wine.jpg",
+        alt: "Gość z lampką wina na fotelu w niebieskim świetle studia",
+      },
+      {
+        src: "/images/vibe/frime-1-urodziny/wine-smile.jpg",
+        alt: "Uśmiechnięty gość z kieliszkiem na FRIME 1 urodziny",
+      },
     ],
     summary: {
       pl: "Pierwsza rocznica studia. Plakat ilustrowany, drinki, znajomi, muzyka. Świętujemy razem.",
@@ -101,6 +113,37 @@ export const events: FrimeEvent[] = [
     date: "2025-07-13",
     year: 2025,
     status: "past",
+    poster: {
+      src: "/images/vibe/popup-popiloni-maki-yoco/poster.jpg",
+      alt: "Plakat pop-upu 13/07 — ceramika, świece, zapachy. Warszawa, Wilcza 26",
+      ratio: "4/5",
+    },
+    photos: [
+      {
+        src: "/images/vibe/popup-popiloni-maki-yoco/photo-01.jpg",
+        alt: "Chart w niebieskiej obroży z gośćmi pop-upu w studio FRIME",
+      },
+      {
+        src: "/images/vibe/popup-popiloni-maki-yoco/photo-02.jpg",
+        alt: "Goście wąchają świece Maki przy ladzie pełnej kosmetyków",
+      },
+      {
+        src: "/images/vibe/popup-popiloni-maki-yoco/photo-03.jpg",
+        alt: "Gościni przed witryną FRIME przy niebieskim stoliku ze świecami",
+      },
+      {
+        src: "/images/vibe/popup-popiloni-maki-yoco/photo-04.jpg",
+        alt: "Ceramika Popiloni z bliska — drobiazgi oglądane w dłoniach",
+      },
+      {
+        src: "/images/vibe/popup-popiloni-maki-yoco/photo-05.jpg",
+        alt: "Ceramiczny jamnik w paski na niebieskim tle",
+      },
+      {
+        src: "/images/vibe/popup-popiloni-maki-yoco/photo-06.jpg",
+        alt: "Kubki Popiloni z twarzami na niebieskim tle",
+      },
+    ],
     summary: {
       pl: "Pop-up store w studio. Ceramika z Gdańska od Popiloni, świece Maki, kawa Yoco i muzyka od alexnoisbit. 12:00–16:00, Wilcza 26.",
       uk: "Поп-ап стор у студії. Кераміка з Гданська від Popiloni, свічки Maki, кава Yoco і музика від alexnoisbit. 12:00–16:00, Wilcza 26.",

@@ -40,7 +40,7 @@ export function GET() {
 
 ## Co to jest
 
-FRIME to studio fryzjerskie na Wilczej 26 w samym centrum Warszawy. Wystartowało w 2024 roku. Pozycjonuje się jako miejsce unisex bez podziału na męskie i damskie, ze stylową, młodzieżową estetyką inspirowaną kulturą popową, modą i muzyką. Robimy strzyżenia męskie i damskie, brody, repigmentację, koloryzację, trwałe. Mamy własny program pop-upów i kolaboracji z lokalnymi markami.
+FRIME to studio fryzjerskie (salon fryzjerski unisex) na Wilczej 26 w samym centrum Warszawy. Wystartowało w 2024 roku. Pozycjonuje się jako miejsce unisex bez podziału na męskie i damskie, ze stylową, młodzieżową estetyką inspirowaną kulturą popową, modą i muzyką. Robimy strzyżenia męskie i damskie, brody, repigmentację, koloryzację, trwałe. Mamy własny program pop-upów i kolaboracji z lokalnymi markami.
 
 Słowa, które najlepiej nas opisują: ${site.positioning.keywords.join(", ")}.
 

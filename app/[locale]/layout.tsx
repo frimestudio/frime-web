@@ -52,9 +52,12 @@ export const metadata: Metadata = {
     template: `%s · ${site.name}`,
   },
   description:
-    "Stylowe, młodzieżowe studio fryzjerskie unisex w Warszawie, Wilcza 26. Dog-friendly, 5,0 z 305 opinii na Booksy. Strzyżenia męskie i damskie, mullet, wolf cut, broda, repigmentacja. Pop-upy i kolaboracje.",
+    "Stylowy salon fryzjerski unisex w centrum Warszawy — studio FRIME, Wilcza 26. Dog-friendly, 5,0 z 305 opinii na Booksy. Strzyżenia damskie i męskie, mullet, wolf cut, broda, repigmentacja, koloryzacja. Pop-upy i kolaboracje.",
   keywords: [
+    "salon fryzjerski warszawa",
+    "salon fryzjerski warszawa centrum",
     "studio fryzjerskie warszawa",
+    "fryzjer warszawa centrum",
     "fryzjer wilcza",
     "fryzjer śródmieście",
     "barber warszawa",

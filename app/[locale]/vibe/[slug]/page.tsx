@@ -58,7 +58,7 @@ export default async function VibeEventPage({ params }: Props) {
               <LocalPhoto
                 src={event.poster.src}
                 alt={event.poster.alt}
-                ratio="2/3"
+                ratio={event.poster.ratio ?? "2/3"}
                 priority
                 sizes="(min-width: 768px) 40vw, 100vw"
               />
